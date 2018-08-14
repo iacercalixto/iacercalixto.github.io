@@ -1,0 +1,22 @@
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2012
+  img: vl2012
+  title: "Images as context in Statistical Machine Translation"
+  authors: "<strong>Iacer Calixto</strong>, Lucia Specia, Teófilo de Campos"
+  booktitle: The Workshop on Vision and Language
+  doc-url: https://pdfs.semanticscholar.org/0673/e9003c048f143915bad01024f812957ac068.pdf
+  poster: http://personal.ee.surrey.ac.uk/T.Decampos/VisionLanguage/CalixtoDecamposSpecia_VLNet2012_poster.pdf
+  venue: conference
+  bibtex: >
+    @inproceedings{Calixto2012VL, 
+    author = {Iacer Calixto and Teo E. deCampos and Lucia Specia}, 
+    title = {Images as Context in Statistical Machine Translation }, 
+    booktitle = {Second Annual Meeting of the EPSRC Network on Vision & Language}, 
+    year = {2012}, 
+    address = {Sheffield}, 
+    url = {http://www.ee.surrey.ac.uk/CVSSP/Publications/papers/Calixto-VL-2012.pdf}
+    }
+

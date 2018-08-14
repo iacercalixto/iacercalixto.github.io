@@ -1,0 +1,19 @@
+-
+  layout: talk
+  selected: y
+  year: 2016
+  event: "13/Dec/2016, Dublin Natural Language Processing Meet-up in Workday Inc., Dublin"
+  img: nlpmeetup2016
+  title: "Multi-modal neural machine translation: What is it and why bother?"
+  authors: Iacer Calixto
+  slides: /slides/nlpmeetup2016-slides.pdf
+-
+  layout: talk
+  selected: y
+  year: 2016
+  event: "29/Feb/2016, Dublin Machine Learning Meet-up in Nitro HQ, Dublin"
+  img: mlmeetup2016
+  title: "Multilingual and multimodal embeddings for Natural Language Processing"
+  authors: Iacer Calixto
+  slides: /slides/multilingual-multi-modal-slides.pdf
+

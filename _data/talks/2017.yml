@@ -1,0 +1,28 @@
+-
+  layout: talk
+  selected: y
+  year: 2017
+  event: "08/Dec/2017, GIAN Workshop, Indian Institute of Technology Patna"
+  img: patna2017
+  title: "Using images to ground machine translation."
+  authors: Iacer Calixto
+  slides: /slides/indian-institute-technology.pdf
+-
+  layout: talk
+  selected: y
+  year: 2017
+  event: "25/Oct/2017, Colloquium of Department of Computational Linguistics at Universität Heidelberg"
+  img: heidelberg2017
+  title: "Using images to ground machine translation."
+  authors: Iacer Calixto
+  slides: /slides/heidelberg-slides-images.pdf
+-
+  layout: talk
+  selected: y
+  year: 2017
+  event: "06/Jul/2017, NLP Group Seminar, Department of Computer Science at The University of Sheffield"
+  img: sheffield2017
+  title: "Doubly-attentive decoder for multi-modal neural machine translation."
+  authors: Iacer Calixto
+  slides: /slides/shef-slides-doubly.pdf
+

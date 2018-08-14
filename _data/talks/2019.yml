@@ -1,0 +1,19 @@
+-
+  layout: talk
+  selected: y
+  year: 2019
+  event: "07/Jan/2019, Dagstuhl Seminar: Joint Processing of Language and Visual Data for Better Automated Understanding"
+  img: daghstul2019
+  title: "Title: To be defined."
+  authors: Iacer Calixto
+-
+  layout: talk
+  selected: y
+  year: 2018
+  event: "27/Jun/2018, Summer School on Translation Technologies in the Faculty of Arts of Universidade do Porto"
+  img: flup2018
+  title: "Statistical and neural machine translation."
+  authors: Iacer Calixto
+  about: |
+    This summer school on Translation Technologies was organised in the Faculty of Arts of the Universidade do Porto, in Portugal. I have given two talks, one where I discussed statistical and the other neural machine translation. I discussed the technical challenges in machine translation, and the assumptions that statistical and neural models make. I showed architectures for both non-attentive and attentive neural MT models, and discussed how they work and why they work. I also conducted a session in the afternoon where I showed how to train and use a trained model to translate new sentences. This afternoon session was more interactive, and we used a cluster in the University of Amsterdam with GPUs in a live session.
+

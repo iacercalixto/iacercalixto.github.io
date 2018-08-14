@@ -1,0 +1,51 @@
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2014
+  img: wmt2014
+  title: "Target-Centric Features for Translation Quality Estimation"
+  authors: "Chris Hokamp, <strong>Iacer Calixto</strong>, Joachim Wagner, Jian Zhang"
+  booktitle: The Workshop on Statistical Machine Translation
+  doc-url: www.aclweb.org/anthology/W14-3341
+  venue: conference
+  abstract: >
+    We describe the DCU-MIXED and DCUSVR submissions to the WMT-14 Quality Estimation task 1.1, predicting sentencelevel perceived post-editing effort. Feature design focuses on target-side features as we hypothesise that the source side has little effect on the quality of human translations, which are included in task 1.1 of this year’s WMT Quality Estimation shared task. We experiment with features of the QuEst framework, features of our past work, and three novel feature sets. Despite these efforts, our two systems perform poorly in the competition. Follow up experiments indicate that the poor performance is due to improperly optimised parameters.
+  bibtex: >
+    @InProceedings{Hokamp2014WMT,
+      author    = {Hokamp, Chris  and  Calixto, Iacer  and  Wagner, Joachim  and  Zhang, Jian},
+      title     = {Target-Centric Features for Translation Quality Estimation},
+      booktitle = {Proceedings of the Ninth Workshop on Statistical Machine Translation},
+      month     = {June},
+      year      = {2014},
+      address   = {Baltimore, Maryland, USA},
+      publisher = {Association for Computational Linguistics},
+      pages     = {329--334},
+      url       = {http://www.aclweb.org/anthology/W14-3341}
+    }
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2014
+  img: wmt2014a
+  title: "Experiments in Medical Translation Shared Task at WMT 2014"
+  authors: "Jian Zhang, Xiaofeng Wu, <strong>Iacer Calixto</strong>, Ali Vahid, Andy Way, Qun Liu"
+  booktitle: Proceedings of the ACL 2014 Ninth Workshop of Statistical Machine Translation
+  doc-url: http://www.aclweb.org/anthology/W14-3332
+  venue: conference
+  abstract: >
+    This paper describes Dublin City University’s (DCU) submission to the WMT 2014 Medical Summary task. We report our results on the test data set in the French to English translation direction. We also report statistics collected from the corpora used to train our translation system. We conducted our experiment on the Moses 1.0 phrase-based translation system framework. We performed a variety of experiments on translation models, reordering models, operation sequence model and language model. We also experimented with data selection and removal the length constraint for phrase-pair extraction.
+  bibtex: >
+    @InProceedings{Zhang2014WMT,
+      author    = {Jian Zhang, Xiaofeng Wu, <strong>Iacer Calixto</strong>, Ali Hosseinzadeh Vahid, Xiaojun Zhang, Andy Way, Qun Liu},
+      title     = {Experiments in Medical Translation Shared Task at WMT 2014},
+      booktitle = {Proceedings of the Ninth Workshop on Statistical Machine Translation},
+      month     = {June},
+      year      = {2014},
+      address   = {Baltimore, Maryland, USA},
+      publisher = {Association for Computational Linguistics},
+      pages     = {260--265},
+      url       = {http://www.aclweb.org/anthology/W14-3332}
+    }
+

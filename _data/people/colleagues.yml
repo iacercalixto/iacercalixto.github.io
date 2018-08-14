@@ -1,0 +1,51 @@
+-
+  layout: person
+  relation: PI
+  selected: y
+  institution: University of Amsterdam
+  img: khalil
+  name: Khalil Sima'an
+  url: https://staff.fnwi.uva.nl/k.simaan/
+  about: >
+    I have been working with Khalil since 15 March 2018 on his VICI NWO project
+    *Machine Translators: Teaching Computers to Translate Using their own Words*.
+-
+  layout: person
+  selected: y
+  institution: Huawei Noah's Ark Lab
+  img: qunliu
+  name: Qun Liu
+  url: http://computing.dcu.ie/~qliu/
+  github: liuquncn
+  about: >
+    Qun was my PhD supervisor in Dublin City University between 2013 &ndash; 2017,
+    in the ADAPT Centre.
+    He currently leads the Speech and Language Computing group in Huawei Noah's Ark Lab.
+-
+  layout: person
+  selected: y
+  relation: PI
+  institution: Dublin City University
+  img: andyway2
+  name: Andy Way
+  url: https://dcu.academic.ie/live/!W_VALOCAL_DCU_PORTAL.PROFILE?WPBPRSN=1589263
+  about: >
+    I was lead engineer in a project with *eBay Inc.* between 2016 and 2017 as part of the ADAPT Centre,
+    and worked under Andy's supervision.
+    We studied the application of multi-modal neural machine translation to translating eBay's product listings.
+    Two joint publications came out of it, and you can find the papers 
+    [here](http://www.aclweb.org/anthology/E17-2101) (EACL) and
+    [here](http://www.aclweb.org/anthology/W17-2004) (Vision&Language Workshop).
+-
+  layout: person
+  selected: y
+  institution: University of Sheffield
+  img: lucia
+  name: Lucia Specia
+  url: http://staffwww.dcs.shef.ac.uk/people/L.Specia/
+  github: lspecia
+  about: >
+      I met Lucia in classes she taught during my Erasmus Mundus master (in NLP&HLT) in Wolverhampton.
+      Later in 2012, I worked with Lucia in an [EPRSC project](http://staffwww.dcs.shef.ac.uk/people/L.Specia/projects/vlnet.html)
+      where we started studying how to use images in machine translation (before it was cool:).
+      More recently, in 2017, I spent two weeks collaborating with her group funded by the [Integrating Vision&Language COST Action](https://ivl-net.eu/), working on multi-task learning for NMT.

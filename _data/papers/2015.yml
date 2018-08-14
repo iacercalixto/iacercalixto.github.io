@@ -1,0 +1,25 @@
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2015
+  img: ranlp2015
+  title: "Automatic Text Simplification for Spanish: Comparative Evaluation of Various Simplification Strategies"
+  authors: "Sanja Stajner, <strong>Iacer Calixto</strong>, Horacio Saggion"
+  booktitle: Proceedings of Recent Advances in Natural Language Processing
+  doc-url: http://www.aclweb.org/anthology/R15-1080
+  venue: conference
+  abstract: >
+    In this paper, we explore statistical machine translation (SMT) approaches to automatic text simplification (ATS) for Spanish. First, we compare the performances of the standard phrase-based (PB) and hierarchical (HIERO) SMT models in this specific task. In both cases, we build two models, one using the TS corpus with “light” simplifications and the other using the TS corpus with “heavy” simplifications. Next, we compare the two best systems with the state-of-the-art text simplification system for Spanish (Simplext). Our results, based on an extensive human evaluation, show that the SMT-based systems perform equally as well as, or better than, Simplext, despite the very small datasets used for training and tuning.
+  bibtex: >
+    @InProceedings{Stajner2015RANLP,
+      author    = {\v{S}tajner, Sanja  and  Calixto, Iacer  and  Saggion, Horacio},
+      title     = {Automatic Text Simplification for Spanish: Comparative Evaluation of Various Simplification Strategies},
+      booktitle = {Proceedings of the International Conference Recent Advances in Natural Language Processing},
+      month     = {September},
+      year      = {2015},
+      address   = {Hissar, Bulgaria},
+      publisher = {INCOMA Ltd. Shoumen, BULGARIA},
+      pages     = {618--626},
+      url       = {http://www.aclweb.org/anthology/R15-1080}
+    }

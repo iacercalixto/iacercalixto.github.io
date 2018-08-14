@@ -1,0 +1,33 @@
+-
+  layout: person
+  relation: MSc candidate (2018-)
+  selected: y
+  institution: UvA
+  name: Fábio Paixão Curi
+  img: avatar
+  url: 
+  github:
+  about: >
+      I supervise Fábio's thesis on using typological linguistic features to improve low-resource machine translation.
+-
+  layout: person
+  relation: MSc candidate (2018)
+  selected: y
+  institution: UvA
+  img: avatar
+  name: Maartje de Jonge
+  url: 
+  github:
+  about: >
+      I supervise Maartje's summer project AI on image description generation with separate description and language models.
+-
+  layout: person
+  relation: MSc candidate (2018)
+  selected: y
+  institution: UvA
+  img: avatar
+  name: Victor Milewski
+  url: 
+  github:
+  about: >
+      I supervise Victor's summer project AI on topic mixture models for image description generation.
