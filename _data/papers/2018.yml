@@ -27,6 +27,7 @@
   selected: y
   year: "2018"
   img: latent-visual-cues-2018
+  doc-url: https://arxiv.org/abs/1811.00357
   title: "Latent Visual Cues for Neural Machine Translation"
   authors: "<strong>Iacer Calixto</strong>, Miguel Rios, Wilker Aziz"
   journal: "arXiv preprint: 1811.00357"
