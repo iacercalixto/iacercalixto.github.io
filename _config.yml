@@ -5,8 +5,8 @@ email: calixto.iacer@gmail.com
 #description: > # this means to ignore newlines until "baseurl:"
 #    Here you will find details about my work.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://wilkeraziz.github.io" # the base hostname & protocol for your site
-#twitter_username: wilkeraziz
+url: "http://iacercalixto.github.io" # the base hostname & protocol for your site
+twitter_username: CalixtoIacer
 github_username:  iacercalixto
 #paginate: 3
 
@@ -15,20 +15,15 @@ cv: "cv/cv.pdf"
 
 # current department
 current_department: ILLC
-#departamental_page: http://wilkeraziz.github.io/dcs-site
+#departamental_page: http://iacercalixto.github.io/dcs-site
 current_dpt_email: iacer.calixto@uva.nl
 
 # useful links
-#poesia: http://poesiaehcoisadepoeta.blogspot.com
 google_scholar_url: https://scholar.google.ca/citations?user=W0prRUMAAAAJ&hl=en
-#dcs_page: http://wilkeraziz.github.io/dcs-site
-#lucia_specia: http://staffwww.dcs.shef.ac.uk/people/L.Specia
 khalil_simaan: https://staff.fnwi.uva.nl/k.simaan/
 slpll_url: https://staff.fnwi.uva.nl/k.simaan/research_all.html
 illc_url: http://www.illc.uva.nl
 uva_url: http://www.uva.nl/en/home
-
-#ksimaanstyle: Khalil Sima<font color="red">`</font>an
 
 # Build settings
 markdown: kramdown
