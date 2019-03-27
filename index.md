@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-![iacer](/img/people/iacer2.png){: style="float: left; margin: 0px 20px; width: 242px; height: 362px" }
+![iacer](/img/people/iacer3.jpg){: style="float: left; margin: 0px 20px; width: 240px; height: 310px" }
 
 I am a *post-doctoral research associate* at the [University of Amsterdam][UvA]
 where I work on *natural language processing* problems with a *multi-modal twist*.
@@ -15,7 +15,7 @@ I am generally interested in research at the intersection of __natural language 
 and in more practical terms in machine learning and representation learning, computational linguistics,
 image processing, and using graphs in deep neural networks.
 
-I am usually available in Science Park 107 (F2.11), Monday to Friday.
+You can find me in Science Park 107 (F2.11), Monday to Friday.
 
 ## <span style="color:darkblue">News </span>
 
