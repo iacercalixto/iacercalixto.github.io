@@ -1,34 +1,64 @@
 ---
-layout: default
+layout: about
+title: About
+cover: false
 ---
 
+<!--author-->
 
-![iacer](/img/people/iacer3.jpg){: style="float: left; margin: 0px 20px; width: 240px; height: 310px" }
+# News
 
-I am a *post-doctoral research associate* at the [University of Amsterdam][UvA]
-where I work on *natural language processing* problems with a *multi-modal twist*.
+* **Mar/2019** I have joined [Raquel Fernández][raquel]'s group in the University of Amsterdam.
 
-Some example problems I am interested in are (multi-modal) machine translation and paraphrasing,
-image description generation, and multi-modal graph representations.
+* **Feb/2019** I have received a [Marie Skłodowska-Curie Global Fellowship][msca]!
+I will be visiting the [New York University][nyu] [Centre for Data Science][nyu_cds],
+[Facebook Artificial Intelligence Research][fair] in Paris,
+just to return to the [University of Amsterdam][uva]!
+My project is called **IMAGINE: Improving lAnguage Generation wIth world kNowledgE** and [more information is available here][imagine].
 
-I am generally interested in research at the intersection of __natural language processing__ and **computer vision**,
-and in more practical terms in machine learning and representation learning, computational linguistics,
-image processing, and using graphs in deep neural networks.
+* **Jun/2018** I gave two lectures at the Summer School in Translation Technologies
+organised by the [Faculty of Arts in Universidade do Porto][flup].
+The lectures were on statistical and neural machine translation.
 
-You can find me in Science Park 107 (F2.11), Monday to Friday.
+* **Mar/2018** I have joined [Khalil Sima’an][khalil]’s group in the University of Amsterdam!
 
-## <span style="color:darkblue">News </span>
+* **Oct/2017** Best Long Paper Award at INLG 2017 in a collaboration with
+[Thiago Castro Ferreira][thiago], Sander Wubben and Emiel Krahmer with paper
+[Linguistic realisation as machine translation: Comparing different MT models for AMR-to-text generation][best_paper_award].
 
-* **Feb/2019** I have received a <strong>**Marie Skłodowska-Curie Global Fellowship**</strong>! I will be visiting <strong>**New York University**</strong>, <strong>**Facebook AI Research**</strong> Paris, just to return to the ILLC in the <strong>**University of Amsterdam**</strong>!
-* **Jun/2018** Gave two lectures at the <strong>**Summer School in Translation Technologies**</strong> organised by the Faculty of Arts in Universidade do Porto, in statistical and neural MT!
-* **Mar/2018** I have <strong>**joined**</strong> [prof. Khalil Sima'an]({{ site.khalil_simaan }})'s group in the [University of Amsterdam][UvA]!
-* **Oct/2017** <strong>**Best Long Paper Award**</strong> at <strong>**INLG 2017**</strong> in a collaboration with [Thiago Castro Ferreira](//scholar.google.nl/citations?user=WvXZlDIAAAAJ&hl=en), [Sander Wubben](//swubb.github.io/about/) and [Emiel Krahmer](//emielkrahmer.nl/) with paper *Linguistic realisation as machine translation: Comparing different MT models for AMR-to-text generation*! ([paper](//aclweb.org/anthology/W17-3501)).
-* **Sep/2017** <strong>**Paper accepted**</strong> at <strong>**EMNLP 2017**</strong> where I study different strategies to incorporate global visual features into neural machine translation! ([code](//github.com/iacercalixto/MultimodalNMT) and [paper](//arxiv.org/pdf/1701.06521)).
-* **Sep/2017** <strong>**Paper accepted**</strong> at <strong>**RANLP 2017**</strong> where I propose a ranking model to learn multilingual and multi-modal sentence embeddings! ([code](//github.com/iacercalixto/multilingual-multimodal-embedding) and [paper](//www.acl-bg.org/proceedings/2017/RANLP%202017/pdf/RANLP020.pdf)).
-* **Jul/2017** <strong>**Paper accepted**</strong> at <strong>**ACL 2017**</strong> where I propose a doubly-attentive decoder for multi-modal machine translation! ([code](//github.com/iacercalixto/MultimodalNMT) and [paper](//aclweb.org/anthology/P17-1175)).
-* **Apr/2017**  Collaboration with <strong>**eBay Inc.**</strong> lead to two papers! One <strong>**paper accepted**</strong> at <strong>**EACL 2017**</strong> and <strong>**another one**</strong> at the <strong>**V&L workshop 2017**</strong>! ([here](//aclweb.org/anthology/E/E17/E17-2101.pdf) and [here](http://aclweb.org/anthology/W/W17/W17-2004.pdf)).
+* **Sep/2017** Paper accepted at EMNLP 2017 where I study different strategies to
+incorporate global visual features into neural machine translation.
+([code][multimodal_nmt_git] and [paper][emnlp2017]).
 
+* **Sep/2017** Paper accepted at RANLP 2017 where I propose a ranking model to
+learn multilingual and multi-modal sentence embeddings.
+([code][mlmme_git] and [paper][ranlp2017]).
 
-[SLPLL]: {{ site.slpll_url }} "Statistical Language Processing and Learning Lab"
-[ILLC]: {{ site.illc_url }} "Institute for Logic, Language and Computation"
-[UvA]: {{ site.uva_url }} "Universiteit van Amsterdam"
+* **Jul/2017** Paper accepted at ACL 2017 where I propose
+a doubly-attentive decoder for multi-modal machine translation!
+([code][multimodal_nmt_git] and [paper][acl2017]).
+
+* **Apr/2017** Collaboration with **eBay Inc.** lead to two papers!
+One [paper accepted at EACL 2017][eacl2017] and another [paper at the V&L workshop 2017][vl2017]!
+
+[uva]: http://www.uva.nl/en
+[illc]: https://www.illc.uva.nl/
+[fnwi]: http://www.uva.nl/en/faculty/faculty-of-science/faculty-of-science.html
+[raquel]: https://staff.science.uva.nl/r.fernandezrovira/
+[dmg]: https://staff.science.uva.nl/r.fernandezrovira/dialogue-group.php
+[msca]: http://www.uva.nl/en/content/news/news/2019/02/nine-researchers-to-conduct-research-at-uva-with-marie-curie-fellowship.html
+[nyu]: http://www.nyu.edu/
+[nyu_cds]: https://cds.nyu.edu/
+[fair]: https://research.fb.com/
+[imagine]: /imagine/
+[flup]: https://sigarra.up.pt/flup/en/web_page.inicial
+[khalil]: https://staff.fnwi.uva.nl/k.simaan/
+[thiago]: https://research.tilburguniversity.edu/en/persons/thiago-castro-ferreira
+[best_paper_award]: https://eventos.citius.usc.es/inlg2017/resources/final/21/21_Paper.pdf
+[emnlp2017]: https://arxiv.org/pdf/1701.06521
+[ranlp2017]: https://www.acl-bg.org/proceedings/2017/RANLP%202017/pdf/RANLP020.pdf
+[acl2017]: https://aclweb.org/anthology/P17-1175
+[eacl2017]: https://aclweb.org/anthology/E/E17/E17-2101.pdf
+[vl2017]: http://aclweb.org/anthology/W/W17/W17-2004.pdf
+[multimodal_nmt_git]: https://github.com/iacercalixto/MultimodalNMT
+[mlmme_git]: https://github.com/iacercalixto/multilingual-multimodal-embedding

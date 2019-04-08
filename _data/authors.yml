@@ -1,0 +1,107 @@
+# The primary author of this blog.
+# Must be the same as `author` in `_config.yml`.
+# Change `author1` to your shortname.
+iacer:
+  name:              Iacer Calixto
+  email:             iacer.calixto@uva.nl
+
+  # Used at the bottom of each page and at the top of the `about` layout
+  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+  about:             |
+    In short, I develop **computational models of human language**.
+    In a bit more detail, my scientific interests include modelling
+    natural language processing, understanding, and generation,
+    how human languages interact with our visual perceptions and representations,
+    and how these interact with and are grounded by the external world.
+
+    I am a *post-doctoral research fellow*
+    in the [Institute for Logic, Language and Computation][illc]
+    in the [Faculty of Science][fnwi]
+    in the [University of Amsterdam][uva].
+    I am affiliated to the [Dialogue Modelling Group][dmg], where I collaborate with many outstanding researchers
+    working at the intersection of language &amp; vision.
+    The group is lead by [Raquel Fernández][raquel].
+    Before that I worked with [Khalil Sima'an][khalil]&apos;s group on how to integrate visual information into
+    different natural language processing tasks.
+
+    Some broad research fields I consider myself a contributor to include machine learning and representation learning,
+    computational linguistics, image processing, and graph neural networks.
+
+    You can find me in [Science Park 107][illc_gmaps] (F2.11), Monday to Friday.
+
+    [uva]: http://www.uva.nl/en
+    [illc]: https://www.illc.uva.nl/
+    [fnwi]: http://www.uva.nl/en/faculty/faculty-of-science/faculty-of-science.html
+    [raquel]: https://staff.science.uva.nl/r.fernandezrovira/
+    [dmg]: https://staff.science.uva.nl/r.fernandezrovira/dialogue-group.php
+    [msca]: http://www.uva.nl/en/content/news/news/2019/02/nine-researchers-to-conduct-research-at-uva-with-marie-curie-fellowship.html
+    [nyu]: http://www.nyu.edu/
+    [nyu_cds]: https://cds.nyu.edu/
+    [fair]: https://research.fb.com/
+    [imagine]: /imagine/
+    [flup]: https://sigarra.up.pt/flup/en/web_page.inicial
+    [khalil]: https://staff.fnwi.uva.nl/k.simaan/
+    [thiago]: https://research.tilburguniversity.edu/en/persons/thiago-castro-ferreira
+    [best_paper_award]: https://eventos.citius.usc.es/inlg2017/resources/final/21/21_Paper.pdf
+    [emnlp2017]: https://arxiv.org/pdf/1701.06521
+    [ranlp2017]: https://www.acl-bg.org/proceedings/2017/RANLP%202017/pdf/RANLP020.pdf
+    [acl2017]: https://aclweb.org/anthology/P17-1175
+    [eacl2017]: https://aclweb.org/anthology/E/E17/E17-2101.pdf
+    [vl2017]: http://aclweb.org/anthology/W/W17/W17-2004.pdf
+    [multimodal_nmt_git]: https://github.com/iacercalixto/MultimodalNMT
+    [mlmme_git]: https://github.com/iacercalixto/multilingual-multimodal-embedding
+    [illc_gmaps]: https://goo.gl/maps/7qVKHw63LTB2
+
+  # This photo will be used in the about section
+  picture:
+    path:            /assets/img/me.jpg
+    1x:              /assets/img/me.jpg
+    2x:              /assets/img/me.jpg
+    #path:            https://placehold.it/128x128
+    # srcset is optional, but can be used to provide higher res versions for retina displays
+    #srcset:
+    #  1x:            https://placehold.it/128x128
+    #  2x:            https://placehold.it/256x256
+
+  # Social media icons in sidebar
+  # Comment/uncommet to show/hide
+  # Rearrange to change the order in which they appear
+  social:
+    twitter:         CalixtoIacer
+    github:          iacercalixto
+    email:           iacer.calixto@uva.nl
+    # rss:             https://<url>/feed.xml
+    # facebook:        <username>
+    # google:          <number>
+    # vk:              <username>
+    # youtube:         <string_string_string>
+    # vimeo:           <username>
+    # vine:            <username>
+    # spotify:         <user>/<number>
+    # soundcloud:      <username>
+    # lastfm:          <username>
+    # instagram:       <username>
+    # flickr:          <string@string>
+    # 500px:           <username>
+    # dribbble:        <username>
+    # behance:         <username>
+    # deviantart:      <username>
+    # ello:            <username>
+    # twitch:          <username>
+    # steam:           <number>
+    # reddit:          <username>
+    # tumblr:          <username>
+    # pinterest:       <username>
+    # foursquare:      <number>
+    # yelp:            <string>
+    # stackoverflow:   <number/username>
+    # npm:             <username>
+    # hackernews:      <username>
+    # trello:          <firstnamelastname>
+    # linkedin:        <firstname-lastname-string>
+    # xing:            <firstname_lastname_counter>
+    # blogger:         <number>
+    # delicious:       <username>
+    # stumbleupon:     <username>
+    # paypal:          <username>
+    # download:        <url>

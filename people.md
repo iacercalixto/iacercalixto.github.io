@@ -1,20 +1,31 @@
 ---
-layout: photolist
-title: People
-menu: yes
+layout: page
+title:  Collaborators
 ---
 
-## My mentors
+## Students
 
-{% assign students = site.data.people.colleagues | where: "selected", "y" %}
-{% for person in students %}
-{% include person.html person=person %}
+### Master in Artificial Intelligence
+
+{% assign sts = site.data.students | where: "selected", "y"  %}
+{% for st in sts %}
+  {% if st.rel == "mscthesis" %}
+  * <a href="{{ st.link }}">{{ st.name }}</a>. {{ st.about }}
+  {% endif %}
 {% endfor %}
 
+### Individual Projects in Artificial Intelligence
 
-## My students
-
-{% assign students = site.data.people.students | where: "selected", "y" %}
-{% for person in students %}
-{% include person.html person=person %}
+{% for st in sts %}
+  {% if st.rel == "projai" %}
+  * <a href="{{ st.link }}">{{ st.name }}</a>. {{ st.about }}
+  {% endif %}
 {% endfor %}
+
+## Mentors
+
+{% assign mentors = site.data.collaborators | where: "selected", "y" %}
+{% for m in mentors %}
+  {% include person.html person=m %}
+{% endfor %}
+

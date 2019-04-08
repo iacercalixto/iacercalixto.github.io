@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en"><!--
+ __  __                __                                     __
+/\ \/\ \              /\ \             __                    /\ \
+\ \ \_\ \   __  __    \_\ \      __   /\_\      __       ___ \ \ \/'\
+ \ \  _  \ /\ \/\ \   /'_` \   /'__`\ \/\ \   /'__`\    /'___\\ \ , <
+  \ \ \ \ \\ \ \_\ \ /\ \L\ \ /\  __/  \ \ \ /\ \L\.\_ /\ \__/ \ \ \\`\
+   \ \_\ \_\\/`____ \\ \___,_\\ \____\ _\ \ \\ \__/.\_\\ \____\ \ \_\ \_\
+    \/_/\/_/ `/___/> \\/__,_ / \/____//\ \_\ \\/__/\/_/ \/____/  \/_/\/_/
+                /\___/                \ \____/
+                \/__/                  \/___/
+
+Powered by Hydejack v8.4.0 <https://hydejack.com/>
+-->
+
+
+
+
+
+
+
+
+
+
+
+<head>
+  
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+
+
+  
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Upgrade | Iacer Calixto</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Upgrade" />
+<meta name="author" content="Iacer Calixto" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="This chapter shows how to upgrade Hydejack to a newer version. The method depends on how you’ve installed Hydejack." />
+<meta property="og:description" content="This chapter shows how to upgrade Hydejack to a newer version. The method depends on how you’ve installed Hydejack." />
+<link rel="canonical" href="http://localhost:4000/docs/upgrade/" />
+<meta property="og:url" content="http://localhost:4000/docs/upgrade/" />
+<meta property="og:site_name" content="Iacer Calixto" />
+<script type="application/ld+json">
+{"description":"This chapter shows how to upgrade Hydejack to a newer version. The method depends on how you’ve installed Hydejack.","author":{"@type":"Person","name":"Iacer Calixto"},"@type":"WebPage","url":"http://localhost:4000/docs/upgrade/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/icon.png"},"name":"Iacer Calixto"},"headline":"Upgrade","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+  
+
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Iacer Calixto">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<meta name="application-name" content="Iacer Calixto">
+<meta name="msapplication-config" content="/assets/ieconfig.xml">
+
+
+<meta name="theme-color" content="rgb(25,55,71)">
+
+
+<meta name="generator" content="Hydejack v8.4.0" />
+
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Iacer Calixto" />
+
+
+
+<link rel="alternate" href="http://localhost:4000/docs/upgrade/" hreflang="en">
+
+<link rel="shortcut icon" href="/assets/icons/favicon.ico">
+<link rel="apple-touch-icon" href="/assets/icons/icon.png">
+
+<link rel="manifest" href="/assets/manifest.json">
+
+
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+
+
+
+
+<link rel="dns-prefetch" href="/" id="_baseURL">
+<link rel="dns-prefetch" href="/assets/js/hydejack-8.4.0.js" id="_hrefJS">
+<link rel="dns-prefetch" href="/sw.js" id="_hrefSW">
+<link rel="dns-prefetch" href="/assets/bower_components/fontfaceobserver/fontfaceobserver.standalone.js" id="_hrefFFO">
+<link rel="dns-prefetch" href="/assets/bower_components/katex/dist/katex.min.js" id="_hrefKatexJS">
+<link rel="dns-prefetch" href="/assets/bower_components/katex/dist/katex.min.css" id="_hrefKatexCSS">
+<link rel="dns-prefetch" href="/assets/bower_components/katex/dist/contrib/copy-tex.min.js" id="_hrefKatexCopyJS">
+<link rel="dns-prefetch" href="/assets/bower_components/katex/dist/contrib/copy-tex.min.css" id="_hrefKatexCopyCSS">
+<link rel="dns-prefetch" href="/assets/img/swipe.svg" id="_hrefSwipeSVG">
+
+
+
+
+<script>!function(e,t){"use strict";function n(e,t,n,r){e.addEventListener?e.addEventListener(t,n,r):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n}e.loadJS=function(e,r){var o=t.createElement("script");o.src=e,r&&n(o,"load",r,{once:!0});var a=t.scripts[0];return a.parentNode.insertBefore(o,a),o},e._loaded=!1,e.loadJSDeferred=function(r,o){function a(){e._loaded=!0,o&&n(d,"load",o,{once:!0});var r=t.scripts[0];r.parentNode.insertBefore(d,r)}var d=t.createElement("script");return d.src=r,e._loaded?a():n(e,"load",a,{once:!0}),d},e.setRel=e.setRelStylesheet=function(e){function n(){this.rel="stylesheet"}var r=t.getElementById(e);r.addEventListener?r.addEventListener("load",n,{once:!0}):r.onload=n}}(window,document);
+!function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+!function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+</script>
+
+<script>!function(w, d) {
+    w._noPushState = false;
+    w._noDrawer = false;
+
+    /**/
+    loadJS(d.getElementById('_hrefFFO').href, function() {
+      if ('Promise' in w) Promise.all([
+        new FontFaceObserver('Noto Sans').load(),
+        new FontFaceObserver('Roboto Slab').load(),
+      ]).then(function f() { d.body.classList.add('font-active'); }, function() {});
+    });
+    /**/
+}(window, document);</script>
+
+<!--[if gt IE 8]><!---->
+
+
+
+
+
+
+
+
+  <link rel="stylesheet" href="/assets/css/hydejack-8.4.0.css">
+  <link rel="stylesheet" href="/assets/icomoon/style.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400|Noto+Sans:400,400i,700,700i">
+    <noscript>
+      <style>
+        html { font-family: Noto Sans, Helvetica, Arial, sans-serif!important; }
+        h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading { font-family: Roboto Slab, Helvetica, Arial, sans-serif!important; }
+      </style>
+    </noscript>
+  
+
+
+  <style id="_pageStyle">
+
+.content a:not(.btn){color:#4fb1ba;border-color:rgba(79,177,186,0.2)}.content a:not(.btn):hover{border-color:#4fb1ba}:focus{outline-color:#4fb1ba !important}.btn-primary{color:#fff;background-color:#4fb1ba;border-color:#4fb1ba}.btn-primary:focus,.btn-primary.focus,.form-control:focus,.form-control.focus{box-shadow:0 0 0 3px rgba(79,177,186,0.5)}.btn-primary:hover,.btn-primary.hover{color:#fff;background-color:#409ba3;border-color:#409ba3}.btn-primary:disabled,.btn-primary.disabled{color:#fff;background-color:#4fb1ba;border-color:#4fb1ba}.btn-primary:active,.btn-primary.active{color:#fff;background-color:#409ba3;border-color:#409ba3}::selection{color:#fff;background:#4fb1ba}::-moz-selection{color:#fff;background:#4fb1ba}
+
+</style>
+
+
+<!--<![endif]-->
+
+
+
+
+</head>
+
+<body>
+  
+
+
+<hy-push-state replace-ids="_main" link-selector="a[href]:not([href*='/assets/']):not(.external):not(.no-push-state)" duration="250" script-selector="script:not([type^='math/tex'])" prefetch>
+  
+    <main id="_main" class="content fade-in layout-page" role="main" data-color="rgb(79,177,186)" data-theme-color="rgb(25,55,71)" data-image="/assets/img/sidebar-bg.jpg" data-overlay>
+  <article class="page" role="article">
+  <header>
+    <h1 class="page-title">Upgrade</h1>
+    
+
+
+
+  
+    <div class="hr pb0"></div>
+  
+
+
+  </header>
+
+  
+<p>This chapter shows how to upgrade Hydejack to a newer version. The method depends on how you’ve installed Hydejack.</p>
+
+<h2 class="no_toc" id="table-of-contents">Table of Contents</h2>
+<ol id="markdown-toc">
+  <li><a href="#via-starter-kit" id="markdown-toc-via-starter-kit">Via Starter Kit</a></li>
+  <li><a href="#via-gem" id="markdown-toc-via-gem">Via gem</a></li>
+  <li><a href="#via-zip" id="markdown-toc-via-zip">Via zip</a></li>
+  <li><a href="#via-git" id="markdown-toc-via-git">Via git</a></li>
+  <li>
+<a href="#pro-version" id="markdown-toc-pro-version">PRO Version</a>    <ol>
+      <li><a href="#pro-via-github-advanced" id="markdown-toc-pro-via-github-advanced">PRO via GitHub (advanced)</a></li>
+    </ol>
+  </li>
+</ol>
+
+<p class="message"><strong>NOTE</strong>: Before upgrading to v7+, make sure you’ve read the <a href="/CHANGELOG/" class="heading flip-title">CHANGELOG</a>,
+especially the part about the <a href="/CHANGELOG/#license-change">license change</a>!</p>
+
+<h2 id="via-starter-kit">Via Starter Kit</h2>
+<p>When using the Starter Kit, upgrading Hydejack is as simple as setting the <code class="highlighter-rouge">remote_theme</code> key in <code class="highlighter-rouge">config.yml</code> to the desired version.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">remote_theme</span><span class="pi">:</span> <span class="s">qwtel/hydejack@v8.4.0</span>
+</code></pre></div></div>
+
+<p>To use the latest version on the <code class="highlighter-rouge">v8</code> branch on each build, you can use  <code class="highlighter-rouge">qwtel/hydejack@v8</code>.</p>
+
+<h2 id="via-gem">Via gem</h2>
+<p>Upgrading the gem-based theme is as easy as running</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle update jekyll-theme-hydejack
+</code></pre></div></div>
+
+<h2 id="via-zip">Via zip</h2>
+<p>Upgrading via zip is a bit of a dark art, specially if you’ve made changes to any source files,
+and the prime reason why I suggest using the gem-based version of the theme.</p>
+
+<p>Generally, you’ll want to copy these files and folders:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">_includes/</code></li>
+  <li><code class="highlighter-rouge">_layouts/</code></li>
+  <li><code class="highlighter-rouge">_sass/</code></li>
+  <li><code class="highlighter-rouge">assets/</code></li>
+  <li><code class="highlighter-rouge">Gemfile</code></li>
+  <li><code class="highlighter-rouge">Gemfile.lock</code></li>
+</ul>
+
+<p>and merge them with your existing folder. However, you’ll also want to check out <code class="highlighter-rouge">_data</code> and <code class="highlighter-rouge">_config.yml</code> for any changes
+and read latest entries to the <a href="/CHANGELOG/" class="heading flip-title">CHANGELOG</a>.</p>
+
+<p class="message"><strong>NOTE</strong>: If you’ve modified any of Hydejack’s internal files, your changes will most likely be overwritten
+and you have to apply them again.
+Make sure you’ve made a backup before overwriting any files.</p>
+
+<h2 id="via-git">Via git</h2>
+<p>The latest version sits on the <code class="highlighter-rouge">master</code> branch of <a href="https://github.com/qwtel/hydejack" target="_blank" rel="noopener noreferrer">qwtel/hydejack</a>.
+To apply them to your repository run</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git remote add hydejack git@github.com:qwtel/hydejack.git
+<span class="nv">$ </span>git pull hydejack master
+</code></pre></div></div>
+
+<h2 id="pro-version">PRO Version</h2>
+<p>Buyers of the PRO version will find the files necessary for an upgrade in the <code class="highlighter-rouge">upgrade</code> folder of the downloaded zip archive.</p>
+
+<p class="message"><strong>NOTE</strong>: If you’ve modified any of Hydejack’s internal files, your changes will most likely be overwritten
+and you have to apply them again.
+Make sure you’ve made a backup before overwriting any files.</p>
+
+<h3 id="pro-via-github-advanced">PRO via GitHub (advanced)</h3>
+<p>If you’ve followed the steps <a href="/docs/install/#pro-via-github-advanced">here</a>, all you need to upgrade is:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle update jekyll-theme-hydejack-pro
+</code></pre></div></div>
+
+<p class="read-more">Continue with <a href="/docs/config/" class="heading flip-title">Config</a></p>
+
+</article>
+
+  
+
+  
+<footer role="contentinfo">
+  <hr>
+  
+    <p><small class="copyright">Iacer Calixto© 2019. All rights reserved.
+</small></p>
+  
+  
+  <p><small>Powered by <a class="external" href="https://hydejack.com/" target="_blank" rel="noopener noreferrer">Hydejack</a> v<span id="_version">8.4.0</span></small></p>
+  <hr class="sr-only">
+</footer>
+
+
+</main>
+
+    <hy-drawer class="" align="left" threshold="10" touch-events prevent-default>
+  <header id="_sidebar" class="sidebar" role="banner">
+    
+    <div class="sidebar-bg sidebar-overlay" style="background-color:rgb(25,55,71);background-image:url(/assets/img/sidebar-bg.jpg)"></div>
+
+    <div class="sidebar-sticky">
+      <div class="sidebar-about">
+        
+          <a class="no-hover" href="/" tabindex="-1">
+            <img src="/assets/icons/icon.png" class="avatar" alt="Iacer Calixto" data-ignore>
+          </a>
+        
+        <h2 class="h1"><a href="/">Iacer Calixto</a></h2>
+        
+        
+      </div>
+
+      <nav class="sidebar-nav heading" role="navigation">
+        <span class="sr-only">Navigation:</span>
+<ul>
+  
+    
+      
+      <li>
+        <a id="_navigation" href="/publications/" class="sidebar-nav-item">
+          Publications
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/people/" class="sidebar-nav-item">
+          People
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/cv/" class="sidebar-nav-item">
+          CV
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/services/" class="sidebar-nav-item">
+          Services
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/imagine/" class="sidebar-nav-item">
+          IMAGINE
+        </a>
+      </li>
+    
+  
+</ul>
+
+      </nav>
+
+      
+
+      <div class="sidebar-social">
+        <span class="sr-only">Social:</span>
+<ul>
+  
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://twitter.com/CalixtoIacer" title="Twitter" class="no-mark-external" target="_blank" rel="noopener noreferrer">
+      <span class="icon-twitter"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://github.com/iacercalixto" title="GitHub" class="no-mark-external" target="_blank" rel="noopener noreferrer">
+      <span class="icon-github"></span>
+      <span class="sr-only">GitHub</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="mailto:iacer.calixto@uva.nl" title="Email" class="no-mark-external">
+      <span class="icon-mail"></span>
+      <span class="sr-only">Email</span>
+    </a>
+  </li>
+
+
+    
+  
+</ul>
+
+      </div>
+    </div>
+  </header>
+</hy-drawer>
+<hr class="sr-only" hidden>
+
+  
+</hy-push-state>
+
+
+  <!--[if !IE]><!---->
+  <script>loadJSDeferred(document.getElementById('_hrefJS').href);</script>
+  
+
+  <!--<![endif]-->
+
+  
+
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      
+        navigator.serviceWorker.getRegistration()
+          .then(r => r.unregister())
+          .catch(() => {});
+      
+    }
+  </script>
+
+
+
+
+
+
+<h2 class="sr-only" hidden>Templates (for web app):</h2>
+
+<template id="_animation-template" hidden>
+  <div class="animation-main fixed-top">
+    <div class="content">
+      <div class="page"></div>
+    </div>
+  </div>
+</template>
+
+<template id="_loading-template" hidden>
+  <div class="loading nav-btn fr">
+    <span class="sr-only">Loading…</span>
+    <span class="icon-cog"></span>
+  </div>
+</template>
+
+<template id="_error-template" hidden>
+  <div class="page">
+    <h1 class="page-title">Error</h1>
+    
+    
+    <p class="lead">
+      Sorry, an error occurred while loading <a class="this-link" href=""></a>.
+
+    </p>
+  </div>
+</template>
+
+<template id="_back-template" hidden>
+  <a id="_back" class="back nav-btn fl no-hover">
+    <span class="sr-only">Back</span>
+    <span class="icon-arrow-left2"></span>
+  </a>
+</template>
+
+<template id="_permalink-template" hidden>
+  <a href="#" class="permalink">
+    <span class="sr-only">Permalink</span>
+    <span class="icon-link"></span>
+  </a>
+</template>
+
+
+
+
+</body>
+</html>

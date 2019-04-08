@@ -1,0 +1,72 @@
+-
+  layout: person
+  rel: mscthesis
+  relation: MSc candidate (2019-)
+  selected: y
+  institution: UvA
+  name: Jana Leible
+  img: avatar
+  url: 
+  github:
+  about: >
+      Improving multi-modal machine translation by learning to tag images.
+-
+  layout: person
+  relation: MSc candidate (2019-)
+  rel: mscthesis
+  selected: y
+  institution: UvA
+  name: Victor Milewski
+  img: avatar
+  url: 
+  github:
+  about: >
+      Incorporating object relational information into image description generation.
+-
+  layout: person
+  relation: MSc candidate (2019-)
+  rel: mscthesis
+  selected: y
+  institution: UvA
+  name: Houda Alberts
+  img: avatar
+  url: 
+  github:
+  about: >
+      Exploiting multi-modal knowledge bases for image description generation.
+-
+  layout: person
+  relation: MSc candidate (2018-)
+  rel: mscthesis
+  selected: y
+  institution: UvA
+  name: Fábio Paixão Curi
+  img: avatar
+  url: 
+  github:
+  about: >
+      Typological linguistic features to improve low-resource machine translation.
+-
+  layout: person
+  relation: MSc candidate (2018)
+  rel: projai
+  selected: y
+  institution: UvA
+  img: avatar
+  name: Maartje de Jonge
+  url: 
+  github:
+  about: >
+      Image description generation with separate description and language models.
+-
+  layout: person
+  relation: MSc candidate (2018)
+  rel: projai
+  selected: y
+  institution: UvA
+  img: avatar
+  name: Victor Milewski
+  url: 
+  github:
+  about: >
+      Topic mixture models for image description generation.
