@@ -8,6 +8,9 @@ cover: false
 
 # News
 
+* **May/2019** Paper accepted at ACL 2019 where we formulated and evaluated a latent variable model
+for multi-modal machine translation ([pre-print available here][acl2019_preprint] and code coming soon).
+
 * **Mar/2019** I have joined [Raquel Fernández][raquel]'s group in the University of Amsterdam.
 
 * **Feb/2019** I have received a [Marie Skłodowska-Curie Global Fellowship][msca]!
@@ -58,6 +61,7 @@ One [paper accepted at EACL 2017][eacl2017] and another [paper at the V&L worksh
 [emnlp2017]: https://arxiv.org/pdf/1701.06521
 [ranlp2017]: https://www.acl-bg.org/proceedings/2017/RANLP%202017/pdf/RANLP020.pdf
 [acl2017]: https://aclweb.org/anthology/P17-1175
+[acl2019_preprint]: https://arxiv.org/abs/1811.00357
 [eacl2017]: https://aclweb.org/anthology/E/E17/E17-2101.pdf
 [vl2017]: http://aclweb.org/anthology/W/W17/W17-2004.pdf
 [multimodal_nmt_git]: https://github.com/iacercalixto/MultimodalNMT
