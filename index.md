@@ -8,6 +8,8 @@ cover: false
 
 # News
 
+* **Jun/2019** I have joined [Kyunghyun Cho][cho]'s group in New York University.
+
 * **May/2019** Paper accepted at ACL 2019 where we formulated and evaluated a latent variable model
 for multi-modal machine translation ([pre-print available here][acl2019_preprint] and code coming soon).
 
@@ -48,6 +50,7 @@ One [paper accepted at EACL 2017][eacl2017] and another [paper at the V&L worksh
 [illc]: https://www.illc.uva.nl/
 [fnwi]: http://www.uva.nl/en/faculty/faculty-of-science/faculty-of-science.html
 [raquel]: https://staff.science.uva.nl/r.fernandezrovira/
+[cho]: http://www.kyunghyuncho.me/
 [dmg]: https://staff.science.uva.nl/r.fernandezrovira/dialogue-group.php
 [msca]: http://www.uva.nl/en/content/news/news/2019/02/nine-researchers-to-conduct-research-at-uva-with-marie-curie-fellowship.html
 [nyu]: http://www.nyu.edu/

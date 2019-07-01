@@ -21,7 +21,7 @@ Concretely, I will investigate how to:
 * Integrate this knowledge into multi-modal language generation tasks, such as
 multi-modal machine translation, visual question answering and image description generation.
 
-Please [get in touch](mailto:iacer.calixto@uva.nl) with you would like to collaborate on any of these research topics!
+Please [get in touch](mailto:iacer.calixto@nyu.edu) with you would like to collaborate on any of these research topics!
 
 [msca_gf]: https://ec.europa.eu/research/mariecurieactions/actions/individual-fellowships_en
 [cho]: http://www.kyunghyuncho.me/

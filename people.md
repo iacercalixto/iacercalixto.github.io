@@ -3,22 +3,22 @@ layout: page
 title:  Collaborators
 ---
 
-## Students
+## Master in Artificial Intelligence, University of Amsterdam
 
-### Master in Artificial Intelligence
+### Students' theses
 
 {% assign sts = site.data.students | where: "selected", "y"  %}
 {% for st in sts %}
   {% if st.rel == "mscthesis" %}
-  * <a href="{{ st.link }}">{{ st.name }}</a>. {{ st.about }}
+  * <a href="{{ st.link }}">{{ st.name }}</a> ({{ st.date }}). {{ st.about }}
   {% endif %}
 {% endfor %}
 
-### Individual Projects in Artificial Intelligence
+### Students' Individual Projects
 
 {% for st in sts %}
   {% if st.rel == "projai" %}
-  * <a href="{{ st.link }}">{{ st.name }}</a>. {{ st.about }}
+  * <a href="{{ st.link }}">{{ st.name }}</a> ({{ st.date }}). {{ st.about }}
   {% endif %}
 {% endfor %}
 

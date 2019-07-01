@@ -62,3 +62,16 @@
       Later in that year, I worked with Lucia in an [EPRSC project](http://staffwww.dcs.shef.ac.uk/people/L.Specia/projects/vlnet.html)
       where we started studying how to use images in machine translation (before it was cool:).
       More recently, in 2017, I spent two weeks collaborating with her group funded by the [Integrating Vision&Language COST Action](https://ivl-net.eu/), working on multi-task learning for NMT.
+-
+  layout: person
+  relation:
+  selected: y
+  institution: University of Amsterdam
+  img: wilker
+  name: Wilker Aziz
+  url: https://wilkeraziz.github.io
+  about: >
+    I met Wilker in England as a Master student while he was still doing his PhD.
+    Wilker is not just a great friend of mine but really a mentor who has collaborated immensely
+    to enhance my scholarliness (specially in Bayesian neural networks).
+    If you are (very) lucky, you could witness us moonlight as a *bossa nova* duo.

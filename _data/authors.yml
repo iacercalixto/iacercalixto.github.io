@@ -3,7 +3,7 @@
 # Change `author1` to your shortname.
 iacer:
   name:              Iacer Calixto
-  email:             iacer.calixto@uva.nl
+  email:             iacer.calixto@nyu.edu
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -15,24 +15,23 @@ iacer:
     and how these interact with and are grounded by the external world.
 
     I am a *post-doctoral research fellow*
-    in the [Institute for Logic, Language and Computation][illc]
-    in the [Faculty of Science][fnwi]
-    in the [University of Amsterdam][uva].
-    I am affiliated to the [Dialogue Modelling Group][dmg], where I collaborate with many outstanding researchers
-    working at the intersection of language &amp; vision.
-    The group is lead by [Raquel Fernández][raquel].
+    in the [Center for Data Science in New York University][nyu_cds] where I work with [Kyunghyun Cho][cho].
+    I am also part of the [Institute for Logic, Language and Computation][illc]
+    in the [University of Amsterdam][uva],
+    where I am affiliated to the [Dialogue Modelling Group][dmg]  led by [Raquel Fernández][raquel], where I collaborate with many outstanding researchers working at the intersection of language &amp; vision.
     Before that I worked with [Khalil Sima'an][khalil]&apos;s group on how to integrate visual information into
     different natural language processing tasks.
 
     Some broad research fields I consider myself a contributor to include machine learning and representation learning,
     computational linguistics, image processing, and graph neural networks.
 
-    You can find me in [Science Park 107][illc_gmaps] (F2.11), Monday to Friday.
+    You can find me in [office 637, 60 5th Avenue, Manhattan][nyu_cds_gmaps], Monday to Friday.
 
     [uva]: http://www.uva.nl/en
     [illc]: https://www.illc.uva.nl/
     [fnwi]: http://www.uva.nl/en/faculty/faculty-of-science/faculty-of-science.html
     [raquel]: https://staff.science.uva.nl/r.fernandezrovira/
+    [cho]: http://www.kyunghyuncho.me/
     [dmg]: https://staff.science.uva.nl/r.fernandezrovira/dialogue-group.php
     [msca]: http://www.uva.nl/en/content/news/news/2019/02/nine-researchers-to-conduct-research-at-uva-with-marie-curie-fellowship.html
     [nyu]: http://www.nyu.edu/
@@ -51,6 +50,7 @@ iacer:
     [multimodal_nmt_git]: https://github.com/iacercalixto/MultimodalNMT
     [mlmme_git]: https://github.com/iacercalixto/multilingual-multimodal-embedding
     [illc_gmaps]: https://goo.gl/maps/7qVKHw63LTB2
+    [nyu_cds_gmaps]: https://goo.gl/maps/eSLAhYAfz2t4j8Ad6
 
   # This photo will be used in the about section
   picture:
@@ -69,7 +69,8 @@ iacer:
   social:
     twitter:         CalixtoIacer
     github:          iacercalixto
-    email:           iacer.calixto@uva.nl
+    email:           iacer.calixto@nyu.edu
+    linkedin:        iacercalixto
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>

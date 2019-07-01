@@ -1,7 +1,8 @@
 -
   layout: person
   rel: mscthesis
-  relation: MSc candidate (2019-)
+  relation: MSc candidate
+  date: 2019-
   selected: y
   institution: UvA
   name: Jana Leible
@@ -12,7 +13,8 @@
       Improving multi-modal machine translation by learning to tag images.
 -
   layout: person
-  relation: MSc candidate (2019-)
+  relation: MSc candidate
+  date: 2019-
   rel: mscthesis
   selected: y
   institution: UvA
@@ -24,7 +26,8 @@
       Incorporating object relational information into image description generation.
 -
   layout: person
-  relation: MSc candidate (2019-)
+  relation: MSc candidate
+  date: 2019-
   rel: mscthesis
   selected: y
   institution: UvA
@@ -36,7 +39,8 @@
       Exploiting multi-modal knowledge bases for image description generation.
 -
   layout: person
-  relation: MSc candidate (2018-)
+  relation: MSc candidate
+  date: 2018-19
   rel: mscthesis
   selected: y
   institution: UvA
@@ -45,10 +49,11 @@
   url: 
   github:
   about: >
-      Typological linguistic features to improve low-resource machine translation.
+      Using typological linguistic features to improve low-resource machine translation.
 -
   layout: person
-  relation: MSc candidate (2018)
+  relation: MSc candidate
+  date: 2018
   rel: projai
   selected: y
   institution: UvA
@@ -60,7 +65,8 @@
       Image description generation with separate description and language models.
 -
   layout: person
-  relation: MSc candidate (2018)
+  relation: MSc candidate
+  date: 2018
   rel: projai
   selected: y
   institution: UvA
