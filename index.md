@@ -8,6 +8,8 @@ cover: false
 
 # News
 
+* **Aug/2019** I joined the Management Committee of the **Multi3Generation COST Action**.
+
 * **Jun/2019** I have joined [Kyunghyun Cho][cho]'s group in New York University.
 
 * **May/2019** Paper accepted at ACL 2019 where we formulated and evaluated a latent variable model

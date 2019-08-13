@@ -76,3 +76,16 @@
   github:
   about: >
       Topic mixture models for image description generation.
+-
+  layout: person
+  rel: mscthesis
+  relation: MSc candidate
+  date: 2019-
+  selected: y
+  institution: UvA
+  name: Vikrant Yadav
+  img: avatar
+  url: 
+  github:
+  about: >
+      Hybrid context-based embeddings generated from taxonomical paths (now in Elsevier).
