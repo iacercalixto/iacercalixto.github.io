@@ -8,11 +8,13 @@ cover: false
 
 # News
 
-* **Aug/2019** I joined the Management Committee of the **Multi3Generation COST Action**.
+* **Jul/2020** I will be Area Chair for *Language Grounding to Vision* at **EACL 2021**.
+
+* **Aug/2019** I joined the Management Committee of the [Multi3Generation COST Action][multi3generation].
 
 * **Jun/2019** I have joined [Kyunghyun Cho][cho]'s group in New York University.
 
-* **May/2019** Paper accepted at ACL 2019 where we formulated and evaluated a latent variable model
+* **May/2019** Paper accepted at ACL 2019 where we propose a latent variable model
 for multi-modal machine translation ([pre-print available here][acl2019_preprint] and code coming soon).
 
 * **Mar/2019** I have joined [Raquel Fernández][raquel]'s group in the University of Amsterdam.
@@ -71,3 +73,4 @@ One [paper accepted at EACL 2017][eacl2017] and another [paper at the V&L worksh
 [vl2017]: http://aclweb.org/anthology/W/W17/W17-2004.pdf
 [multimodal_nmt_git]: https://github.com/iacercalixto/MultimodalNMT
 [mlmme_git]: https://github.com/iacercalixto/multilingual-multimodal-embedding
+[multi3generation]: https://multi3generation.eu/
