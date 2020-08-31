@@ -8,6 +8,8 @@ cover: false
 
 # News
 
+* **Aug/2020** I will be co-organizer of the **Repl4NLP 2021** (*Representation Learning for NLP 2021*) workshop.
+
 * **Jul/2020** I will be Area Chair for *Language Grounding to Vision* at **EACL 2021**.
 
 * **Aug/2019** I joined the Management Committee of the [Multi3Generation COST Action][multi3generation].
