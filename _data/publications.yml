@@ -421,9 +421,9 @@
   selected: y
   year: "2019"
   img: latent-variable-model-for-multimodal-machine-translation-2019
-  title: "Latent Variable Model for Multi-modal Translation (paper accepted)"
+  title: "Latent Variable Model for Multi-modal Translation"
   authors: "<strong>Iacer Calixto</strong>, Miguel Rios, Wilker Aziz"
-  doc-url: https://arxiv.org/abs/1811.00357
+  doc-url: https://www.aclweb.org/anthology/P19-1642/
   booktitle: "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
   abstract: >
     In this work, we propose to model the interaction between visual and textual features for multi-modal neural machine translation through a latent variable model.
@@ -432,11 +432,18 @@
     We show that our latent variable MMT formulation improves considerably over strong baselines, including the multi-task learning approach of Elliott and Kadar (2017) and the conditional variational auto-encoder approach of Toyama et al. (2016).
     Finally, in an ablation study we show that (i) predicting image features in addition to only conditioning on them and (ii) imposing a constraint on the minimum amount of information encoded in the latent variable slightly improved translations.
   bibtex: >
-    @Article{Calixto2018LatentVisualCues,
-      author = 	    "Iacer Calixto and Miguel Rios and Wilker Aziz",
-      title = 	    "Latent Variable Model for Multi-modal Translation",
-      booktitle =   {ACL},
-      year = 	    "2019",
-      publisher = {Association for Computational Linguistics},
-      url = {https://arxiv.org/abs/1811.00357}
+    @inproceedings{calixto-etal-2019-latent,
+      title = "Latent Variable Model for Multi-modal Translation",
+      author = "Calixto, Iacer  and
+        Rios, Miguel  and
+        Aziz, Wilker",
+      booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+      month = jul,
+      year = "2019",
+      address = "Florence, Italy",
+      publisher = "Association for Computational Linguistics",
+      url = "https://www.aclweb.org/anthology/P19-1642",
+      doi = "10.18653/v1/P19-1642",
+      pages = "6392--6405",
     }
+

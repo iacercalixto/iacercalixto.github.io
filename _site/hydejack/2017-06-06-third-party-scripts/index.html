@@ -38,7 +38,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
   
 <!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Third Party Scripts (v6.3) | Iacer Calixto</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="Third Party Scripts (v6.3)" />
 <meta name="author" content="Iacer Calixto" />
 <meta property="og:locale" content="en" />
@@ -50,12 +50,14 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2017-06-06T00:00:00-04:00" />
 <script type="application/ld+json">
-{"description":"Hydejack v6.3 makes including third party plugins easier.","author":{"@type":"Person","name":"Iacer Calixto"},"@type":"BlogPosting","url":"http://localhost:4000/hydejack/2017-06-06-third-party-scripts/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/icon.png"},"name":"Iacer Calixto"},"headline":"Third Party Scripts (v6.3)","dateModified":"2017-06-06T00:00:00-04:00","datePublished":"2017-06-06T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/hydejack/2017-06-06-third-party-scripts/"},"@context":"https://schema.org"}</script>
+{"description":"Hydejack v6.3 makes including third party plugins easier.","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/hydejack/2017-06-06-third-party-scripts/"},"@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/icon.png"},"name":"Iacer Calixto"},"headline":"Third Party Scripts (v6.3)","datePublished":"2017-06-06T00:00:00-04:00","dateModified":"2017-06-06T00:00:00-04:00","author":{"@type":"Person","name":"Iacer Calixto"},"url":"http://localhost:4000/hydejack/2017-06-06-third-party-scripts/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
   
 
+  
+    <meta name="keywords" content="machine learning,natural language processing,artificial intelligence,vision and language">
   
 
 
@@ -232,15 +234,15 @@ in <a href="/hydejack/" class="flip-title">Hydejack</a>
 
   
     <p>This release makes including third party plugins easier.
-Until now, the push state approach to loading new pages has been interfering with embedded <code class="highlighter-rouge">script</code> tags.
+Until now, the push state approach to loading new pages has been interfering with embedded <code class="language-plaintext highlighter-rouge">script</code> tags.
 This version changes this by simulating the sequential loading of script tags on a fresh page load.</p>
 
 <p>This approach should work in a majority of cases, but can still cause problems with scripts that can’t be added more than once per page.
-If an issue can’t be resolved, there’s now the option to disable push state by setting <code class="highlighter-rouge">disable_push_state: true</code> in <code class="highlighter-rouge">config.yml</code>.</p>
+If an issue can’t be resolved, there’s now the option to disable push state by setting <code class="language-plaintext highlighter-rouge">disable_push_state: true</code> in <code class="language-plaintext highlighter-rouge">config.yml</code>.</p>
 
 <h2 id="whats-happening">What’s happening?</h2>
 <p>The problem is as follows:
-When the browser encounters a <code class="highlighter-rouge">script</code> tag while parsing a HTML page it will stop (possibly to make a request to fetch
+When the browser encounters a <code class="language-plaintext highlighter-rouge">script</code> tag while parsing a HTML page it will stop (possibly to make a request to fetch
 an external script) and then execute the code before continuing parsing the page
 (it’s easy to how this can make your page really slow, but that’s a different topic).</p>
 
@@ -257,20 +259,20 @@ then run code that depends on jQuery in the next script tag:</p>
 but it remains common and has the advantage of being easy to understand.</p>
 
 <p>However, things break when Hydejack dynamically inserts new content into the page.
-It works fine for standard markdown content like <code class="highlighter-rouge">p</code> tags,
-but when inserting <code class="highlighter-rouge">script</code> tags the browser will execute them immediately and in parallel,
+It works fine for standard markdown content like <code class="language-plaintext highlighter-rouge">p</code> tags,
+but when inserting <code class="language-plaintext highlighter-rouge">script</code> tags the browser will execute them immediately and in parallel,
 because in most cases this is what you’d want.
-However, this means that <code class="highlighter-rouge">$('#tabs').someJQueryFunction();</code> will run while the HTTP request for jQuery is still
-in progress — and we get an error that <code class="highlighter-rouge">$</code> isn’t defined, or similar.</p>
+However, this means that <code class="language-plaintext highlighter-rouge">$('#tabs').someJQueryFunction();</code> will run while the HTTP request for jQuery is still
+in progress — and we get an error that <code class="language-plaintext highlighter-rouge">$</code> isn’t defined, or similar.</p>
 
-<p>From this description the solution should be obvious: Insert the <code class="highlighter-rouge">script</code> tags one-by-one,
+<p>From this description the solution should be obvious: Insert the <code class="language-plaintext highlighter-rouge">script</code> tags one-by-one,
 to simulate how they would get executed if it was a fresh page request.
-In fact this is how Hydejack is now handling things (and thanks to rxjs’ <code class="highlighter-rouge">concatMap</code> it was easy to implement),
+In fact this is how Hydejack is now handling things (and thanks to rxjs’ <code class="language-plaintext highlighter-rouge">concatMap</code> it was easy to implement),
 but unfortunately this is not a magic solution that can fix all problems:</p>
 
 <ul>
   <li>Some scripts may throw when running on the same page twice</li>
-  <li>Some scripts rely on the document’s <code class="highlighter-rouge">load</code> event, which has fired long before the script was inserted</li>
+  <li>Some scripts rely on the document’s <code class="language-plaintext highlighter-rouge">load</code> event, which has fired long before the script was inserted</li>
   <li>unkown-unkowns</li>
 </ul>
 
@@ -283,12 +285,12 @@ Maybe you won’t even notice the difference.</p>
 <h2 id="patch-notes">Patch Notes</h2>
 <h3 id="minor">Minor</h3>
 <ul>
-  <li>Support embedding <code class="highlighter-rouge">script</code> tags in markdown content</li>
-  <li>Add <code class="highlighter-rouge">disable_push_state</code> option to <code class="highlighter-rouge">_config.yml</code>
+  <li>Support embedding <code class="language-plaintext highlighter-rouge">script</code> tags in markdown content</li>
+  <li>Add <code class="language-plaintext highlighter-rouge">disable_push_state</code> option to <code class="language-plaintext highlighter-rouge">_config.yml</code>
 </li>
-  <li>Add <code class="highlighter-rouge">disable_drawer</code> option to <code class="highlighter-rouge">_config.yml</code>
+  <li>Add <code class="language-plaintext highlighter-rouge">disable_drawer</code> option to <code class="language-plaintext highlighter-rouge">_config.yml</code>
 </li>
-  <li>Rename syntax highlighting file to <code class="highlighter-rouge">syntax.scss</code>
+  <li>Rename syntax highlighting file to <code class="language-plaintext highlighter-rouge">syntax.scss</code>
 </li>
   <li>Added <a href="/docs/scripts/">chapter on third party scripts</a> to documentation</li>
 </ul>
@@ -363,7 +365,7 @@ different natural language processing tasks.</p>
 <p>Some broad research fields I consider myself a contributor to include machine learning and representation learning,
 computational linguistics, image processing, and graph neural networks.</p>
 
-<p>You can find me in <a href="https://goo.gl/maps/eSLAhYAfz2t4j8Ad6" target="_blank" rel="noopener noreferrer">office 637, 60 5th Avenue, Manhattan</a>, Monday to Friday.</p>
+<p>You can find me in <del><a href="https://goo.gl/maps/eSLAhYAfz2t4j8Ad6" target="_blank" rel="noopener noreferrer">office 637, 60 5th Avenue, Manhattan</a></del> online/by email!</p>
 
 
 

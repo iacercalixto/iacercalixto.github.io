@@ -38,7 +38,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
   
 <!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Migration | Iacer Calixto</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="Migration" />
 <meta name="author" content="Iacer Calixto" />
 <meta property="og:locale" content="en" />
@@ -48,12 +48,14 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 <meta property="og:url" content="http://localhost:4000/docs/migration/" />
 <meta property="og:site_name" content="Iacer Calixto" />
 <script type="application/ld+json">
-{"description":"This documents shows how to upgrade Hydejack from previous versions (v5) in a step-by-step manner.","author":{"@type":"Person","name":"Iacer Calixto"},"@type":"WebPage","url":"http://localhost:4000/docs/migration/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/icon.png"},"name":"Iacer Calixto"},"headline":"Migration","@context":"https://schema.org"}</script>
+{"description":"This documents shows how to upgrade Hydejack from previous versions (v5) in a step-by-step manner.","@type":"WebPage","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/icon.png"},"name":"Iacer Calixto"},"headline":"Migration","author":{"@type":"Person","name":"Iacer Calixto"},"url":"http://localhost:4000/docs/migration/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
   
 
+  
+    <meta name="keywords" content="machine learning,natural language processing,artificial intelligence,vision and language">
   
 
 
@@ -179,8 +181,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
   </header>
 
-  
-<p>This documents shows how to upgrade Hydejack from previous versions (v5) in a step-by-step manner.</p>
+  <p>This documents shows how to upgrade Hydejack from previous versions (v5) in a step-by-step manner.</p>
 
 <p>Unfortunately, upgrading form v5 and earlier is not straightforward. A lot of patterns and names have changed, motivated by a variety of reasons, including better integration with the rest of the Jekyll ecosystem and simplified workflows enabled by Jekyll Collections.</p>
 
@@ -204,22 +205,22 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 <p>Copy the following folders and files from Hydejack v6 into your existing repository. Make sure you merge the folder contents.</p>
 
 <ul>
-  <li><code class="highlighter-rouge">_data/</code></li>
-  <li><code class="highlighter-rouge">_includes/</code></li>
-  <li><code class="highlighter-rouge">_layouts/</code></li>
-  <li><code class="highlighter-rouge">_sass/</code></li>
-  <li><code class="highlighter-rouge">assets/</code></li>
+  <li><code class="language-plaintext highlighter-rouge">_data/</code></li>
+  <li><code class="language-plaintext highlighter-rouge">_includes/</code></li>
+  <li><code class="language-plaintext highlighter-rouge">_layouts/</code></li>
+  <li><code class="language-plaintext highlighter-rouge">_sass/</code></li>
+  <li><code class="language-plaintext highlighter-rouge">assets/</code></li>
   <li>
-<code class="highlighter-rouge">index.html</code> (<code class="highlighter-rouge">index.md</code>*)</li>
-  <li><code class="highlighter-rouge">Gemfile</code></li>
-  <li><code class="highlighter-rouge">Gemfile.lock</code></li>
+<code class="language-plaintext highlighter-rouge">index.html</code> (<code class="language-plaintext highlighter-rouge">index.md</code>*)</li>
+  <li><code class="language-plaintext highlighter-rouge">Gemfile</code></li>
+  <li><code class="language-plaintext highlighter-rouge">Gemfile.lock</code></li>
 </ul>
 
-<p>Note that the <code class="highlighter-rouge">public</code> folder has been renamed to <code class="highlighter-rouge">assets</code>.
+<p>Note that the <code class="language-plaintext highlighter-rouge">public</code> folder has been renamed to <code class="language-plaintext highlighter-rouge">assets</code>.
 You’ll want to move your static assets there.</p>
 
 <h3 id="updating-the-configuration">Updating the configuration</h3>
-<p><code class="highlighter-rouge">_config.yml</code> has changed considerably. Open it and make the following changes.</p>
+<p><code class="language-plaintext highlighter-rouge">_config.yml</code> has changed considerably. Open it and make the following changes.</p>
 
 <ol>
   <li>
@@ -227,13 +228,13 @@ You’ll want to move your static assets there.</p>
 
     <ul>
       <li>
-<code class="highlighter-rouge">font_accent</code> =&gt; <code class="highlighter-rouge">font_heading</code>
+<code class="language-plaintext highlighter-rouge">font_accent</code> =&gt; <code class="language-plaintext highlighter-rouge">font_heading</code>
 </li>
       <li>
-<code class="highlighter-rouge">load_google_fonts</code> =&gt; <code class="highlighter-rouge">google_fonts</code>
+<code class="language-plaintext highlighter-rouge">load_google_fonts</code> =&gt; <code class="language-plaintext highlighter-rouge">google_fonts</code>
 </li>
       <li>
-<code class="highlighter-rouge">google_analytics_id</code> =&gt; <code class="highlighter-rouge">google_analytics</code>
+<code class="language-plaintext highlighter-rouge">google_analytics_id</code> =&gt; <code class="language-plaintext highlighter-rouge">google_analytics</code>
 </li>
     </ul>
   </li>
@@ -251,7 +252,7 @@ You’ll want to move your static assets there.</p>
 </code></pre></div>    </div>
   </li>
   <li>
-    <p>Delete <code class="highlighter-rouge">photo</code> and <code class="highlighter-rouge">photo2x</code> form the author key and add a <code class="highlighter-rouge">picture</code> hash instead that looks like</p>
+    <p>Delete <code class="language-plaintext highlighter-rouge">photo</code> and <code class="language-plaintext highlighter-rouge">photo2x</code> form the author key and add a <code class="language-plaintext highlighter-rouge">picture</code> hash instead that looks like</p>
 
     <div class="language-yml highlighter-rouge">
 <div class="highlight"><pre class="highlight"><code><span class="na">picture</span><span class="pi">:</span>
@@ -261,12 +262,12 @@ You’ll want to move your static assets there.</p>
     <span class="na">2x</span><span class="pi">:</span> <span class="s">&lt;photo2x&gt;</span>
 </code></pre></div>    </div>
 
-    <p>If you have only one photo, you can just provide the URL directly, e.g. <code class="highlighter-rouge">picture: &lt;url&gt;</code>.</p>
+    <p>If you have only one photo, you can just provide the URL directly, e.g. <code class="language-plaintext highlighter-rouge">picture: &lt;url&gt;</code>.</p>
 
     <p>For more information, see <a href="/docs/config/#adding-an-author">Adding an author</a>.</p>
   </li>
   <li>
-    <p>Rename <code class="highlighter-rouge">gems</code> to <code class="highlighter-rouge">plugins</code> and make sure the list contains <code class="highlighter-rouge">jekyll-seo-tag</code>.</p>
+    <p>Rename <code class="language-plaintext highlighter-rouge">gems</code> to <code class="language-plaintext highlighter-rouge">plugins</code> and make sure the list contains <code class="language-plaintext highlighter-rouge">jekyll-seo-tag</code>.</p>
 
     <div class="language-yml highlighter-rouge">
 <div class="highlight"><pre class="highlight"><code><span class="na">plugins</span><span class="pi">:</span>
@@ -275,52 +276,52 @@ You’ll want to move your static assets there.</p>
   </li>
 </ol>
 
-<p class="message"><strong>NOTE</strong>: When making changes to <code class="highlighter-rouge">_config.yml</code>, it is necessary to restart the Jekyll process for the changes to take effect.</p>
+<p class="message"><strong>NOTE</strong>: When making changes to <code class="language-plaintext highlighter-rouge">_config.yml</code>, it is necessary to restart the Jekyll process for the changes to take effect.</p>
 
 <h3 id="restoring-the-tags">Restoring the tags</h3>
 <ol>
-  <li>Delete the <code class="highlighter-rouge">tag</code> folder.</li>
-  <li>Create a top-level folder called <code class="highlighter-rouge">_featured_tags</code>.</li>
-  <li>For each entry in <code class="highlighter-rouge">_data/tags.yml</code>, create a markdown file in <code class="highlighter-rouge">_features_tags</code> with the name of the tag as filename,
-e.g. <code class="highlighter-rouge">hyde.md</code> for tag “hyde”.</li>
+  <li>Delete the <code class="language-plaintext highlighter-rouge">tag</code> folder.</li>
+  <li>Create a top-level folder called <code class="language-plaintext highlighter-rouge">_featured_tags</code>.</li>
+  <li>For each entry in <code class="language-plaintext highlighter-rouge">_data/tags.yml</code>, create a markdown file in <code class="language-plaintext highlighter-rouge">_features_tags</code> with the name of the tag as filename,
+e.g. <code class="language-plaintext highlighter-rouge">hyde.md</code> for tag “hyde”.</li>
   <li>
-    <p>For each tag, copy its contents from <code class="highlighter-rouge">_data/tags.yml</code> into the new file’s front matter, e.g.</p>
+    <p>For each tag, copy its contents from <code class="language-plaintext highlighter-rouge">_data/tags.yml</code> into the new file’s front matter, e.g.</p>
 
     <div class="language-yml highlighter-rouge">
 <div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
 <span class="na">layout</span><span class="pi">:</span> <span class="s">list</span>
 <span class="na">name</span><span class="pi">:</span> <span class="s">Hyde</span>
 <span class="na">description</span><span class="pi">:</span> <span class="pi">&gt;</span>
-  <span class="no">Hyde is a brazen two-column Jekyll theme...</span>
+  <span class="s">Hyde is a brazen two-column Jekyll theme...</span>
 <span class="na">accent_image</span><span class="pi">:</span> <span class="s">/hydejack/public/img/hyde.jpg</span>
 <span class="na">accent_color</span><span class="pi">:</span> <span class="s1">'</span><span class="s">#949667'</span>
 <span class="nn">---</span>
 </code></pre></div>    </div>
 
-    <p>Be aware that <code class="highlighter-rouge">image</code> has been renamed to <code class="highlighter-rouge">accent_image</code> and <code class="highlighter-rouge">color</code> has been renamed to <code class="highlighter-rouge">accent_color</code>.</p>
+    <p>Be aware that <code class="language-plaintext highlighter-rouge">image</code> has been renamed to <code class="language-plaintext highlighter-rouge">accent_image</code> and <code class="language-plaintext highlighter-rouge">color</code> has been renamed to <code class="language-plaintext highlighter-rouge">accent_color</code>.</p>
   </li>
-  <li>Add <code class="highlighter-rouge">layout: list</code> to the front matter.</li>
-  <li>Once you’ve copied all tags into their own files, delete <code class="highlighter-rouge">_data/tags.yml</code>.</li>
+  <li>Add <code class="language-plaintext highlighter-rouge">layout: list</code> to the front matter.</li>
+  <li>Once you’ve copied all tags into their own files, delete <code class="language-plaintext highlighter-rouge">_data/tags.yml</code>.</li>
 </ol>
 
 <h3 id="restoring-the-sidebar-entries">Restoring the sidebar entries</h3>
 <p>Hydejack can now link to any kind of page in the sidebar.</p>
 
 <ol>
-  <li>Delete <code class="highlighter-rouge">sidebar_tags</code> in <code class="highlighter-rouge">_config.yml</code>.</li>
-  <li>Open a file who’s page you would like to add to the sidebar. If you want to add a tag, open <code class="highlighter-rouge">_featured_tags/&lt;tagname&gt;.md</code>.</li>
-  <li>Add <code class="highlighter-rouge">menu: true</code> to its front matter.</li>
-  <li>(Optional) Set <code class="highlighter-rouge">order: &lt;number&gt;</code>, where <code class="highlighter-rouge">&lt;number&gt;</code> is the number at which you would like the link to appear.</li>
+  <li>Delete <code class="language-plaintext highlighter-rouge">sidebar_tags</code> in <code class="language-plaintext highlighter-rouge">_config.yml</code>.</li>
+  <li>Open a file who’s page you would like to add to the sidebar. If you want to add a tag, open <code class="language-plaintext highlighter-rouge">_featured_tags/&lt;tagname&gt;.md</code>.</li>
+  <li>Add <code class="language-plaintext highlighter-rouge">menu: true</code> to its front matter.</li>
+  <li>(Optional) Set <code class="language-plaintext highlighter-rouge">order: &lt;number&gt;</code>, where <code class="language-plaintext highlighter-rouge">&lt;number&gt;</code> is the number at which you would like the link to appear.</li>
 </ol>
 
 <h3 id="restoring-the-rss-feed">Restoring the RSS feed</h3>
-<p>The feed is now provided by the <code class="highlighter-rouge">jekyll-feed</code> plugin instead of a custom solution.</p>
+<p>The feed is now provided by the <code class="language-plaintext highlighter-rouge">jekyll-feed</code> plugin instead of a custom solution.</p>
 
 <ol>
-  <li>Delete <code class="highlighter-rouge">atom.xml</code>
+  <li>Delete <code class="language-plaintext highlighter-rouge">atom.xml</code>
 </li>
   <li>
-    <p>Add <code class="highlighter-rouge">- jekyll-feed</code> to <code class="highlighter-rouge">gems</code> in <code class="highlighter-rouge">_config.yml</code>, e.g.</p>
+    <p>Add <code class="language-plaintext highlighter-rouge">- jekyll-feed</code> to <code class="language-plaintext highlighter-rouge">gems</code> in <code class="language-plaintext highlighter-rouge">_config.yml</code>, e.g.</p>
 
     <div class="language-yml highlighter-rouge">
 <div class="highlight"><pre class="highlight"><code><span class="na">gems</span><span class="pi">:</span>
@@ -329,7 +330,7 @@ e.g. <code class="highlighter-rouge">hyde.md</code> for tag “hyde”.</li>
 </code></pre></div>    </div>
   </li>
   <li>
-    <p>(Optional) Add the following to <code class="highlighter-rouge">_config.yml</code> to make the feed appear at the same URL as the old <code class="highlighter-rouge">atom.xml</code>.</p>
+    <p>(Optional) Add the following to <code class="language-plaintext highlighter-rouge">_config.yml</code> to make the feed appear at the same URL as the old <code class="language-plaintext highlighter-rouge">atom.xml</code>.</p>
 
     <div class="language-yml highlighter-rouge">
 <div class="highlight"><pre class="highlight"><code><span class="na">feed</span><span class="pi">:</span>
@@ -340,7 +341,7 @@ e.g. <code class="highlighter-rouge">hyde.md</code> for tag “hyde”.</li>
 
 <h3 id="restoring-the-comments">Restoring the comments</h3>
 <p>The way comments are enabled has changed slightly.
-You now have to enable them per page by adding <code class="highlighter-rouge">comments: true</code> to the front matter
+You now have to enable them per page by adding <code class="language-plaintext highlighter-rouge">comments: true</code> to the front matter
 (this is what the <a href="https://disqus.com/admin/install/platforms/jekyll/" target="_blank" rel="noopener noreferrer">Disqus integration guide</a> suggests).
 To enable them for all posts, add to the config file</p>
 
@@ -353,8 +354,8 @@ To enable them for all posts, add to the config file</p>
 
 <h3 id="restoring-the-about-page">Restoring the about page</h3>
 <p>Hydejack now has a dedicated layout for about pages.
-To use it, open <code class="highlighter-rouge">about.md</code> and change the <code class="highlighter-rouge">layout</code> in the front matter to <code class="highlighter-rouge">about</code>
-and delete <code class="highlighter-rouge">{\% include about-short.html author=site.author %\}</code>.</p>
+To use it, open <code class="language-plaintext highlighter-rouge">about.md</code> and change the <code class="language-plaintext highlighter-rouge">layout</code> in the front matter to <code class="language-plaintext highlighter-rouge">about</code>
+and delete <code class="language-plaintext highlighter-rouge">{\% include about-short.html author=site.author %\}</code>.</p>
 
 </article>
 

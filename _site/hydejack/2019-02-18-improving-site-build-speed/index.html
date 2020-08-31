@@ -38,7 +38,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
   
 <!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Improving Hydejack’s Build Speed | Iacer Calixto</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="Improving Hydejack’s Build Speed" />
 <meta name="author" content="Iacer Calixto" />
 <meta property="og:locale" content="en" />
@@ -51,12 +51,14 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-02-18T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"Hydejack 8.4.0 introduces new options to bring Hydejack’s build time in line with other Jekyll themes.","author":{"@type":"Person","name":"Iacer Calixto"},"@type":"BlogPosting","url":"http://localhost:4000/hydejack/2019-02-18-improving-site-build-speed/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/icon.png"},"name":"Iacer Calixto"},"image":"http://localhost:4000/assets/img/blog/wade-lambert.jpg","headline":"Improving Hydejack’s Build Speed","dateModified":"2019-02-18T00:00:00-05:00","datePublished":"2019-02-18T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/hydejack/2019-02-18-improving-site-build-speed/"},"@context":"https://schema.org"}</script>
+{"description":"Hydejack 8.4.0 introduces new options to bring Hydejack’s build time in line with other Jekyll themes.","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/hydejack/2019-02-18-improving-site-build-speed/"},"@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/icon.png"},"name":"Iacer Calixto"},"headline":"Improving Hydejack’s Build Speed","datePublished":"2019-02-18T00:00:00-05:00","dateModified":"2019-02-18T00:00:00-05:00","image":"http://localhost:4000/assets/img/blog/wade-lambert.jpg","author":{"@type":"Person","name":"Iacer Calixto"},"url":"http://localhost:4000/hydejack/2019-02-18-improving-site-build-speed/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
   
 
+  
+    <meta name="keywords" content="machine learning,natural language processing,artificial intelligence,vision and language">
   
 
 
@@ -249,9 +251,9 @@ in <a href="/hydejack/" class="flip-title">Hydejack</a>
   
     <p>Hydejack was designed with personal sites in mind, i.e. sites with around 100 pages. Because of this, build speed hasn’t been a major concern during its development. When attempting to use Hydejack with thousands of pages this becomes very apparent, as build times go from seconds, to minutes, to hours.</p>
 
-<p>Before we get started, if you are primarily concerned with build times during writing/previewing new articles, try using the <code class="highlighter-rouge">--incremental</code> flag, e.g.</p>
+<p>Before we get started, if you are primarily concerned with build times during writing/previewing new articles, try using the <code class="language-plaintext highlighter-rouge">--incremental</code> flag, e.g.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle exec jekyll serve --incremental
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle exec jekyll serve --incremental
 </code></pre></div></div>
 
 <p>For more, see the <a href="https://jekyllrb.com/docs/configuration/#build-command-options" target="_blank" rel="noopener noreferrer">Jekyll docs</a> .</p>
@@ -259,18 +261,18 @@ in <a href="/hydejack/" class="flip-title">Hydejack</a>
 <p>With that out of the way, here are three ways to improve Hydejack’s production build speed:</p>
 
 <h2 id="disable-inline-css">Disable Inline CSS</h2>
-<p>Inlining critial CSS into each page increases page load speed in the browser, but it also introduces a <em>significant</em> build time increase. This is due to <code class="highlighter-rouge">scssify</code> being called for every single page with a large chunk of Hydejack’s SCSS as input.</p>
+<p>Inlining critial CSS into each page increases page load speed in the browser, but it also introduces a <em>significant</em> build time increase. This is due to <code class="language-plaintext highlighter-rouge">scssify</code> being called for every single page with a large chunk of Hydejack’s SCSS as input.</p>
 
-<p>To disable this optimization, set <code class="highlighter-rouge">no_inline_css</code> to <code class="highlighter-rouge">true</code> in the config file.</p>
+<p>To disable this optimization, set <code class="language-plaintext highlighter-rouge">no_inline_css</code> to <code class="language-plaintext highlighter-rouge">true</code> in the config file.</p>
 
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hydejack</span><span class="pi">:</span>
   <span class="na">no_inline_css</span><span class="pi">:</span> <span class="no">true</span>
 </code></pre></div></div>
 
 <h2 id="disable-per-page-styles">Disable Per-Page Styles</h2>
-<p>Hydejack allows you to change the accent color on a per-page basis. While this is a neat feature, it’s certainly not necessary and many sites don’t use it. Similar to inline CSS, it involves a call to <code class="highlighter-rouge">scssify</code> per page, which increases build time (though to a lesser extent).</p>
+<p>Hydejack allows you to change the accent color on a per-page basis. While this is a neat feature, it’s certainly not necessary and many sites don’t use it. Similar to inline CSS, it involves a call to <code class="language-plaintext highlighter-rouge">scssify</code> per page, which increases build time (though to a lesser extent).</p>
 
-<p>To disable this feature, set <code class="highlighter-rouge">no_page_style</code> to <code class="highlighter-rouge">true</code> in the config file.</p>
+<p>To disable this feature, set <code class="language-plaintext highlighter-rouge">no_page_style</code> to <code class="language-plaintext highlighter-rouge">true</code> in the config file.</p>
 
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hydejack</span><span class="pi">:</span>
   <span class="na">no_page_style</span><span class="pi">:</span> <span class="no">true</span>
@@ -280,15 +282,15 @@ in <a href="/hydejack/" class="flip-title">Hydejack</a>
 
 <p>Hydejack does some clever things to show more related “Related Posts” on the bottom of blog posts. However, clever things (implemented within the liquid templating engine) take time, and this becomes apparent when trying to build a site with 10,000 posts.</p>
 
-<p>To speed up buidling further, set the (admittedly poorly named) <code class="highlighter-rouge">use_lsi</code> option to <code class="highlighter-rouge">true</code>:</p>
+<p>To speed up buidling further, set the (admittedly poorly named) <code class="language-plaintext highlighter-rouge">use_lsi</code> option to <code class="language-plaintext highlighter-rouge">true</code>:</p>
 
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hydejack</span><span class="pi">:</span>
   <span class="na">use_lsi</span><span class="pi">:</span> <span class="no">true</span>
 </code></pre></div></div>
 
 <h2 id="define-sidebar-entries-in-the-config-file">Define Sidebar Entries in the Config File</h2>
-<p>In previous versions of Hydejack adding entries to the sidebar was done by setting <code class="highlighter-rouge">menu</code> to <code class="highlighter-rouge">true</code> in the front matter of a page. This meant that finding the sidebar entries required checking every page for the <code class="highlighter-rouge">menu</code> flag, once per page. This was slow and the time increased quadratically with the number of pages. 
-Staring with version 8.4.0, you can define sidebar entries in the config file under the <code class="highlighter-rouge">menu</code> key like so:</p>
+<p>In previous versions of Hydejack adding entries to the sidebar was done by setting <code class="language-plaintext highlighter-rouge">menu</code> to <code class="language-plaintext highlighter-rouge">true</code> in the front matter of a page. This meant that finding the sidebar entries required checking every page for the <code class="language-plaintext highlighter-rouge">menu</code> flag, once per page. This was slow and the time increased quadratically with the number of pages. 
+Staring with version 8.4.0, you can define sidebar entries in the config file under the <code class="language-plaintext highlighter-rouge">menu</code> key like so:</p>
 
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">menu</span><span class="pi">:</span>
   <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s">Blog</span>
@@ -301,7 +303,7 @@ Staring with version 8.4.0, you can define sidebar entries in the config file un
     <span class="na">url</span><span class="pi">:</span>   <span class="s">/about/</span>
 </code></pre></div></div>
 
-<p class="message">Note that the old way of doing things still works if you upgrade to 8.4.0. Only when you set the <code class="highlighter-rouge">menu</code> key will Hydejack switch to the new behavior.</p>
+<p class="message">Note that the old way of doing things still works if you upgrade to 8.4.0. Only when you set the <code class="language-plaintext highlighter-rouge">menu</code> key will Hydejack switch to the new behavior.</p>
 
 <h2 id="conclusion">Conclusion</h2>
 <p>Hydejack’s default settings are fine for small personal blogs of around 100 pages. However, when building large sites with 1,000 pages or more, build time becomes an issue. The following settings will help, but can’t overcome the inherent limitations of Jekyll.</p>
@@ -380,7 +382,7 @@ different natural language processing tasks.</p>
 <p>Some broad research fields I consider myself a contributor to include machine learning and representation learning,
 computational linguistics, image processing, and graph neural networks.</p>
 
-<p>You can find me in <a href="https://goo.gl/maps/eSLAhYAfz2t4j8Ad6" target="_blank" rel="noopener noreferrer">office 637, 60 5th Avenue, Manhattan</a>, Monday to Friday.</p>
+<p>You can find me in <del><a href="https://goo.gl/maps/eSLAhYAfz2t4j8Ad6" target="_blank" rel="noopener noreferrer">office 637, 60 5th Avenue, Manhattan</a></del> online/by email!</p>
 
 
 

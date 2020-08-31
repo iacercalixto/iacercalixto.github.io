@@ -38,7 +38,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
   
 <!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Install | Iacer Calixto</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="Install" />
 <meta name="author" content="Iacer Calixto" />
 <meta property="og:locale" content="en" />
@@ -48,12 +48,14 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 <meta property="og:url" content="http://localhost:4000/docs/install/" />
 <meta property="og:site_name" content="Iacer Calixto" />
 <script type="application/ld+json">
-{"description":"There are multiple ways of installing Hydejack and this document lays them out for you. The easiest way is with the Hydejack Starter Kit.","author":{"@type":"Person","name":"Iacer Calixto"},"@type":"WebPage","url":"http://localhost:4000/docs/install/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/icon.png"},"name":"Iacer Calixto"},"headline":"Install","@context":"https://schema.org"}</script>
+{"description":"There are multiple ways of installing Hydejack and this document lays them out for you. The easiest way is with the Hydejack Starter Kit.","@type":"WebPage","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/icon.png"},"name":"Iacer Calixto"},"headline":"Install","author":{"@type":"Person","name":"Iacer Calixto"},"url":"http://localhost:4000/docs/install/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
   
 
+  
+    <meta name="keywords" content="machine learning,natural language processing,artificial intelligence,vision and language">
   
 
 
@@ -179,8 +181,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 
   </header>
 
-  
-<p>There are multiple ways of installing Hydejack.
+  <p>There are multiple ways of installing Hydejack.
 The easiest and cleanest way is <a href="#via-starter-kit">via the Starter Kit</a>.
 Alternatively, you can use the <a href="#via-gem">Ruby gem</a>.
 If you don’t mind a cluttered source directory, you can use <a href="#via-zip">the zip file</a>.
@@ -204,13 +205,13 @@ Finally, If you know what you are doing, you can <a href="#via-git">fork the git
 
 <h2 id="via-starter-kit">Via Starter Kit</h2>
 <p>Using the Starter Kit has the advantage of not cluttering your blog repository.
-Additionally, it allows you to publish your site on GitHub Pages with a single <code class="highlighter-rouge">push</code>.</p>
+Additionally, it allows you to publish your site on GitHub Pages with a single <code class="language-plaintext highlighter-rouge">push</code>.</p>
 
 <p>If you have a GitHub account, fork the <a href="https://github.com/qwtel/hy-starter-kit" target="_blank" rel="noopener noreferrer">hy-starter-kit</a> repository. Otherwise <a href="https://github.com/qwtel/hy-starter-kit/archive/v8.4.0.zip" target="_blank" rel="noopener noreferrer">download the source files</a> and unzip them somewhere on your machine.</p>
 
 <p class="message"><strong>NOTE</strong>: In addition to the docs here, you can follow the quick start guide in the Starter Kit.</p>
 
-<p><code class="highlighter-rouge">cd</code> into the directory where <code class="highlighter-rouge">_config.yml</code> is located and follow the steps in <a href="#running-locally">Running locally</a>.</p>
+<p><code class="language-plaintext highlighter-rouge">cd</code> into the directory where <code class="language-plaintext highlighter-rouge">_config.yml</code> is located and follow the steps in <a href="#running-locally">Running locally</a>.</p>
 
 <p>Alternatively, you can just <a href="https://app.netlify.com/start/deploy?repository=https://github.com/qwtel/hydejack-starter-kit" class="no-hover no-mark" target="_blank" rel="noopener noreferrer"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" data-ignore=""></a>.</p>
 
@@ -224,7 +225,7 @@ Additionally, it allows you to publish your site on GitHub Pages with a single <
 
 <p>Your site’s root dir should look something like this</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>├── _posts
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>├── _posts
 │   └── 2017-04-07-welcome-to-jekyll.markdown
 ├── _config.yml
 ├── about.md
@@ -233,19 +234,19 @@ Additionally, it allows you to publish your site on GitHub Pages with a single <
 └── index.md
 </code></pre></div></div>
 
-<p class="message"><strong>NOTE</strong>: Hydejack works with Jekyll’s default <code class="highlighter-rouge">config.yml</code>, but it is recommended that you replace it with
+<p class="message"><strong>NOTE</strong>: Hydejack works with Jekyll’s default <code class="language-plaintext highlighter-rouge">config.yml</code>, but it is recommended that you replace it with
 <a href="https://github.com/qwtel/hydejack/blob/v8/_config.yml" target="_blank" rel="noopener noreferrer">Hydejack’s default config file</a>.
 It contains the names of all config options known to Hydejack and provides sensible defaults (like minifying HTML and CSS in production builds).</p>
 
-<p>Next, you’ll want to add <code class="highlighter-rouge">jekyll-theme-hydejack</code> as a dependency by adding the following line to the <code class="highlighter-rouge">Gemfile</code>.</p>
+<p>Next, you’ll want to add <code class="language-plaintext highlighter-rouge">jekyll-theme-hydejack</code> as a dependency by adding the following line to the <code class="language-plaintext highlighter-rouge">Gemfile</code>.</p>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s2">"jekyll-theme-hydejack"</span>
 </code></pre></div></div>
 
-<p>(You can also remove the old theme <code class="highlighter-rouge">jekyll-theme-minima</code> from the Gemfile)</p>
+<p>(You can also remove the old theme <code class="language-plaintext highlighter-rouge">jekyll-theme-minima</code> from the Gemfile)</p>
 
-<p>Now you want to edit the <code class="highlighter-rouge">_config.yml</code> of your Jekyll site and set Hydejack as the theme.
-Look for the <code class="highlighter-rouge">theme</code> key and set its value to <code class="highlighter-rouge">jekyll-theme-hydejack</code>.</p>
+<p>Now you want to edit the <code class="language-plaintext highlighter-rouge">_config.yml</code> of your Jekyll site and set Hydejack as the theme.
+Look for the <code class="language-plaintext highlighter-rouge">theme</code> key and set its value to <code class="language-plaintext highlighter-rouge">jekyll-theme-hydejack</code>.</p>
 
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">theme</span><span class="pi">:</span> <span class="s">jekyll-theme-hydejack</span>
 </code></pre></div></div>
@@ -259,7 +260,7 @@ Look for the <code class="highlighter-rouge">theme</code> key and set its value 
 extract the contents somewhere on your machine.
 The high-level folder structure will look something like.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>├── _data
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>├── _data
 ├── _featured_categories
 ├── _featured_tags
 ├── _includes
@@ -275,7 +276,7 @@ The high-level folder structure will look something like.</p>
 └── posts.md
 </code></pre></div></div>
 
-<p><code class="highlighter-rouge">cd</code> into the directory where <code class="highlighter-rouge">_config.yml</code> is located and follow the steps in <a href="#running-locally">Running locally</a>.</p>
+<p><code class="language-plaintext highlighter-rouge">cd</code> into the directory where <code class="language-plaintext highlighter-rouge">_config.yml</code> is located and follow the steps in <a href="#running-locally">Running locally</a>.</p>
 
 <h2 id="via-git">Via git</h2>
 <p>If you are familiar with using git, you can add the <a href="https://github.com/qwtel/hydejack" target="_blank" rel="noopener noreferrer">Hydejack repository</a>
@@ -294,7 +295,7 @@ This approach is recommended if you intend to customize Hydejack.</p>
 <h2 id="pro-version">PRO Version</h2>
 <p>If you bought the PRO version, you’ve received a zip archive with the following contents:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>├── install
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>├── install
 ├── upgrade
 ├── CHANGELOG.pdf
 ├── Documentation.pdf
@@ -307,19 +308,19 @@ This approach is recommended if you intend to customize Hydejack.</p>
 </code></pre></div></div>
 
 <dl>
-  <dt><code class="highlighter-rouge">install</code></dt>
+  <dt><code class="language-plaintext highlighter-rouge">install</code></dt>
   <dd>Contains all files and folders needed to create a new blog.</dd>
-  <dt><code class="highlighter-rouge">upgrade</code></dt>
+  <dt><code class="language-plaintext highlighter-rouge">upgrade</code></dt>
   <dd>Contains only the files and folders needed for upgrading form an earlier version of Hydejack (6.0.0 or above). See <a href="/docs/upgrade/" class="heading flip-title">Upgrade</a> for more.</dd>
-  <dt><code class="highlighter-rouge">.ssh</code></dt>
+  <dt><code class="language-plaintext highlighter-rouge">.ssh</code></dt>
   <dd>A hidden folder containing a SSH key for read-only access to the Hydejack PRO GitHub repository.
 You can use this to install Hydejack PRO as gem-based theme.
 See the <a href="#pro-via-github-advanced">installation instructions</a> below.
 This is for advanced users.</dd>
 </dl>
 
-<p>For new installations only the <code class="highlighter-rouge">install</code> folder is relevant.
-Unzip the archive somewhere on your machine, then <code class="highlighter-rouge">cd</code> <em>into</em> the <code class="highlighter-rouge">install</code> folder, e.g.</p>
+<p>For new installations only the <code class="language-plaintext highlighter-rouge">install</code> folder is relevant.
+Unzip the archive somewhere on your machine, then <code class="language-plaintext highlighter-rouge">cd</code> <em>into</em> the <code class="language-plaintext highlighter-rouge">install</code> folder, e.g.</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cd</span> ~/Downloads/hydejack-pro-8.4.0/install/
 </code></pre></div></div>
@@ -331,8 +332,8 @@ Unzip the archive somewhere on your machine, then <code class="highlighter-rouge
 The advantage of this method is that you avoid cluttering your Jekyll repository with Hydejack’s source files.</p>
 
 <p>The downloaded zip contains a read-only key for a private GitHub repository.
-It is located at <code class="highlighter-rouge">&lt;dowloaded zip&gt;/.ssh/hydejack_8_pro</code>.
-You have to copy the key file to <code class="highlighter-rouge">~/.ssh</code> (or wherever your SSH keys are located), e.g.:</p>
+It is located at <code class="language-plaintext highlighter-rouge">&lt;dowloaded zip&gt;/.ssh/hydejack_8_pro</code>.
+You have to copy the key file to <code class="language-plaintext highlighter-rouge">~/.ssh</code> (or wherever your SSH keys are located), e.g.:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cp</span> ~/Downloads/hydejack-pro-8.4.0/.ssh/hydejack_8_pro ~/.ssh/
 </code></pre></div></div>
@@ -342,20 +343,20 @@ You have to copy the key file to <code class="highlighter-rouge">~/.ssh</code> (
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">chmod </span>600 ~/.ssh/hydejack_8_pro
 </code></pre></div></div>
 
-<p>Then add the following to <code class="highlighter-rouge">.ssh/config</code>:</p>
+<p>Then add the following to <code class="language-plaintext highlighter-rouge">.ssh/config</code>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Host hydejack
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Host hydejack
 	HostName github.com
 	IdentitiesOnly yes
 	IdentityFile ~/.ssh/hydejack_8_pro
 </code></pre></div></div>
 
-<p>Next, open <code class="highlighter-rouge">Gemfile</code> in your Jekyll repository and add:</p>
+<p>Next, open <code class="language-plaintext highlighter-rouge">Gemfile</code> in your Jekyll repository and add:</p>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s2">"jekyll-theme-hydejack-pro"</span><span class="p">,</span> <span class="ss">git: </span><span class="s1">'git@hydejack:qwtel/hydejack-8-pro.git'</span>
 </code></pre></div></div>
 
-<p>In your <code class="highlighter-rouge">_config.yml</code>, add:</p>
+<p>In your <code class="language-plaintext highlighter-rouge">_config.yml</code>, add:</p>
 
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">theme</span><span class="pi">:</span> <span class="s">jekyll-theme-hydejack-pro</span>
 </code></pre></div></div>
@@ -363,13 +364,13 @@ You have to copy the key file to <code class="highlighter-rouge">~/.ssh</code> (
 <p>You can now continue with <a href="#running-locally">Running locally</a>.</p>
 
 <h2 id="running-locally">Running locally</h2>
-<p>Make sure you’ve <code class="highlighter-rouge">cd</code>ed into the directory where <code class="highlighter-rouge">_config.yml</code> is located.
+<p>Make sure you’ve <code class="language-plaintext highlighter-rouge">cd</code>ed into the directory where <code class="language-plaintext highlighter-rouge">_config.yml</code> is located.
 Before running for the first time, dependencies need to be fetched from <a href="https://rubygems.org/" target="_blank" rel="noopener noreferrer">RubyGems</a>:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle <span class="nb">install</span>
 </code></pre></div></div>
 
-<p class="message"><strong>NOTE</strong>: If you are missing the <code class="highlighter-rouge">bundle</code> command, you can install Bundler by running <code class="highlighter-rouge">gem install bundler</code>.</p>
+<p class="message"><strong>NOTE</strong>: If you are missing the <code class="language-plaintext highlighter-rouge">bundle</code> command, you can install Bundler by running <code class="language-plaintext highlighter-rouge">gem install bundler</code>.</p>
 
 <p>Now you can run Jekyll on your local machine:</p>
 

@@ -38,7 +38,7 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
   
 <!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Related Projects and Data Tables (v6.4) | Iacer Calixto</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="Related Projects and Data Tables (v6.4)" />
 <meta name="author" content="Iacer Calixto" />
 <meta property="og:locale" content="en" />
@@ -50,12 +50,14 @@ Powered by Hydejack v8.4.0 <https://hydejack.com/>
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2017-06-21T00:00:00-04:00" />
 <script type="application/ld+json">
-{"description":"In Hydejack v6.4 I’ve added a “Other Projects” section to the bottom of each project page, making it easier for users to navigate through your collection and discover other projects.","author":{"@type":"Person","name":"Iacer Calixto"},"@type":"BlogPosting","url":"http://localhost:4000/hydejack/2017-06-21-related-projects-and-data-tables/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/icon.png"},"name":"Iacer Calixto"},"headline":"Related Projects and Data Tables (v6.4)","dateModified":"2017-06-21T00:00:00-04:00","datePublished":"2017-06-21T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/hydejack/2017-06-21-related-projects-and-data-tables/"},"@context":"https://schema.org"}</script>
+{"description":"In Hydejack v6.4 I’ve added a “Other Projects” section to the bottom of each project page, making it easier for users to navigate through your collection and discover other projects.","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/hydejack/2017-06-21-related-projects-and-data-tables/"},"@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/icon.png"},"name":"Iacer Calixto"},"headline":"Related Projects and Data Tables (v6.4)","datePublished":"2017-06-21T00:00:00-04:00","dateModified":"2017-06-21T00:00:00-04:00","author":{"@type":"Person","name":"Iacer Calixto"},"url":"http://localhost:4000/hydejack/2017-06-21-related-projects-and-data-tables/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
   
 
+  
+    <meta name="keywords" content="machine learning,natural language processing,artificial intelligence,vision and language">
   
 
 
@@ -237,12 +239,12 @@ Also, it’s now possible to display larger (data-) tables that were previously 
 
 <p>For more on how to add tables, see the new section in <a href="/docs/writing/">docs/writing</a>.</p>
 
-<p>Smaller changes include a reduced usage of horizontal lines and a more “semantic” use of <code class="highlighter-rouge">hr</code> elements.
+<p>Smaller changes include a reduced usage of horizontal lines and a more “semantic” use of <code class="language-plaintext highlighter-rouge">hr</code> elements.
 Specifically, the semantics of the resume layout have been improved.
-This is best visualized when viewing the page with a text browser like <code class="highlighter-rouge">w3m</code>.
+This is best visualized when viewing the page with a text browser like <code class="language-plaintext highlighter-rouge">w3m</code>.
 For example, before 6.4 the skills section looked like</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Skills
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Skills
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -265,11 +267,11 @@ Keywords:
   • GIF
 </code></pre></div></div>
 
-<p>(lots of <code class="highlighter-rouge">hr</code>s, skill level as part of the headline 😕)</p>
+<p>(lots of <code class="language-plaintext highlighter-rouge">hr</code>s, skill level as part of the headline 😕)</p>
 
 <p>Now it looks like</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Skills
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Skills
 
 Web Development
     Level: Master
@@ -285,7 +287,7 @@ Compression
       □ GIF
 </code></pre></div></div>
 
-<p>(using a <code class="highlighter-rouge">dl</code>, so that <code class="highlighter-rouge">Level -&gt; "Master"</code>, <code class="highlighter-rouge">Keywords -&gt; ul</code>, …)</p>
+<p>(using a <code class="language-plaintext highlighter-rouge">dl</code>, so that <code class="language-plaintext highlighter-rouge">Level -&gt; "Master"</code>, <code class="language-plaintext highlighter-rouge">Keywords -&gt; ul</code>, …)</p>
 
 <p>There’s many more minor changes and fixes that you can read below.</p>
 
@@ -296,19 +298,19 @@ Compression
   <li>Added CSS classes that make viewing larger (data-) tables possible</li>
   <li>Added section on tables to <a href="/docs/writing/">docs/writing</a>
 </li>
-  <li>Reduced use of <code class="highlighter-rouge">&lt;hr/&gt;</code> elements, using CSS borders instead.</li>
+  <li>Reduced use of <code class="language-plaintext highlighter-rouge">&lt;hr/&gt;</code> elements, using CSS borders instead.</li>
   <li>Improved semantic HTML of resume</li>
   <li>Follow favicon best practices and include example icons</li>
-  <li>Added <code class="highlighter-rouge">no_google_fonts</code> option</li>
+  <li>Added <code class="language-plaintext highlighter-rouge">no_google_fonts</code> option</li>
 </ul>
 
 <h3 id="design">Design</h3>
 <ul>
-  <li>Reduced number of horizontal lines, making many layouts feel less “cluttered” (esp. <code class="highlighter-rouge">blog</code> layout)</li>
+  <li>Reduced number of horizontal lines, making many layouts feel less “cluttered” (esp. <code class="language-plaintext highlighter-rouge">blog</code> layout)</li>
   <li>Made link hover styles consistent across the board</li>
-  <li>Visually separated <code class="highlighter-rouge">thead</code> and <code class="highlighter-rouge">tbody</code> and <code class="highlighter-rouge">tfoot</code> within tables.</li>
+  <li>Visually separated <code class="language-plaintext highlighter-rouge">thead</code> and <code class="language-plaintext highlighter-rouge">tbody</code> and <code class="language-plaintext highlighter-rouge">tfoot</code> within tables.</li>
   <li>Changed RSS and email icons</li>
-  <li>Removed top margin for consecutive headings, e.g. when using <code class="highlighter-rouge">h3</code> immediately after <code class="highlighter-rouge">h2</code>.</li>
+  <li>Removed top margin for consecutive headings, e.g. when using <code class="language-plaintext highlighter-rouge">h3</code> immediately after <code class="language-plaintext highlighter-rouge">h2</code>.</li>
 </ul>
 
 <h3 id="fixes">Fixes</h3>
@@ -316,7 +318,7 @@ Compression
   <li>Fixed bug that caused inline math to be moved to the end of a paragraph when dynamically loading a page.</li>
   <li>Fixed bug that caused layout to break in IE11.</li>
   <li>Fixed bug that caused the project animation to “jump” when using long project titles.</li>
-  <li>No more empty attributes on <code class="highlighter-rouge">img</code> tags.</li>
+  <li>No more empty attributes on <code class="language-plaintext highlighter-rouge">img</code> tags.</li>
 </ul>
 
 
@@ -377,7 +379,7 @@ different natural language processing tasks.</p>
 <p>Some broad research fields I consider myself a contributor to include machine learning and representation learning,
 computational linguistics, image processing, and graph neural networks.</p>
 
-<p>You can find me in <a href="https://goo.gl/maps/eSLAhYAfz2t4j8Ad6" target="_blank" rel="noopener noreferrer">office 637, 60 5th Avenue, Manhattan</a>, Monday to Friday.</p>
+<p>You can find me in <del><a href="https://goo.gl/maps/eSLAhYAfz2t4j8Ad6" target="_blank" rel="noopener noreferrer">office 637, 60 5th Avenue, Manhattan</a></del> online/by email!</p>
 
 
 

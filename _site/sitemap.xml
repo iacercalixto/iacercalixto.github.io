@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/hyde/</loc>
-<lastmod>2019-06-29T20:58:02-04:00</lastmod>
+<lastmod>2020-08-31T18:21:32-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/hydejack/</loc>
-<lastmod>2019-06-29T20:58:02-04:00</lastmod>
+<lastmod>2020-08-31T18:21:32-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/hyde/2012-02-06-whats-jekyll/</loc>
@@ -155,10 +155,10 @@
 </url>
 <url>
 <loc>http://localhost:4000/assets/Resume.pdf</loc>
-<lastmod>2019-06-29T18:41:27-04:00</lastmod>
+<lastmod>2020-07-16T11:22:17-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/cv.pdf</loc>
-<lastmod>2019-06-29T18:41:27-04:00</lastmod>
+<lastmod>2020-07-16T15:57:11-04:00</lastmod>
 </url>
 </urlset>
