@@ -14,7 +14,7 @@ cover: false
 
 # News
 
-* **Sep/2020** Two papers accepted at **AACL 2020**: *Are scene graphs good enough to improve Image Captioning?* and *English intermediate-task training improves zero-shot cross-lingual transfer too.*
+* **Sep/2020** Two papers accepted at **AACL 2020**: [*Are scene graphs good enough to improve Image Captioning?*](https://arxiv.org/abs/2009.12313) and [*English intermediate-task training improves zero-shot cross-lingual transfer too.*](https://arxiv.org/abs/2005.13013)
 
 * **Aug/2020** I will be co-organizer of the **Repl4NLP 2021** (*Representation Learning for NLP 2021*) workshop.
 
