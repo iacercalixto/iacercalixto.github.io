@@ -446,4 +446,108 @@
       doi = "10.18653/v1/P19-1642",
       pages = "6392--6405",
     }
+-
+  layout: paper
+  paper-type: article
+  selected: y
+  year: "2021"
+  img: seeing-past-words-2021
+  title: "Seeing past words: Testing the cross-modal capabilities of pretrained V&L models"
+  authors: "Letitia Parcalabescu, Albert Gatt, Anette Frank, <strong>Iacer Calixto</strong>"
+  doc-url: 
+  journal: "(Under Review)"
+  abstract: >
+    We investigate the ability of two vision and language (V&L) models, ViLBERT and LXMERT, to integrate and reason with textual and visual representations, in tasks that require multimodal integration, namely: (1) identifying a correct image-sentence pair from an incorrect one, and (2) counting entities in the image. Our results show that both models do not solve task (1) adequately even though they are pretrained on image-sentence matching. Moreover, neither ViLBERT nor LXMERT are able to solve task (2), our counting probe, and they cannot generalise to out-of-distribution quantities. This suggests that pretrained V&L representations are less successful at integrating the two modalities than expected.
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: "2020"
+  img: scene-graphs-for-image-captioning-2020
+  title: "English Intermediate-Task Training Improves Zero-Shot Cross-Lingual Transfer Too"
+  authors: Jason Phang \*, <strong>Iacer Calixto</strong> \*, Phu Mon Htut, Yada Pruksachatkun, Haokun Liu, Clara Vania, Katharina Kann, Samuel R. Bowman. (\* Equal Contribution)
+  doc-url: https://arxiv.org/abs/2005.13013
+  booktitle: "Proceedings of the AACL (Paper Accepted)"
+  abstract: >
+    Intermediate-task training---fine-tuning a pretrained model on an intermediate task before fine-tuning again on the target task---often improves model performance substantially on language understanding tasks in monolingual English settings. We investigate whether English intermediate-task training is still helpful on non-English target tasks. Using nine intermediate language-understanding tasks, we evaluate intermediate-task transfer in a zero-shot cross-lingual setting on the XTREME benchmark. We see large improvements from intermediate training on the BUCC and Tatoeba sentence retrieval tasks and moderate improvements on question-answering target tasks. MNLI, SQuAD and HellaSwag achieve the best overall results as intermediate tasks, while multi-task intermediate offers small additional improvements. Using our best intermediate-task models for each target task, we obtain a 5.4 point improvement over XLM-R Large on the XTREME benchmark, setting the state of the art as of June 2020. We also investigate continuing multilingual MLM during intermediate-task training and using machine-translated intermediate-task data, but neither consistently outperforms simply performing English intermediate-task training.
+  bibtex: >
+    @article{phang2020english,
+      title={English Intermediate-Task Training Improves Zero-Shot Cross-Lingual Transfer Too},
+      author={Phang, Jason and Htut, Phu Mon and Pruksachatkun, Yada and Liu, Haokun and Vania, Clara and Kann, Katharina and Calixto, Iacer and Bowman, Samuel R},
+      journal={arXiv preprint arXiv:2005.13013},
+      year={2020}
+    }
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: "2020"
+  img: scene-graphs-for-image-captioning-2020
+  title: "Are scene graphs good enough to improve Image Captioning?"
+  authors: "Victor Milewski, Marie-Francine Moens, <strong>Iacer Calixto</strong>"
+  doc-url: https://arxiv.org/abs/2009.12313
+  booktitle: "Proceedings of the AACL (Paper Accepted)"
+  abstract: >
+    Many top-performing image captioning models rely solely on object features computed with an object detection model to generate image descriptions. However, recent studies propose to directly use scene graphs to introduce information about object relations into captioning, hoping to better describe interactions between objects. In this work, we thoroughly investigate the use of scene graphs in image captioning. We empirically study whether using additional scene graph encoders can lead to better image descriptions and propose a conditional graph attention network (C-GAT), where the image captioning decoder state is used to condition the graph updates. Finally, we determine to what extent noise in the predicted scene graphs influence caption quality. Overall, we find no significant difference between models that use scene graph features and models that only use object detection features across different captioning metrics, which suggests that existing scene graph generation models are still too noisy to be useful in image captioning. Moreover, although the quality of predicted scene graphs is very low in general, when using high quality scene graphs we obtain gains of up to 3.3 CIDEr compared to a strong Bottom-Up Top-Down baseline. We open source code to reproduce all our experiments in this https URL.   
+  bibtex: >
+    @article{milewski2020scene,
+      title={Are scene graphs good enough to improve Image Captioning?},
+      author={Milewski, Victor and Moens, Marie-Francine and Calixto, Iacer},
+      journal={arXiv preprint arXiv:2009.12313},
+      year={2020}
+    }
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: "2020"
+  img: winlp-2020
+  title: "Can Wikipedia Categories Improve Masked Language Model Pretraining?"
+  authors: "Diksha Meghwal, Katharina Kann, <strong>Iacer Calixto</strong>, Stanislaw Jastrzebski"
+  doc-url: https://www.aclweb.org/anthology/2020.winlp-1.19/
+  booktitle: "Proceedings of the Widening NLP Workshop"
+-
+  layout: paper
+  paper-type: article
+  selected: y
+  year: "2021"
+  img: wikibert-2021
+  title: "Robust Multilingual Representation Learning by Predicting Wikipedia Hyperlinks"
+  authors: "<strong>Iacer Calixto</strong>, Tommaso Pasini, Alessandro Raganato"
+  doc-url: 
+  journal: "(Under Review)"
+  abstract: >
+    Contextualised word embedding models are quickly becoming the **de facto** standard when processing text. Recently, several approaches have been proposed to further enrich contextualised word representations with external knowledge sources such as knowledge graphs. However, they either focus on the monolingual setting only, require external entity linking tools for data preparation, or both. We propose a simple and novel intermediate task to train **multilingual** contextualised word embeddings using the rich Wikipedia semantic network in 100 different languages. Differently from previous works, we leverage hyperlinks across languages to ground word representations on entity semantics in a language-independent way. Our method requires no external tools, is applicable to any target task, and shows significant performance improvement when applied across a set of diverse tasks in a zero-shot crosslingual setting.
+  bibtex: >
+-
+  layout: paper
+  paper-type: article
+  selected: y
+  year: "2021"
+  img: visualsem-2021
+  title: "VisualSem: a high-quality knowledge graph for vision and language"
+  authors: "Houda Alberts, Teresa Huang, Yash Deshpande, Yibo Liu, Kyunghyun Cho, Clara Vania, <strong>Iacer Calixto</strong>"
+  journal-url: https://arxiv.org/abs/2008.09150
+  journal: "(Under Review)"
+  abstract: >
+    We argue that the next frontier in natural language understanding (NLU) and generation (NLG) will include models that can efficiently access external structured knowledge repositories. In order to support the development of such models, we release the VisualSem knowledge graph (KG) which includes nodes with multilingual glosses and multiple illustrative images and visually relevant relations. We also release a neural multi-modal retrieval model that can use images or sentences as inputs and retrieves entities in the KG. This multi-modal retrieval model can be integrated into any (neural network) model pipeline and we encourage the research community to use VisualSem for data augmentation and/or as a source of grounding, among other possible uses. VisualSem as well as the multi-modal retrieval model are publicly available and can be downloaded [here](https://github.com/iacercalixto/visualsem).
+  bibtex: >
+    @article{alberts2020visualsem,
+      title={VisualSem: a high-quality knowledge graph for vision and language},
+      author={Alberts, Houda and Huang, Teresa and Deshpande, Yash and Liu, Yibo and Cho, Kyunghyun and Vania, Clara and Calixto, Iacer},
+      journal={arXiv preprint arXiv:2008.09150},
+      year={2020}
+    }
+-
+  layout: paper
+  paper-type: article
+  selected: y
+  year: "2021"
+  img: visualsem-representation-learning-2021
+  title: "Learning Robust Multimodal Knowledge Graph Representations"
+  authors: "Ningyuan (Teresa) Huang, Yash Deshpande, Yibo Liu, Houda Alberts, Kyunghyun Cho, Clara Vania, <strong>Iacer Calixto</strong>"
+  doc-url: 
+  journal: "(Under Review)"
+  abstract: >
+    We propose a new method to make natural language understanding models more parameter efficient by storing knowledge in an external knowledge graph (KG) and retrieving from this KG using a dense index. Given some task data, e.g., sentences in German, we retrieve entities from the KG and use their multimodal representations to improve downstream task performance. Using VisualSem as our KG, we compare a mix of tuple-based and graph-based algorithms to learn robust representations of entities that are grounded on their multimodal information. We then demonstrate the usefulness of our learned entity representations on two downstream tasks. Using our best learned representations, we improve performance on the multilingual named entity recognition (NER) task by 0.3%-0.7% (F1 score), while on the visual sense disambiguation task, we achieve up to 3% improvement in accuracy in the low-resource setting.
 

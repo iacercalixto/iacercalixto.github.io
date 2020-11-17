@@ -6,6 +6,12 @@ cover: false
 
 <!--author-->
 
+# Projects
+
+* 2019-2022 [IMAGINE][imagine]: Integrating multimodal, world and commonsense knowledge into language generation. **EU H2020 MSCA**
+
+* 2019-2023 [Multi3Generation][multi3generation]: Multi-task, Multilingual, Multimodal Language Generation. **EU COST Action**
+
 # News
 
 * **Sep/2020** Two papers accepted at **AACL 2020**: *Are scene graphs good enough to improve Image Captioning?* and *English intermediate-task training improves zero-shot cross-lingual transfer too.*
@@ -77,4 +83,7 @@ One [paper accepted at EACL 2017][eacl2017] and another [paper at the V&L worksh
 [vl2017]: http://aclweb.org/anthology/W/W17/W17-2004.pdf
 [multimodal_nmt_git]: https://github.com/iacercalixto/MultimodalNMT
 [mlmme_git]: https://github.com/iacercalixto/multilingual-multimodal-embedding
+[//]: # [multi3generation]: https://www.cost.eu/actions/CA18231/#tabs|Name:management-committee
 [multi3generation]: https://multi3generation.eu/
+[imagine]: https://cordis.europa.eu/project/id/838188
+
