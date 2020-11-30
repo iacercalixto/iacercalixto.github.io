@@ -1,5 +1,18 @@
 -
   layout: person
+  relation: MSc candidate
+  date: 2020
+  rel: projai
+  selected: y
+  institution: NYU
+  img: avatar
+  name: Teresa Huang, Yash Deshpande, Yibo Liu
+  url: 
+  github:
+  about: >
+      Learning multimodal knowledge graph representations to improve natural language understanding and generation.
+-
+  layout: person
   rel: mscthesis
   relation: MSc candidate
   date: 2019-

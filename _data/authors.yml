@@ -9,10 +9,10 @@ iacer:
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
     In short, I develop **computational models of human language**.
-    In a bit more detail, my scientific interests include modelling
+    My scientific interests include modelling
     natural language processing, understanding, and generation,
     how human languages interact with our visual perceptions and representations,
-    and how these interact with and are grounded by the external world.
+    and how these interact with and are grounded by our commonsense and the external world.
 
     I am a *post-doctoral research fellow*
     in the [Center for Data Science in New York University][nyu_cds] where I work with [Kyunghyun Cho][cho].
@@ -22,8 +22,7 @@ iacer:
     Before that I worked with [Khalil Sima'an][khalil]&apos;s group on how to integrate visual information into
     different natural language processing tasks.
 
-    Some broad research fields I consider myself a contributor to include machine learning and representation learning,
-    computational linguistics, image processing, and graph neural networks.
+    Some broad research fields I consider myself a contributor to include machine learning and representation learning for language and vision.
 
     You can find me in ~~[office 637, 60 5th Avenue, Manhattan][nyu_cds_gmaps]~~ online/by email!
 

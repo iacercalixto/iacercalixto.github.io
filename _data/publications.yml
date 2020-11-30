@@ -527,12 +527,12 @@
   selected: y
   year: "2021"
   img: wikibert-2021
-  title: "Robust Multilingual Representation Learning by Predicting Wikipedia Hyperlinks"
+  title: "Wikipedia Entities as *Rendezvous* across Languages: Grounding Multilingual Language Models by Predicting Wikipedia Hyperlinks"
   authors: "<strong>Iacer Calixto</strong>, Tommaso Pasini, Alessandro Raganato"
   doc-url: 
   journal: "(Under Review)"
   abstract: >
-    Contextualised word embedding models are quickly becoming the **de facto** standard when processing text. Recently, several approaches have been proposed to further enrich contextualised word representations with external knowledge sources such as knowledge graphs. However, they either focus on the monolingual setting only, require external entity linking tools for data preparation, or both. We propose a simple and novel intermediate task to train **multilingual** contextualised word embeddings using the rich Wikipedia semantic network in 100 different languages. Differently from previous works, we leverage hyperlinks across languages to ground word representations on entity semantics in a language-independent way. Our method requires no external tools, is applicable to any target task, and shows significant performance improvement when applied across a set of diverse tasks in a zero-shot crosslingual setting.
+      Masked language models have quickly become the *de facto* standard when processing text. Recently, several approaches have been proposed to further enrich word representations with external knowledge sources such as knowledge graphs. However, these models are devised and evaluated in a monolingual setting only. In this work, we propose a language-independent entity prediction task as an intermediate training procedure to ground word representations on entity semantics and bridge the gap across different languages by means of a shared vocabulary of entities. We show that our approach effectively injects new lexical-semantic knowledge into neural models, improving their performance on different semantic tasks in the zero-shot crosslingual setting. As an additional advantage, our intermediate training does not require any supplementary input, allowing our models to be applied to new datasets right away.
   bibtex: >
 -
   layout: paper
