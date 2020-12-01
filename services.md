@@ -3,7 +3,7 @@ layout: page
 title:  Services
 ---
 
-I will co-organize Repl4NLP 2021 and will be Area Chair for EACL 2021.
+I am co-organizing Repl4NLP 2021 and am Area Chair for EACL 2021.
 
 I review manuscripts for the most important journals in Artificial Intelligence, Machine Translation &amp; Natural Language Processing:
 
