@@ -355,3 +355,6 @@ compress_html:
 
 sass:
   style:               compressed
+
+image:
+  path: /assets/img/publication_icons/button_bib.png

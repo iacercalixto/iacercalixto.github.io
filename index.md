@@ -14,7 +14,11 @@ cover: false
 
 # News
 
-* **Sep/2020** Two papers accepted at **AACL 2020**: [*Are scene graphs good enough to improve Image Captioning?*](https://arxiv.org/abs/2009.12313) and [*English intermediate-task training improves zero-shot cross-lingual transfer too.*](https://arxiv.org/abs/2005.13013)
+* **Jan/2021** We published a pre-print on probing the counting capabilities of pretrained vision & language models: [*Seeing past words: Testing the cross-modal capabilities of pretrained V&L models?*](https://arxiv.org/abs/2012.12352)
+
+* **Sep/2020** We release the beta-version of the **VisualSem knowledge graph**, a multimodal and multilingual resource to support vision & language research: [*VisualSem: a high-quality knowledge graph for vision and language*](https://arxiv.org/abs/2008.09150) ([code](https://github.com/iacercalixto/visualsem))
+
+* **Sep/2020** Two papers accepted at **AACL 2020**: [*Are scene graphs good enough to improve Image Captioning?*](https://www.aclweb.org/anthology/2020.aacl-main.50/) and [*English intermediate-task training improves zero-shot cross-lingual transfer too.*](https://www.aclweb.org/anthology/2020.aacl-main.56/)
 
 * **Aug/2020** I am co-organizer of the **Repl4NLP 2021** (*Representation Learning for NLP 2021*) workshop.
 

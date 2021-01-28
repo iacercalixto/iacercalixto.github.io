@@ -1,7 +1,7 @@
 -
   layout: paper
   paper-type: inproceedings
-  selected: y
+  selected: n
   year: 2012
   img: sbpo2011
   title: "A fuzzy set approach to estimating OD matrices in congested Brazilian traffic networks"
@@ -9,9 +9,10 @@
   booktitle: XLIII SBPC
   [//]: #  booktitle: Anais do XLIII Encontro da Sociedade Brasileira de Pesquisa Operacional.
   doc-url: http://www.din.uem.br/sbpo/sbpo2011/pdf/86440.pdf
-  venue: conference\
+  venues: conference,long
   abstract: >
      In this paper we describe a new method for estimating origin–destination (OD) matrices for congested urban traffic networks. It is assumed that the input data includes incomplete, imprecise estimates of: link counts, trip table entries, numbers of departures from origins and numbers of arrivals at destinations. The method is based on a sequence of fuzzy linear programs and is designed especially for the particular characteristics of medium-to-large Brazilian cities. When there doesn’t exist a user–equilibrium traffic assignment that corresponds to the input data, the method provides a range of traffic assignments and their related OD matrices, within the spectrum of (i) satisfaction of the inputted estimates and (ii) a user–equilibrium assignment. The method has been tested on two numerical examples, one proposed by the authors and the other a classic one from the literature.
+  bibtex_file: /assets/bib/sbpo2011.bib
   bibtex: >
     @inproceedings{Foulds2011SBPO, 
     author = {Foulds, L. R.; do Nascimento, H. A. D.; Calixto, I.; Hall, B. Longo, H.}, 
@@ -33,7 +34,8 @@
   booktitle: The Workshop on Vision and Language
   doc-url: https://pdfs.semanticscholar.org/0673/e9003c048f143915bad01024f812957ac068.pdf
   poster: http://personal.ee.surrey.ac.uk/T.Decampos/VisionLanguage/CalixtoDecamposSpecia_VLNet2012_poster.pdf
-  venue: conference
+  venues: workshop,short
+  bibtex_file: /assets/bib/vl2012.bib
   bibtex: >
     @inproceedings{Calixto2012VL, 
     author = {Iacer Calixto and Teo E. deCampos and Lucia Specia}, 
@@ -47,16 +49,18 @@
 -
   layout: article
   paper-type: article
-  selected: y
+  selected: n
   year: 2013
   img: ejor2013
   title: "A fuzzy set based approach to origin-destination matrix estimation in urban traffic networks with imprecise data"
   authors: "Les Foulds, Hugo do Nascimento, <strong>Iacer Calixto</strong>, Bryon Hall, Humberto Longo"
   [//]: # journal: The European Journal of Operations Research
+  venues: journal,long
   journal: EJOR
   journal-url: https://www.sciencedirect.com/science/article/pii/S0377221713004116
   abstract: >
     An important issue in the management of urban traffic networks is the estimation of origin–destination (O–D) matrices whose entries represent the travel demands of network users. We discuss the challenges of O–D matrix estimation with incomplete, imprecise data. We propose a fuzzy set-based approach that utilises successive linear approximation. The fuzzy sets used have triangular membership functions that are easy to interpret and enable straightforward calibration of the parameters that weight the discrepancy between observed data and those predicted by the proposed approach. The method is potentially useful when prior O–D matrix entry estimates are unavailable or scarce, requiring trip generation information on origin departures and/or destination arrivals, leading to multiple modelling alternatives. The method may also be useful when there is no O–D matrix that can be user-optimally assigned to the network to reproduce observed link counts exactly. The method has been tested on some numerical examples from the literature and the results compare favourably with the results of earlier methods. It has also been successfully used to estimate O–D matrices for a practical urban traffic network in Brazil.
+  bibtex_file: /assets/bib/ejor2013.bib
   bibtex: >
     @article{Foulds2013EJOR,
     title = "A fuzzy set-based approach to origin–destination matrix estimation in urban traffic networks with imprecise data",
@@ -82,9 +86,10 @@
   [//]: # booktitle: The Workshop on Statistical Machine Translation
   booktitle: WMT
   doc-url: https://www.aclweb.org/anthology/W14-3341
-  venue: conference
+  venues: sharedtask
   abstract: >
     We describe the DCU-MIXED and DCUSVR submissions to the WMT-14 Quality Estimation task 1.1, predicting sentencelevel perceived post-editing effort. Feature design focuses on target-side features as we hypothesise that the source side has little effect on the quality of human translations, which are included in task 1.1 of this year’s WMT Quality Estimation shared task. We experiment with features of the QuEst framework, features of our past work, and three novel feature sets. Despite these efforts, our two systems perform poorly in the competition. Follow up experiments indicate that the poor performance is due to improperly optimised parameters.
+  bibtex_file: /assets/bib/wmt2014.bib
   bibtex: >
     @InProceedings{Hokamp2014WMT,
       author    = {Hokamp, Chris  and  Calixto, Iacer  and  Wagner, Joachim  and  Zhang, Jian},
@@ -108,9 +113,10 @@
   [//]: # booktitle: Proceedings of the ACL 2014 Ninth Workshop of Statistical Machine Translation
   booktitle: WMT
   doc-url: http://www.aclweb.org/anthology/W14-3332
-  venue: conference
+  venues: sharedtask,long
   abstract: >
     This paper describes Dublin City University’s (DCU) submission to the WMT 2014 Medical Summary task. We report our results on the test data set in the French to English translation direction. We also report statistics collected from the corpora used to train our translation system. We conducted our experiment on the Moses 1.0 phrase-based translation system framework. We performed a variety of experiments on translation models, reordering models, operation sequence model and language model. We also experimented with data selection and removal the length constraint for phrase-pair extraction.
+  bibtex_file: /assets/bib/wmt2014a.bib
   bibtex: >
     @InProceedings{Zhang2014WMT,
       author    = {Jian Zhang, Xiaofeng Wu, <strong>Iacer Calixto</strong>, Ali Hosseinzadeh Vahid, Xiaojun Zhang, Andy Way, Qun Liu},
@@ -134,9 +140,10 @@
   [//]: # booktitle: Proceedings of Recent Advances in Natural Language Processing
   booktitle: RANLP
   doc-url: http://www.aclweb.org/anthology/R15-1080
-  venue: conference
+  venues: conference,long
   abstract: >
     In this paper, we explore statistical machine translation (SMT) approaches to automatic text simplification (ATS) for Spanish. First, we compare the performances of the standard phrase-based (PB) and hierarchical (HIERO) SMT models in this specific task. In both cases, we build two models, one using the TS corpus with “light” simplifications and the other using the TS corpus with “heavy” simplifications. Next, we compare the two best systems with the state-of-the-art text simplification system for Spanish (Simplext). Our results, based on an extensive human evaluation, show that the SMT-based systems perform equally as well as, or better than, Simplext, despite the very small datasets used for training and tuning.
+  bibtex_file: /assets/bib/ranlp2015.bib
   bibtex: >
     @InProceedings{Stajner2015RANLP,
       author    = {\v{S}tajner, Sanja  and  Calixto, Iacer  and  Saggion, Horacio},
@@ -160,9 +167,10 @@
   [//]: # booktitle: The First Conference on Machine Translation
   booktitle: WMT
   doc-url: http://www.statmt.org/wmt16/pdf/W16-2359.pdf
-  venue: conference
+  venues: sharedtask,short
   abstract: >
     We present a doubly-attentive multimodal machine translation model. Our model learns to attend to source language and spatial-preserving CONV5,4 visual features as separate attention mechanisms in a neural translation model. In image description translation experiments (Task 1), we find an improvement of 2.3 Meteor points compared to initialising the hidden state of the decoder with only the FC7 features and 2.9 Meteor points compared to a text-only neural machine translation baseline, confirming the useful nature of attending to the CONV5,4 features.
+  bibtex_file: /assets/bib/wmt2016.bib
   bibtex: >
     @InProceedings{Calixto2016WMT,
       author    = {Calixto, Iacer  and  Elliott, Desmond  and  Frank, Stella},
@@ -185,8 +193,9 @@
   authors: "Chris Hokamp, <strong>Iacer Calixto</strong>"
   [//]: # booktitle: The First Conference on Machine Translation
   booktitle: WMT
-  venue: conference
+  venues: sharedtask
   code: https://github.com/chrishokamp/multimodal_nmt
+  bibtex_file: #
 -
   layout: paper
   paper-type: inproceedings
@@ -197,10 +206,11 @@
   authors: "Debasis Ganguly, <strong>Iacer Calixto</strong>, Gareth Jones"
   [//]: # booktitle: Proceedings of the Tenth International Conference on Language Resources and Evaluation
   booktitle: LREC
-  doc-url: https://pdfs.semanticscholar.org/12c8/24d382dd162a33b22013f09a7855c49b69c1.pdf
-  venue: conference
+  doc-url: https://www.aclweb.org/anthology/L16-1299.pdf
+  venues: conference,short
   abstract: >
     Motivated by the adage that a “picture is worth a thousand words” it can be reasoned that automatically enriching the textual content of a document with relevant images can increase the readability of a document. Moreover, features extracted from the additional image data inserted into the textual content of a document may, in principle, be also be used by a retrieval engine to better match the topic of a document with that of a given query. In this paper, we describe our approach of building a ground truth dataset to enable further research into automatic addition of relevant images to text documents. The dataset is comprised of the official ImageCLEF 2010 collection (a collection of images with textual metadata) to serve as the images available for automatic enrichment of text, a set of 25 benchmark documents that are to be enriched, which in this case are children’s short stories, and a set of manually judged relevant images for each query story obtained by the standard procedure of depth pooling. We use this benchmark dataset to evaluate the effectiveness of standard information retrieval methods as simple baselines for this task. The results indicate that using the whole story as a weighted query, where the weight of each query term is its tf-idf value, achieves an precision of 0.1714 within the top 5 retrieved images on an average.
+  bibtex_file: /assets/bib/lrec2016.bib
   bibtex: >
     @InProceedings{GANGULY2016LREC,
       author = {Debasis Ganguly and Iacer Calixto and Gareth Jones},
@@ -227,8 +237,10 @@
   doc-url: http://aclweb.org/anthology/P17-1175
   [//]: # booktitle: "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
   booktitle: ACL
+  venues: conference,long
   abstract: >
       We introduce a Multi-modal Neural Machine Translation model in which a doubly-attentive decoder naturally incorporates spatial visual features obtained using pre-trained convolutional neural networks, bridging the gap between image description and translation. Our decoder learns to attend to source-language words and parts of an image independently by means of two separate attention mechanisms as it generates words in the target language. We find that our model can efficiently exploit not just back-translated in-domain multi-modal data but also large general-domain text-only MT corpora. We also report state-of-the-art results on the Multi30k data set.
+  bibtex_file: /assets/bib/acl2017.bib
   bibtex: >
     @InProceedings{CalixtoACL2017,
       author = 	    "Calixto, Iacer and Liu, Qun and Campbell, Nick",
@@ -252,8 +264,10 @@
   doc-url: http://aclweb.org/anthology/D17-1105
   [//]: # booktitle: "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing"
   booktitle: EMNLP
+  venues: conference,long
   abstract: >
       We   introduce   multi-modal, attention-based Neural Machine Translation (NMT) models which incorporate visual features into  different  parts  of  both  the  encoder and  the  decoder.   Global  image  features are  extracted  using  a  pre-trained  convolutional  neural  network  and  are  incorporated (i) as words in the source sentence, (ii) to  initialise  the  encoder  hidden  state, and (iii) as  additional  data  to  initialise the  decoder  hidden  state.   In  our  experiments,  we  evaluate  translations  into  English and German, how different strategies to incorporate global image features compare  and  which  ones  perform  best.   We also study the impact that adding synthetic multi-modal, multilingual data brings and find  that  the  additional  data  have  a  positive  impact  on  multi-modal  models.   We report new state-of-the-art results and our best models also significantly improve on a comparable Phrase-Based Statistical MT (PBSMT) model trained on the Multi30k data set according to all metrics evaluated. To the best of our knowledge, it is the first time  a  purely  neural  model  significantly improves over a PBSMT model on all metrics evaluated on this data set.
+  bibtex_file: /assets/bib/emnlp2017.bib
   bibtex: >
     @InProceedings{calixto-liu:2017:EMNLP2017,
       author    = {Calixto, Iacer  and  Liu, Qun},
@@ -292,8 +306,10 @@
   doc-url: http://aclweb.org/anthology/E17-2101
   [//]: # booktitle: "Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 2, Short Papers"
   booktitle: EACL
+  venues: conference,short
   abstract: >
       In this paper we study the impact of using images to machine-translate user-generated ecommerce product listings. We study how a multi-modal Neural Machine Translation (NMT) model compares to two text-only approaches: a conventional state-of-the-art attentional NMT and a Statistical Machine Translation (SMT) model. User-generated product listings often do not constitute grammatical or well-formed sentences. More often than not, they consist of the juxtaposition of short phrases or keywords. We train our models end-to-end as well as use text-only and multimodal NMT models for re-ranking n-best lists generated by an SMT model. We qualitatively evaluate our user-generated training data also analyse how adding synthetic data impacts the results. We evaluate our models quantitatively using BLEU and TER and find that (i) additional synthetic data has a general positive impact on text-only and multi-modal NMT models, and that (ii) using a multi-modal NMT model for re-ranking n-best lists improves TER significantly across different nbest list sizes.
+  bibtex_file: /assets/bib/eacl2017.bib
   bibtex: >
     @InProceedings{Calixto2017EACL,
       author    = {Calixto, Iacer  and  Stein, Daniel  and  Matusov, Evgeny  and  Lohar, Pintu  and  Castilho, Sheila  and  Way, Andy},
@@ -317,8 +333,10 @@
   doc-url: http://www.acl-bg.org/proceedings/2017/RANLP%202017/pdf/RANLP020.pdf
   [//]: # booktitle: "Proceedings of Recent Advances in Natural Language Processing"
   booktitle: RANLP
+  venues: conference,long
   abstract: >
       We propose a novel discriminative ranking model that learns embeddings from multilingual and multi-modal data, meaning that our model can take advantage of images and descriptions in multiple language to improve embedding quality. To that end, we introduce an objective function that uses pairwise ranking adapted to the case of three or more input sources. We compare our model against different baselines, and evaluate the robustness of our embeddings on image–sentence ranking (ISR), semantic textual similarity (STS), and neural machine translation (NMT). We find that the additional multilingual signals lead to improvements on all three tasks, and we highlight that our model can be used to consistently improve the adequacy of translations generated with NMT models when re-ranking n-best lists.
+  bibtex_file: /assets/bib/ranlp2017.bib
   bibtex: >
     @InProceedings{Calixto2017RANLP,
       author    = {Calixto, Iacer and Liu, Qun},
@@ -340,8 +358,10 @@
   authors: "<strong>Iacer Calixto</strong>, Daniel Stein, Evgeny Matusov, Sheila Castilho, Andy Way"
   doc-url: http://www.aclweb.org/anthology/W17-2004
   booktitle: "6th Workshop on Vision and Language"
+  venues: workshop,short
   abstract: >
       In this paper, we study how humans perceive the use of images as an additional knowledge source to machine-translate user-generated product listings in an e-commerce company. We conduct a human evaluation where we assess how a multi-modal neural machine translation (NMT) model compares to two text-only approaches: a conventional state-of-the-art attention-based NMT and a phrase-based statistical machine translation (PBSMT) model. We evaluate translations obtained with different systems and also discuss the data set of user-generated product listings, which in our case comprises both product listings and associated images. We found that humans preferred translations obtained with a PBSMT system to both text-only and multi-modal NMT over 56% of the time. Nonetheless, human evaluators ranked translations from a multi-modal NMT model as better than those of a text-only NMT over 88% of the time, which suggests that images do help NMT in this use-case.
+  bibtex_file: /assets/bib/vl2017.bib
   bibtex: >
     @InProceedings{Calixto2017VL,
       author    = {Calixto, Iacer  and  Stein, Daniel  and  Matusov, Evgeny  and  Castilho, Sheila  and  Way, Andy},
@@ -365,8 +385,10 @@
   doc-url: http://www.aclweb.org/anthology/W17-3501
   [//]: # booktitle: "Proceedings of The 10th International Natural Language Generation conference"
   booktitle: INLG
+  venues: conference,long,bestpaper
   abstract: >
       In this paper, we study AMR-to-text generation, framing it as a translation task and comparing two different MT approaches (Phrase-based and Neural MT). We systematically study the effects of 3 AMR preprocessing steps (Delexicalisation, Compression, and Linearisation) applied before the MT phase. Our results show that preprocessing indeed helps, although the benefits differ for the two MT models. The implementation of the models are publicly available.
+  bibtex_file: /assets/bib/inlg2017.bib
   bibtex: >
     @InProceedings{CastroFerreira2017INLG,
       author = 	"Castro Ferreira, Thiago and Calixto, Iacer and Wubben, Sander and Krahmer, Emiel",
@@ -389,8 +411,10 @@
   journal-url: https://ufal.mff.cuni.cz/pbml/108/art-castilho-moorkens-gaspari-tinsley-calixto-way.pdf
   [//]: # journal: "The Prague Bulletin of Mathematical Linguistics"
   journal: PBML
+  venues: journal,long
   abstract: >
       This paper discusses neural machine translation (NMT), a new paradigm in the MT field, comparing the quality of NMT systems with statistical MT by describing three studies using automatic and human evaluation methods. Automatic evaluation results presented for NMT are very promising, however human evaluations show mixed results. We report increases in fluency but inconsistent results for adequacy and post-editing effort. NMT undoubtedly represents a step forward for the MT field, but one that the community should be careful not to oversell.
+  bibtex_file: /assets/bib/pbml2017.bib
   bibtex: >
     @article{castilho-moorkens-gaspari-tinsley-calixto-way:2017,
      journal = {The Prague Bulletin of Mathematical Linguistics},
@@ -404,7 +428,6 @@
      issn = {0032-6585},
      url = {https://ufal.mff.cuni.cz/pbml/108/art-castilho-moorkens-gaspari-tinsley-calixto-way.pdf}
     }
-
 -
   layout: article
   paper-type: article
@@ -415,19 +438,29 @@
   authors: "<strong>Iacer Calixto</strong>, Qun Liu"
   journal: "Machine Translation: Special Issue in Human Factors in Neural Machine Translation"
   journal-url: "https://link.springer.com/article/10.1007/s10590-019-09226-9"
+  venues: journal,long
   abstract: >
     In this article, we conduct an extensive qualitative error analysis of different multi-modal neural machine translation (MNMT) models which integrate visual features into different parts of both the encoder and the decoder.
     We investigate how different training data availability scenarios impact different models, and analyse translations from German into English: in a first scenario, (i) there is only a small training data set of parallel sentence pairs with images, or (ii) in addition to that there are additional image descriptions in the target language with images, which are incorporated with back-translation (Sennrich et al., 2016).
     We analyse two different types of MNMT models, that use global and local image features: the latter encode an image globally, i.e. there is one feature vector computed for an entire image, whereas the former encode spatial information, i.e. there are multiple feature vectors, each encoding different portions of the image.
     We conduct an extensive error analysis of translations generated by different multi-modal NMT models as well as text-only baselines, where we study how multi-modal models compare when translating both visual and non-visual terms.
     In general, we find that the additional multi-modal signals consistently improve translations, even more so when using simpler multi-modal NMT models that use global visual features, and also that not only translations of terms with a strong visual connotation are improved, but almost all kinds of errors decreased by using (some) multi-modal models and more training data.
+  bibtex_file: /assets/bib/mtjournal2019.bib
   bibtex: >
-    @Article{Calixto2017MTJournal,
-      author = 	    "Calixto, Iacer and Liu, Qun and Campbell, Nick",
-      title = 	    "An Error Analysis for Image-Based Multi-Modal Neural Machine Translation",
-      journal =     "Machine Translation Journal: Special Issue in Human Factors in Neural Machine Translation",
-      year = 	    "2018 (under review)",
-      publisher =   "Springer"
+    @article{DBLP:journals/mt/CalixtoL19,
+      author    = {Iacer Calixto and
+                   Qun Liu},
+      title     = {An error analysis for image-based multi-modal neural machine translation},
+      journal   = {Mach. Transl.},
+      volume    = {33},
+      number    = {1-2},
+      pages     = {155--177},
+      year      = {2019},
+      url       = {https://doi.org/10.1007/s10590-019-09226-9},
+      doi       = {10.1007/s10590-019-09226-9},
+      timestamp = {Sat, 30 May 2020 19:53:16 +0200},
+      biburl    = {https://dblp.org/rec/journals/mt/CalixtoL19.bib},
+      bibsource = {dblp computer science bibliography, https://dblp.org}
     }
 -
   layout: paper
@@ -440,12 +473,14 @@
   doc-url: https://www.aclweb.org/anthology/P19-1642/
   [//]: # booktitle: "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
   booktitle: ACL
+  venues: conference,long
   abstract: >
     In this work, we propose to model the interaction between visual and textual features for multi-modal neural machine translation through a latent variable model.
     This latent variable can be seen as a stochastic embedding and it is used in the target-language decoder and also to predict image features.
     Importantly, even though in our model formulation we capture correlations between visual and textual features, we do not require that images be available at test time.
     We show that our latent variable MMT formulation improves considerably over strong baselines, including the multi-task learning approach of Elliott and Kadar (2017) and the conditional variational auto-encoder approach of Toyama et al. (2016).
     Finally, in an ablation study we show that (i) predicting image features in addition to only conditioning on them and (ii) imposing a constraint on the minimum amount of information encoded in the latent variable slightly improved translations.
+  bibtex_file: /assets/bib/acl2019.bib
   bibtex: >
     @inproceedings{calixto-etal-2019-latent,
       title = "Latent Variable Model for Multi-modal Translation",
@@ -469,48 +504,59 @@
   img: seeing-past-words-2021
   title: "Seeing past words: Testing the cross-modal capabilities of pretrained V&L models"
   authors: "Letitia Parcalabescu, Albert Gatt, Anette Frank, <strong>Iacer Calixto</strong>"
-  doc-url: 
+  journal-url: https://arxiv.org/abs/2012.12352
   journal: "(Under Review)"
+  venues: preprint,conference,long
   abstract: >
     We investigate the ability of two vision and language (V&L) models, ViLBERT and LXMERT, to integrate and reason with textual and visual representations, in tasks that require multimodal integration, namely: (1) identifying a correct image-sentence pair from an incorrect one, and (2) counting entities in the image. Our results show that both models do not solve task (1) adequately even though they are pretrained on image-sentence matching. Moreover, neither ViLBERT nor LXMERT are able to solve task (2), our counting probe, and they cannot generalise to out-of-distribution quantities. This suggests that pretrained V&L representations are less successful at integrating the two modalities than expected.
+  bibtex_file: /assets/bib/preprint2020seeing.bib
 -
   layout: paper
   paper-type: inproceedings
   selected: y
   year: "2020"
-  img: scene-graphs-for-image-captioning-2020
+  img: aacl2020
   title: "English Intermediate-Task Training Improves Zero-Shot Cross-Lingual Transfer Too"
   authors: Jason Phang \*, <strong>Iacer Calixto</strong> \*, Phu Mon Htut, Yada Pruksachatkun, Haokun Liu, Clara Vania, Katharina Kann, Samuel R. Bowman. (\* Equal Contribution)
-  doc-url: https://arxiv.org/abs/2005.13013
-  booktitle: "AACL (Paper Accepted)"
-  abstract: >
-    Intermediate-task training---fine-tuning a pretrained model on an intermediate task before fine-tuning again on the target task---often improves model performance substantially on language understanding tasks in monolingual English settings. We investigate whether English intermediate-task training is still helpful on non-English target tasks. Using nine intermediate language-understanding tasks, we evaluate intermediate-task transfer in a zero-shot cross-lingual setting on the XTREME benchmark. We see large improvements from intermediate training on the BUCC and Tatoeba sentence retrieval tasks and moderate improvements on question-answering target tasks. MNLI, SQuAD and HellaSwag achieve the best overall results as intermediate tasks, while multi-task intermediate offers small additional improvements. Using our best intermediate-task models for each target task, we obtain a 5.4 point improvement over XLM-R Large on the XTREME benchmark, setting the state of the art as of June 2020. We also investigate continuing multilingual MLM during intermediate-task training and using machine-translated intermediate-task data, but neither consistently outperforms simply performing English intermediate-task training.
+  doc-url: https://www.aclweb.org/anthology/2020.aacl-main.56/
+  booktitle: "AACL"
+  bibtex_file: /assets/bib/aacl2020.bib
+  venues: conference,long
+  abstract: Intermediate-task training---fine-tuning a pretrained model on an intermediate task before fine-tuning again on the target task---often improves model performance substantially on language understanding tasks in monolingual English settings. We investigate whether English intermediate-task training is still helpful on non-English target tasks. Using nine intermediate language-understanding tasks, we evaluate intermediate-task transfer in a zero-shot cross-lingual setting on the XTREME benchmark. We see large improvements from intermediate training on the BUCC and Tatoeba sentence retrieval tasks and moderate improvements on question-answering target tasks. MNLI, SQuAD and HellaSwag achieve the best overall results as intermediate tasks, while multi-task intermediate offers small additional improvements. Using our best intermediate-task models for each target task, we obtain a 5.4 point improvement over XLM-R Large on the XTREME benchmark, setting the state of the art as of June 2020. We also investigate continuing multilingual MLM during intermediate-task training and using machine-translated intermediate-task data, but neither consistently outperforms simply performing English intermediate-task training.
   bibtex: >
-    @article{phang2020english,
-      title={English Intermediate-Task Training Improves Zero-Shot Cross-Lingual Transfer Too},
-      author={Phang, Jason and Htut, Phu Mon and Pruksachatkun, Yada and Liu, Haokun and Vania, Clara and Kann, Katharina and Calixto, Iacer and Bowman, Samuel R},
-      journal={arXiv preprint arXiv:2005.13013},
-      year={2020}
+    @inproceedings{phang-etal-2020-english,
+    title = "{E}nglish Intermediate-Task Training Improves Zero-Shot Cross-Lingual Transfer Too",
+    author = "Phang, Jason  and
+      Calixto, Iacer  and
+      Htut, Phu Mon  and
+      Pruksachatkun, Yada  and
+      Liu, Haokun  and
+      Vania, Clara  and
+      Kann, Katharina  and
+      Bowman, Samuel R.",
+    booktitle = "Proceedings of the 1st Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 10th International Joint Conference on Natural Language Processing",
+    month = dec,
+    year = "2020",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.aacl-main.56",
+    pages = "557--575",
+    abstract = "Intermediate-task training---fine-tuning a pretrained model on an intermediate task before fine-tuning again on the target task---often improves model performance substantially on language understanding tasks in monolingual English settings. We investigate whether English intermediate-task training is still helpful on non-English target tasks. Using nine intermediate language-understanding tasks, we evaluate intermediate-task transfer in a zero-shot cross-lingual setting on the XTREME benchmark. We see large improvements from intermediate training on the BUCC and Tatoeba sentence retrieval tasks and moderate improvements on question-answering target tasks. MNLI, SQuAD and HellaSwag achieve the best overall results as intermediate tasks, while multi-task intermediate offers small additional improvements. Using our best intermediate-task models for each target task, we obtain a 5.4 point improvement over XLM-R Large on the XTREME benchmark, setting the state of the art as of June 2020. We also investigate continuing multilingual MLM during intermediate-task training and using machine-translated intermediate-task data, but neither consistently outperforms simply performing English intermediate-task training.",
     }
 -
   layout: paper
   paper-type: inproceedings
   selected: y
   year: "2020"
-  img: scene-graphs-for-image-captioning-2020
+  img: aacl2020a
   title: "Are scene graphs good enough to improve Image Captioning?"
   authors: "Victor Milewski, Marie-Francine Moens, <strong>Iacer Calixto</strong>"
-  doc-url: https://arxiv.org/abs/2009.12313
-  booktitle: "AACL (Paper Accepted)"
+  doc-url: https://www.aclweb.org/anthology/2020.aacl-main.50/
+  booktitle: "AACL"
+  venues: conference,long
   abstract: >
-    Many top-performing image captioning models rely solely on object features computed with an object detection model to generate image descriptions. However, recent studies propose to directly use scene graphs to introduce information about object relations into captioning, hoping to better describe interactions between objects. In this work, we thoroughly investigate the use of scene graphs in image captioning. We empirically study whether using additional scene graph encoders can lead to better image descriptions and propose a conditional graph attention network (C-GAT), where the image captioning decoder state is used to condition the graph updates. Finally, we determine to what extent noise in the predicted scene graphs influence caption quality. Overall, we find no significant difference between models that use scene graph features and models that only use object detection features across different captioning metrics, which suggests that existing scene graph generation models are still too noisy to be useful in image captioning. Moreover, although the quality of predicted scene graphs is very low in general, when using high quality scene graphs we obtain gains of up to 3.3 CIDEr compared to a strong Bottom-Up Top-Down baseline. We open source code to reproduce all our experiments in this https URL.   
-  bibtex: >
-    @article{milewski2020scene,
-      title={Are scene graphs good enough to improve Image Captioning?},
-      author={Milewski, Victor and Moens, Marie-Francine and Calixto, Iacer},
-      journal={arXiv preprint arXiv:2009.12313},
-      year={2020}
-    }
+    Many top-performing image captioning models rely solely on object features computed with an object detection model to generate image descriptions. However, recent studies propose to directly use scene graphs to introduce information about object relations into captioning, hoping to better describe interactions between objects. In this work, we thoroughly investigate the use of scene graphs in image captioning. We empirically study whether using additional scene graph encoders can lead to better image descriptions and propose a conditional graph attention network (C-GAT), where the image captioning decoder state is used to condition the graph updates. Finally, we determine to what extent noise in the predicted scene graphs influence caption quality. Overall, we find no significant difference between models that use scene graph features and models that only use object detection features across different captioning metrics, which suggests that existing scene graph generation models are still too noisy to be useful in image captioning. Moreover, although the quality of predicted scene graphs is very low in general, when using high quality scene graphs we obtain gains of up to 3.3 CIDEr compared to a strong Bottom-Up Top-Down baseline.
+  bibtex_file: /assets/bib/aacl2020a.bib
 -
   layout: paper
   paper-type: inproceedings
@@ -518,9 +564,11 @@
   year: "2020"
   img: winlp-2020
   title: "Can Wikipedia Categories Improve Masked Language Model Pretraining?"
+  venues: workshop,short
   authors: "Diksha Meghwal, Katharina Kann, <strong>Iacer Calixto</strong>, Stanislaw Jastrzebski"
   doc-url: https://www.aclweb.org/anthology/2020.winlp-1.19/
   booktitle: "Widening NLP Workshop"
+  bibtex_file: /assets/bib/winlp2020.bib
 -
   layout: paper
   paper-type: article
@@ -531,9 +579,10 @@
   authors: "<strong>Iacer Calixto</strong>, Tommaso Pasini, Alessandro Raganato"
   doc-url: 
   journal: "(Under Review)"
+  venues: preprint,conference,short
   abstract: >
       Masked language models have quickly become the *de facto* standard when processing text. Recently, several approaches have been proposed to further enrich word representations with external knowledge sources such as knowledge graphs. However, these models are devised and evaluated in a monolingual setting only. In this work, we propose a language-independent entity prediction task as an intermediate training procedure to ground word representations on entity semantics and bridge the gap across different languages by means of a shared vocabulary of entities. We show that our approach effectively injects new lexical-semantic knowledge into neural models, improving their performance on different semantic tasks in the zero-shot crosslingual setting. As an additional advantage, our intermediate training does not require any supplementary input, allowing our models to be applied to new datasets right away.
-  bibtex: >
+  bibtex_file: #
 -
   layout: paper
   paper-type: article
@@ -544,9 +593,11 @@
   authors: "Houda Alberts, Teresa Huang, Yash Deshpande, Yibo Liu, Kyunghyun Cho, Clara Vania, <strong>Iacer Calixto</strong>"
   journal-url: https://arxiv.org/abs/2008.09150
   journal: "(Under Review)"
+  venues: preprint,conference,long
   abstract: >
     We argue that the next frontier in natural language understanding (NLU) and generation (NLG) will include models that can efficiently access external structured knowledge repositories. In order to support the development of such models, we release the VisualSem knowledge graph (KG) which includes nodes with multilingual glosses and multiple illustrative images and visually relevant relations. We also release a neural multi-modal retrieval model that can use images or sentences as inputs and retrieves entities in the KG. This multi-modal retrieval model can be integrated into any (neural network) model pipeline and we encourage the research community to use VisualSem for data augmentation and/or as a source of grounding, among other possible uses. VisualSem as well as the multi-modal retrieval model are publicly available and can be downloaded [here](https://github.com/iacercalixto/visualsem).
-  bibtex: >
+  bibtex_file: /assets/bib/visualsem_dataset.bib
+  bibtex_old: >
     @article{alberts2020visualsem,
       title={VisualSem: a high-quality knowledge graph for vision and language},
       author={Alberts, Houda and Huang, Teresa and Deshpande, Yash and Liu, Yibo and Cho, Kyunghyun and Vania, Clara and Calixto, Iacer},
@@ -563,6 +614,8 @@
   authors: "Ningyuan (Teresa) Huang, Yash Deshpande, Yibo Liu, Houda Alberts, Kyunghyun Cho, Clara Vania, <strong>Iacer Calixto</strong>"
   doc-url: 
   journal: "(Under Review)"
+  venues: notpublic,long
   abstract: >
     We propose a new method to make natural language understanding models more parameter efficient by storing knowledge in an external knowledge graph (KG) and retrieving from this KG using a dense index. Given some task data, e.g., sentences in German, we retrieve entities from the KG and use their multimodal representations to improve downstream task performance. Using VisualSem as our KG, we compare a mix of tuple-based and graph-based algorithms to learn robust representations of entities that are grounded on their multimodal information. We then demonstrate the usefulness of our learned entity representations on two downstream tasks. Using our best learned representations, we improve performance on the multilingual named entity recognition (NER) task by 0.3%-0.7% (F1 score), while on the visual sense disambiguation task, we achieve up to 3% improvement in accuracy in the low-resource setting.
+  bibtex_file: #
 
