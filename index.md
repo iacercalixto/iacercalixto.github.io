@@ -14,6 +14,8 @@ cover: false
 
 # News
 
+* **Feb/2021** I am guest lecturer in the [Erasmus Mundus European Masters on Technology for Translation and Interpreting](https://em-tti.eu/). I give lectures on Machine Translation and Machine Learning in the University of Wolverhampton.
+
 * **Jan/2021** We published a pre-print on probing the counting capabilities of pretrained vision & language models: [*Seeing past words: Testing the cross-modal capabilities of pretrained V&L models?*](https://arxiv.org/abs/2012.12352)
 
 * **Sep/2020** We release the beta-version of the **VisualSem knowledge graph**, a multimodal and multilingual resource to support vision & language research: [*VisualSem: a high-quality knowledge graph for vision and language*](https://arxiv.org/abs/2008.09150) ([code](https://github.com/iacercalixto/visualsem))
