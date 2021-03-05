@@ -2,15 +2,28 @@
   layout: person
   relation: PI
   selected: y
+  institution: New York University
+  img: kyunghyun
+  name: Kyunghyun Cho
+  github: kyunghyuncho
+  url: https://kyunghyuncho.me/
+  about: >
+    Since March 2019, I collaborate with Kyunghyun in the context of my Marie-Curie project:
+    **IMAGINE: Informing Multi-modal lAnguage Generation wIth world kNowledgE**.
+    I am affiliated to the [ML2 lab](https://wp.nyu.edu/ml2/people/),
+    which is co-lead by PIs that work with machine learning for language (Kyunghyun is one of the PIs).
+-
+  layout: person
+  relation: PI
+  selected: y
   institution: University of Amsterdam
   img: raquel
   name: Raquel Fernández
   url: https://staff.science.uva.nl/r.fernandezrovira/
   about: >
-    Since March 2019, I collaborate with Raquel in the context of my Marie-Curie project:
-    **IMAGINE: Informing Multi-modal lAnguage Generation wIth world kNowledgE**.
-    I am also part of the [Dialogue Modelling Group](https://staff.fnwi.uva.nl/r.fernandezrovira/dialogue-group.php),
-    which is leaded by Raquel.
+    As part of the **IMAGINE** project, I also collaborate with Raquel and am part of the
+    [Dialogue Modelling Group](https://staff.fnwi.uva.nl/r.fernandezrovira/dialogue-group.php)
+    leaded by Raquel.
 -
   layout: person
   relation: PI
