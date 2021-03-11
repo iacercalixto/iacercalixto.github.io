@@ -14,6 +14,8 @@ cover: false
 
 # News
 
+* **Mar/2021** Paper accepted at **NAACL 2021**: [Wikipedia Entities as *Rendezvous* across Languages: Grounding Multilingual Language Models by Predicting Wikipedia Hyperlinks](/publications) (paper, code, and data coming soon!).
+
 * **Feb/2021** I am guest lecturer in the [Erasmus Mundus European Masters on Technology for Translation and Interpreting](https://em-tti.eu/). I give lectures on Machine Translation and Machine Learning in the University of Wolverhampton.
 
 * **Jan/2021** We published a pre-print on probing the counting capabilities of pretrained vision & language models: [*Seeing past words: Testing the cross-modal capabilities of pretrained V&L models?*](https://arxiv.org/abs/2012.12352)
