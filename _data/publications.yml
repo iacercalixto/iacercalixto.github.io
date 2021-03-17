@@ -607,7 +607,7 @@
 -
   layout: paper
   paper-type: article
-  selected: y
+  selected: n
   year: "2021"
   img: visualsem-representation-learning-2021
   title: "Learning Robust Multimodal Knowledge Graph Representations"
