@@ -14,7 +14,7 @@ cover: false
 
 # News
 
-* **Mar/2021** Paper accepted at **NAACL 2021**: [Wikipedia Entities as *Rendezvous* across Languages: Grounding Multilingual Language Models by Predicting Wikipedia Hyperlinks](./pdfs/Calixto-Pasini-Raganato_NAACL2021.pdf) (code and data coming soon).
+* **Mar/2021** Paper accepted at **NAACL 2021**: [Wikipedia Entities as *Rendezvous* across Languages: Grounding Multilingual Language Models by Predicting Wikipedia Hyperlinks](./pdfs/Calixto-Raganato-Pasini_NAACL2021.pdf) (code and data coming soon).
 
 * **Feb/2021** I am guest lecturer in the [Erasmus Mundus European Masters on Technology for Translation and Interpreting](https://em-tti.eu/). I give lectures on Machine Translation and Machine Learning in the University of Wolverhampton.
 
