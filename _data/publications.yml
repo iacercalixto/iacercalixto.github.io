@@ -526,18 +526,18 @@
     }
 -
   layout: paper
-  paper-type: article
+  paper-type: inproceedings
   selected: y
   year: "2021"
   img: seeing-past-words-2021
-  title: "Seeing past words: Testing the cross-modal capabilities of pretrained V&L models"
+  title: "Seeing past words: Testing the cross-modal capabilities of pretrained V&L models on counting tasks"
   authors: "Letitia Parcalabescu, Albert Gatt, Anette Frank, <strong>Iacer Calixto</strong>"
-  journal-url: https://arxiv.org/abs/2012.12352
-  journal: "(Under Review)"
-  venues: preprint,conference,long
+  doc-url: https://arxiv.org/abs/2012.12352
+  booktitle: "Beyond Language: Multimodal Semantic Representations Workshop (MMSR)"
+  venues: workshop,long
   abstract: >
-    We investigate the ability of two vision and language (V&L) models, ViLBERT and LXMERT, to integrate and reason with textual and visual representations, in tasks that require multimodal integration, namely: (1) identifying a correct image-sentence pair from an incorrect one, and (2) counting entities in the image. Our results show that both models do not solve task (1) adequately even though they are pretrained on image-sentence matching. Moreover, neither ViLBERT nor LXMERT are able to solve task (2), our counting probe, and they cannot generalise to out-of-distribution quantities. This suggests that pretrained V&L representations are less successful at integrating the two modalities than expected.
-  bibtex_file: /assets/bib/preprint2020seeing.bib
+    e investigate the reasoning ability of pretrained vision and language (V&L) models in two tasks that require multimodal integration: (1) discriminating a correct image-sentence pair from an incorrect one, and (2) counting entities in an image. We evaluate three pretrained V&L models on these tasks: ViLBERT, ViLBERT 12-in-1 and LXMERT, in zero-shot and finetuned settings. Our results show that models solve task (1) very well, as expected, since all models are pretrained on task (1). However, none of the pretrained V&L models is able to adequately solve task (2), our counting probe, and they cannot generalise to out-of-distribution quantities. We propose a number of explanations for these findings: LXMERT (and to some extent ViLBERT 12-in-1) show some evidence of catastrophic forgetting on task (1). Concerning our results on the counting probe, we find evidence that all models are impacted by dataset bias, and also fail to individuate entities in the visual input. While a selling point of pretrained V&L models is their ability to solve complex tasks, our findings suggest that understanding their reasoning and grounding capabilities requires more targeted investigations on specific phenomena.
+  bibtex_file: /assets/bib/mmsr2021seeing.bib
 -
   layout: paper
   paper-type: inproceedings
@@ -632,4 +632,28 @@
   abstract: >
     We propose a new method to make natural language understanding models more parameter efficient by storing knowledge in an external knowledge graph (KG) and retrieving from this KG using a dense index. Given some task data, e.g., sentences in German, we retrieve entities from the KG and use their multimodal representations to improve downstream task performance. Using VisualSem as our KG, we compare a mix of tuple-based and graph-based algorithms to learn robust representations of entities that are grounded on their multimodal information. We then demonstrate the usefulness of our learned entity representations on two downstream tasks. Using our best learned representations, we improve performance on the multilingual named entity recognition (NER) task by 0.3%-0.7% (F1 score), while on the visual sense disambiguation task, we achieve up to 3% improvement in accuracy in the low-resource setting.
   bibtex_file: #
+-
+  layout: incollection
+  paper-type: incollection
+  selected: y
+  year: "2021"
+  img: nlp4health-2021
+  title: "Natural language processing for mental disorders: an overview"
+  authors: "<strong>Iacer Calixto</strong>, Victoria Yaneva, Raphael Moura Cardoso"
+  booktitle: "Natural Language Processing in Healthcare: A Special Focus on Low Resource Languages"
+  publisher: "CRC Press"
+  venues: chapter,long
+  abstract: >
+    In recent years, there has been a surge in interest in using natural language processing (NLP) applications for clinical psychology and psychiatry. Despite the increased societal, economic, and academic interest, there has been no systematic critical analysis of the recent progress in NLP applications for mental disorders, or of the resources available for training and evaluating such systems.
+
+    This chapter addresses this gap through two main contributions. First, it provides an overview of the NLP literature related to mental disorders, with a focus on autism, dyslexia, schizophrenia, depression and mental health in general. We discuss the strengths and shortcomings of current methodologies, specifically focusing on the challenges in obtaining large volumes of high-quality domain-specific data both for English and for lower-resource languages. We also provide a list of datasets publicly available for researchers who would like to develop NLP methods for specific mental disorders, categorized according to relevant criteria such as data source, language, annotation, and size. Our second contribution is a discussion on how to support the application of these methods to various languages and social contexts. This includes recommendations on conducting robust and ethical experiments from a machine learning perspective, and a discussion on how techniques such as cross-lingual transfer learning could be applied within this area.
+  bibtex_file: /assets/bib/nlp4health2021.bib
+  bibtex: >
+    @incollection{calixtoetal2021mentalhealth,
+      author    = {Iacer Calixto and Victoria Yaneva and Raphael Moura Cardoso},
+      title     = {Natural language processing for mental disorders: an overview},
+      booktitle = {Natural Language Processing in Healthcare: A Special Focus on Low Resource Languages},
+      year      = {2021},
+      publisher = {CRC Press},
+    }
 
