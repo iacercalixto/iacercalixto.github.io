@@ -16,7 +16,7 @@ cover: false
 
 * **May/2021** Book chapter **Natural language processing for mental disorders: an overview** accepted for publication in: *Natural Language Processing in Healthcare: A Special Focus on Low Resource Languages* (CRC Press). More news soon!
 
-* **May/2021** Our paper [*Seeing past words: Testing the cross-modal capabilities of pretrained V&L models on counting tasks*](https://arxiv.org/abs/2012.12352) was accepted for publication at the 'Beyond Language: Multimodal Semantic Representations' (**MMSR 2021**) Workshop. We release a dataset, as well as code to reproduce our experiments (coming soon).
+* **May/2021** Our paper [*Seeing past words: Testing the cross-modal capabilities of pretrained V&L models on counting tasks*](https://arxiv.org/abs/2012.12352) was accepted for publication at the 'Beyond Language: Multimodal Semantic Representations' (**MMSR 2021**) Workshop. We release a counting probe dataset to be used in evaluating pretrained V&L models ([data](https://github.com/Heidelberg-NLP/counting-probe)).
 
 * **Mar/2021** Paper accepted at **NAACL 2021**: [Wikipedia Entities as *Rendezvous* across Languages: Grounding Multilingual Language Models by Predicting Wikipedia Hyperlinks](./pdfs/Calixto-Raganato-Pasini_NAACL2021.pdf) (code and data coming soon).
 
