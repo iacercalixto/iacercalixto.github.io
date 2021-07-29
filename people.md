@@ -34,10 +34,12 @@ title:  Collaborators
   {% endif %}
 {% endfor %}
 
+{% comment %}
 ## Mentors
 
 {% assign mentors = site.data.collaborators | where: "selected", "y" %}
 {% for m in mentors %}
   {% include person.html person=m %}
 {% endfor %}
+{% endcomment %}
 
