@@ -18,6 +18,7 @@ I review manuscripts for the most important journals in Artificial Intelligence,
 
 I also usually serve in the Programme Committee and review for many top-tier conferences in my research field:
 
+* Neural Information Processing Systems (NeurIPS): [2021](https://nips.cc/Conferences/2021/),
 * International Conference on Learning Representations (ICLR): [2021](https://iclr.cc/), [2020](https://iclr.cc/Conferences/2020)
 * Association for Computational Linguistics (ACL): [2021](https://2021.aclweb.org/), [2020](https://acl2020.org/), [2019](http://www.acl2019.org/EN/index.xhtml), [2018](https://acl2018.org/).
 * North-American Chapter Association for Computational Linguistics (NAACL): [2021](https://2021.naacl.org/), [2019](https://naacl2019.org/).
