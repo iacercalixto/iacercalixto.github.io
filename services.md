@@ -3,9 +3,9 @@ layout: page
 title:  Services
 ---
 
-I am co-organizing Repl4NLP 2021 and am Area Chair for EACL 2021.
+I co-organized [Repl4NLP 2021](https://sites.google.com/view/repl4nlp-2021/) and was Area Chair for EACL 2021.
 
-I review manuscripts for the most important journals in Artificial Intelligence, Machine Translation &amp; Natural Language Processing:
+I review manuscripts for top-tier journals in Artificial Intelligence, Machine Translation &amp; Natural Language Processing:
 
 * [Artificial Intelligence](https://www.journals.elsevier.com/artificial-intelligence/)
 * [Machine Translation](https://link.springer.com/journal/10590)

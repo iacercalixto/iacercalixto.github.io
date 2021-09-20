@@ -64,8 +64,8 @@ menu:
       url:              /publications/
     - title:            People
       url:              /people/
-    - title:            CV
-      url:              /cv/
+#    - title:            CV
+#url:              /cv/
     - title:            Services
       url:              /services/
     - title:            IMAGINE

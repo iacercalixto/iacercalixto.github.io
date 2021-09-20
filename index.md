@@ -14,11 +14,13 @@ cover: false
 
 # News
 
+* **Sep/2021** Collaborative article **Neural Natural Language Generation: A Survey on Multilinguality, Multimodality, Controllability and Learning** accepted for publication in the *Journal of Artificial Intelligence Research* (JAIR) where we discuss the recent trends in neural approaches to natural language generation. More news soon!
+
 * **May/2021** Book chapter **Natural language processing for mental disorders: an overview** accepted for publication in: *Natural Language Processing in Healthcare: A Special Focus on Low Resource Languages* (CRC Press). More news soon!
 
-* **May/2021** Our paper [*Seeing past words: Testing the cross-modal capabilities of pretrained V&L models on counting tasks*](https://arxiv.org/abs/2012.12352) was accepted for publication at the 'Beyond Language: Multimodal Semantic Representations' (**MMSR 2021**) Workshop. We release a counting probe dataset to be used in evaluating pretrained V&L models ([data](https://github.com/Heidelberg-NLP/counting-probe)).
+* **May/2021** Our paper [*Seeing past words: Testing the cross-modal capabilities of pretrained V&L models on counting tasks*](https://iwcs2021.github.io/proceedings/mmsr/pdf/2021.mmsr-1.4.pdf) was accepted for publication at the 'Beyond Language: Multimodal Semantic Representations' (**MMSR 2021**) Workshop. We release a counting probe dataset to be used in evaluating pretrained V&L models ([data](https://github.com/Heidelberg-NLP/counting-probe)).
 
-* **Mar/2021** Paper accepted at **NAACL 2021**: [Wikipedia Entities as *Rendezvous* across Languages: Grounding Multilingual Language Models by Predicting Wikipedia Hyperlinks](./pdfs/Calixto-Raganato-Pasini_NAACL2021.pdf) (code and data coming soon).
+* **Mar/2021** Paper accepted at **NAACL 2021**: [Wikipedia Entities as *Rendezvous* across Languages: Grounding Multilingual Language Models by Predicting Wikipedia Hyperlinks](https://aclanthology.org/2021.naacl-main.286/) (code and data coming soon).
 
 * **Feb/2021** I am guest lecturer in the [Erasmus Mundus European Masters on Technology for Translation and Interpreting](https://em-tti.eu/). I give lectures on Machine Translation and Machine Learning in the University of Wolverhampton.
 

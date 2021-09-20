@@ -1,4 +1,14 @@
 -
+  layout: article
+  paper-type: article
+  selected: y
+  year: "2021 (Article Accepted)"
+  img: jair2021
+  title: "Neural Natural Language Generation: A Survey on Multilinguality, Multimodality, Controllability and Learning"
+  authors: "Erkut Erdem, Menekse Kuyu, Semih Yagcioglu, Anette Frank, Letiția Pârcălăbescu, Barbara Plank, Andrii Babii, Oleksii Turuta, Aykut Erdem, <strong>Iacer Calixto</strong>, Elena Lloret, Elena-Simona Apostol, Ciprian-Octavian Truică, Branislava Šandrih, Albert Gatt, Sanda Martinčić-Ipšic, Gábor Berend, Gražina Korvel"
+  venues: journal,long
+  journal: Journal of Artificial Intelligence Research
+-
   layout: paper
   paper-type: inproceedings
   selected: y
@@ -18,7 +28,7 @@
     author = "Iacer Calixto and Alessandro Raganato and Tommaso Pasini",
     booktitle = "Proceedings of the 2021 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies",
     month = jun,
-    year = "2021 (Paper Accepted)",
+    year = "2021",
     address = "Mexico City, Mexico",
     publisher = "Association for Computational Linguistics",
     url = "https://iacercalixto.github.io/pdfs/Calixto-Raganato-Pasini_NAACL2021.pdf",
