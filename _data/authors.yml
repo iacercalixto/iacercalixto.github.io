@@ -8,11 +8,10 @@ iacer:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    In short, I develop **computational models of human language**.
-    My scientific interests include modelling
-    natural language processing, understanding, and generation,
-    how human languages interact with our visual perceptions and representations,
-    and how these interact with and are grounded by our commonsense and the external world.
+    **I will be hiring 3 PhDs soon, stay tuned for news!**
+    From February 2022, I am a tenure-track Assistant Professor of AI in Medicine in the Academic Medical Center, University of Amsterdam (AMC-UvA),
+    where I will work on machine learning (ML) and natural language processing (NLP) methodology for problems in medicine and psychology.
+    In addition to applications in medicine and psychology, my focus is on the complex interaction between language and vision, knowledge graphs, and commonsense knowledge.
 
     I am a *visiting post-doctoral research fellow*
     in the [Center for Data Science in New York University][nyu_cds] where I work with [Kyunghyun Cho][cho].
@@ -21,8 +20,6 @@ iacer:
     where I am affiliated to the [Dialogue Modelling Group][dmg] led by [Raquel Fernández][raquel] where I collaborate with many outstanding researchers working at the intersection of language &amp; vision.
     Before that I worked with [Khalil Sima'an][khalil]&apos;s group on how to integrate visual information into
     different natural language processing tasks.
-
-    Some broad research fields I consider myself a contributor to include machine learning and representation learning for language and vision.
 
     You can find me in ~~[office 637, 60 5th Avenue, Manhattan][nyu_cds_gmaps]~~ online/by email!
 
