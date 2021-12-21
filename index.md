@@ -14,6 +14,8 @@ cover: false
 
 # News
 
+* **Nov/2021** Our paper [*VisualSem: A High-quality Knowledge Graph for Vision & Language*](https://aclanthology.org/2021.mrl-1.13.pdf) was accepted for publication at the 'Multilingual Representation Learning' (**MRL 2021**) Workshop. We created a dataset to support research in multilingual models for vision and language! ([data](https://github.com/iacercalixto/visualsem))
+
 * **Sep/2021** Collaborative article **Neural Natural Language Generation: A Survey on Multilinguality, Multimodality, Controllability and Learning** accepted for publication in the *Journal of Artificial Intelligence Research* (JAIR) where we discuss the recent trends in neural approaches to natural language generation. More news soon!
 
 * **May/2021** Book chapter **Natural language processing for mental disorders: an overview** accepted for publication in: *Natural Language Processing in Healthcare: A Special Focus on Low Resource Languages* (CRC Press). More news soon!

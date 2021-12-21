@@ -2,6 +2,44 @@
   layout: article
   paper-type: article
   selected: y
+  year: "2021"
+  img: valse2021
+  title: "VALSE: A Task-Independent Benchmark for Vision and Language Models Centered on Linguistic Phenomena"
+  authors: "Letitia Parcalabescu, Michele Cafagna, Lilitta Muradjan, Anette Frank, <strong>Iacer Calixto</strong>, Albert Gatt"
+  venues: long,preprint
+  journal: arXiv.org
+  journal-url: https://arxiv.org/abs/2112.07566
+  bibtex: >
+    @article{parcalabescu2021valse,
+      title={VALSE: A Task-Independent Benchmark for Vision and Language Models Centered on Linguistic Phenomena},
+      author={Parcalabescu, Letitia and Cafagna, Michele and Muradjan, Lilitta and Frank, Anette and Calixto, Iacer and Gatt, Albert},
+      journal={arXiv preprint arXiv:2112.07566},
+      year={2021}
+    }
+  bibtex_file: /assets/bib/valse2021.bib
+-
+  layout: article
+  paper-type: article
+  selected: y
+  year: "2021"
+  img: hashtagseg2021
+  title: "Zero-shot hashtag segmentation for multilingual sentiment analysis"
+  authors: "Ruan Chaves Rodrigues, Marcelo Akira Inuzuka, Juliana Resplande Sant'Anna Gomes, Acquila Santos Rocha, <strong>Iacer Calixto</strong>, Hugo Alexandre Dantas do Nascimento"
+  venues: long,preprint
+  journal: arXiv.org
+  journal-url: https://arxiv.org/abs/2112.03213
+  bibtex: >
+    @article{rodrigues2021zero,
+    title={Zero-shot hashtag segmentation for multilingual sentiment analysis},
+    author={Rodrigues, Ruan Chaves and Inuzuka, Marcelo Akira and Gomes, Juliana Resplande Sant'Anna and Rocha, Acquila Santos and Calixto, Iacer and Nascimento, Hugo Alexandre Dantas do},
+    journal={arXiv preprint arXiv:2112.03213},
+    year={2021}
+    }
+  bibtex_file: /assets/bib/hashtagseg2021.bib
+-
+  layout: article
+  paper-type: article
+  selected: y
   year: "2021 (Article Accepted)"
   img: jair2021
   title: "Neural Natural Language Generation: A Survey on Multilinguality, Multimodality, Controllability and Learning"
@@ -609,25 +647,18 @@
   bibtex_file: /assets/bib/winlp2020.bib
 -
   layout: paper
-  paper-type: article
+  paper-type: inproceedings
   selected: y
   year: "2021"
   img: visualsem-2021
   title: "VisualSem: a high-quality knowledge graph for vision and language"
   authors: "Houda Alberts, Teresa Huang, Yash Deshpande, Yibo Liu, Kyunghyun Cho, Clara Vania, <strong>Iacer Calixto</strong>"
-  journal-url: https://arxiv.org/abs/2008.09150
-  journal: "(Under Review)"
-  venues: preprint,conference,long
+  doc-url: https://arxiv.org/abs/2008.09150
+  booktitle: "Multilingual Representation Learning Workshop"
+  venues: workshop,long
   abstract: >
-    We argue that the next frontier in natural language understanding (NLU) and generation (NLG) will include models that can efficiently access external structured knowledge repositories. In order to support the development of such models, we release the VisualSem knowledge graph (KG) which includes nodes with multilingual glosses and multiple illustrative images and visually relevant relations. We also release a neural multi-modal retrieval model that can use images or sentences as inputs and retrieves entities in the KG. This multi-modal retrieval model can be integrated into any (neural network) model pipeline and we encourage the research community to use VisualSem for data augmentation and/or as a source of grounding, among other possible uses. VisualSem as well as the multi-modal retrieval model are publicly available and can be downloaded [here](https://github.com/iacercalixto/visualsem).
+    An exciting frontier in natural language understanding (NLU) and generation (NLG) calls for (vision-and-) language models that can efficiently access external structured knowledge repositories. However, many existing knowledge bases only cover limited domains, or suffer from noisy data, and most of all are typically hard to integrate into neural language pipelines. To fill this gap, we release VisualSem: a high-quality knowledge graph (KG) which includes nodes with multilingual glosses, multiple illustrative images, and visually relevant relations. We also release a neural multi-modal retrieval model that can use images or sentences as inputs and retrieves entities in the KG. This multi-modal retrieval model can be integrated into any (neural network) model pipeline. We encourage the research community to use VisualSem for data augmentation and/or as a source of grounding, among other possible uses. VisualSem as well as the multi-modal retrieval models are publicly available and can be downloaded in this URL: https://github.com/iacercalixto/visualsem.
   bibtex_file: /assets/bib/visualsem_dataset.bib
-  bibtex_old: >
-    @article{alberts2020visualsem,
-      title={VisualSem: a high-quality knowledge graph for vision and language},
-      author={Alberts, Houda and Huang, Teresa and Deshpande, Yash and Liu, Yibo and Cho, Kyunghyun and Vania, Clara and Calixto, Iacer},
-      journal={arXiv preprint arXiv:2008.09150},
-      year={2020}
-    }
 -
   layout: paper
   paper-type: article
