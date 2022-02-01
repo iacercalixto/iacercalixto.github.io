@@ -8,20 +8,19 @@ iacer:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
+    I am a tenure-track Assistant Professor of AI in Medicine in the Academic Medical Center, University of Amsterdam (AMC-UvA),
+    where I work on machine learning (ML) and natural language processing (NLP) methodology for problems in medicine and psychology.
     **I will be hiring 3 PhDs soon, stay tuned for news!**
-    From February 2022, I am a tenure-track Assistant Professor of AI in Medicine in the Academic Medical Center, University of Amsterdam (AMC-UvA),
-    where I will work on machine learning (ML) and natural language processing (NLP) methodology for problems in medicine and psychology.
-    In addition to applications in medicine and psychology, my focus is on the complex interaction between language and vision, knowledge graphs, and commonsense knowledge.
 
-    I am a *visiting post-doctoral research fellow*
-    in the [Center for Data Science in New York University][nyu_cds] where I work with [Kyunghyun Cho][cho].
-    I am also a *post-doctoral research fellow* in the [Institute for Logic, Language and Computation][illc]
+    In addition to applications in medicine and psychology, my research focuses on machine learning for (human) languages in general, the complex interaction between language and vision, knowledge graphs, and commonsense knowledge.
+
+    I am also a *visiting research fellow*
+    in the [Center for Data Science in New York University][nyu_cds] where I work with [Kyunghyun Cho][cho],
+    and a *Marie-Curie fellow* in the [Institute for Logic, Language and Computation][illc]
     in the [University of Amsterdam][uva],
     where I am affiliated to the [Dialogue Modelling Group][dmg] led by [Raquel Fernández][raquel] where I collaborate with many outstanding researchers working at the intersection of language &amp; vision.
-    Before that I worked with [Khalil Sima'an][khalil]&apos;s group on how to integrate visual information into
-    different natural language processing tasks.
 
-    You can find me in ~~[office 637, 60 5th Avenue, Manhattan][nyu_cds_gmaps]~~ online/by email!
+    The easiest way to find me is online/by email!
 
     [uva]: http://www.uva.nl/en
     [illc]: https://www.illc.uva.nl/

@@ -27,6 +27,19 @@
 -
   layout: person
   relation: MSc candidate
+  date: 2022-
+  rel: mscthesis
+  selected: y
+  institution: UvA
+  name: Auke Elfrink
+  img: avatar
+  url: 
+  github:
+  about: >
+      Predicting the risk of cancer from patients' electronic health records.
+-
+  layout: person
+  relation: MSc candidate
   date: 2019-
   rel: mscthesis
   selected: y

@@ -14,6 +14,8 @@ cover: false
 
 # News
 
+* **Feb/2022** I am tenure-track Assistant Professor of AI in Medicine in the Academic Medical Center, University of Amsterdam (AMC-UvA)!
+
 * **Nov/2021** Our paper [*VisualSem: A High-quality Knowledge Graph for Vision & Language*](https://aclanthology.org/2021.mrl-1.13.pdf) was accepted for publication at the 'Multilingual Representation Learning' (**MRL 2021**) Workshop. We created a dataset to support research in multilingual models for vision and language! ([data](https://github.com/iacercalixto/visualsem))
 
 * **Sep/2021** Collaborative article **Neural Natural Language Generation: A Survey on Multilinguality, Multimodality, Controllability and Learning** accepted for publication in the *Journal of Artificial Intelligence Research* (JAIR) where we discuss the recent trends in neural approaches to natural language generation. More news soon!

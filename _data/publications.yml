@@ -1,4 +1,5 @@
 -
+  priority: 100
   layout: article
   paper-type: article
   selected: y
@@ -18,6 +19,7 @@
     }
   bibtex_file: /assets/bib/valse2021.bib
 -
+  priority: 200
   layout: article
   paper-type: article
   selected: y
@@ -37,6 +39,7 @@
     }
   bibtex_file: /assets/bib/hashtagseg2021.bib
 -
+  priority: 300
   layout: article
   paper-type: article
   selected: y
@@ -47,6 +50,7 @@
   venues: journal,long
   journal: Journal of Artificial Intelligence Research
 -
+  priority: 400
   layout: paper
   paper-type: inproceedings
   selected: y
@@ -75,6 +79,7 @@
     }
 
 -
+  priority: 10000
   layout: paper
   paper-type: inproceedings
   selected: n
@@ -573,6 +578,7 @@
       pages = "6392--6405",
     }
 -
+  priority: 500
   layout: paper
   paper-type: inproceedings
   selected: y
@@ -646,6 +652,7 @@
   booktitle: "Widening NLP Workshop"
   bibtex_file: /assets/bib/winlp2020.bib
 -
+  priority: 600
   layout: paper
   paper-type: inproceedings
   selected: y
@@ -660,6 +667,7 @@
     An exciting frontier in natural language understanding (NLU) and generation (NLG) calls for (vision-and-) language models that can efficiently access external structured knowledge repositories. However, many existing knowledge bases only cover limited domains, or suffer from noisy data, and most of all are typically hard to integrate into neural language pipelines. To fill this gap, we release VisualSem: a high-quality knowledge graph (KG) which includes nodes with multilingual glosses, multiple illustrative images, and visually relevant relations. We also release a neural multi-modal retrieval model that can use images or sentences as inputs and retrieves entities in the KG. This multi-modal retrieval model can be integrated into any (neural network) model pipeline. We encourage the research community to use VisualSem for data augmentation and/or as a source of grounding, among other possible uses. VisualSem as well as the multi-modal retrieval models are publicly available and can be downloaded in this URL: https://github.com/iacercalixto/visualsem.
   bibtex_file: /assets/bib/visualsem_dataset.bib
 -
+  priority: 700
   layout: paper
   paper-type: article
   selected: n
@@ -674,6 +682,7 @@
     We propose a new method to make natural language understanding models more parameter efficient by storing knowledge in an external knowledge graph (KG) and retrieving from this KG using a dense index. Given some task data, e.g., sentences in German, we retrieve entities from the KG and use their multimodal representations to improve downstream task performance. Using VisualSem as our KG, we compare a mix of tuple-based and graph-based algorithms to learn robust representations of entities that are grounded on their multimodal information. We then demonstrate the usefulness of our learned entity representations on two downstream tasks. Using our best learned representations, we improve performance on the multilingual named entity recognition (NER) task by 0.3%-0.7% (F1 score), while on the visual sense disambiguation task, we achieve up to 3% improvement in accuracy in the low-resource setting.
   bibtex_file: #
 -
+  priority: 800
   layout: incollection
   paper-type: incollection
   selected: y
