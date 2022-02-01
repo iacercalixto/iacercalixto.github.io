@@ -14,7 +14,7 @@ cover: false
 
 # News
 
-* **Feb/2022** I am tenure-track Assistant Professor of AI in Medicine in the Academic Medical Center, University of Amsterdam (AMC-UvA)!
+* **Feb/2022** I am tenure-track Assistant Professor of AI in Medicine in the Department of Medical Informatics, [Amsterdam UMC, University of Amsterdam][amc]!
 
 * **Nov/2021** Our paper [*VisualSem: A High-quality Knowledge Graph for Vision & Language*](https://aclanthology.org/2021.mrl-1.13.pdf) was accepted for publication at the 'Multilingual Representation Learning' (**MRL 2021**) Workshop. We created a dataset to support research in multilingual models for vision and language! ([data](https://github.com/iacercalixto/visualsem))
 
@@ -78,6 +78,7 @@ a doubly-attentive decoder for multi-modal machine translation!
 * **Apr/2017** Collaboration with **eBay Inc.** lead to two papers!
 One [paper accepted at EACL 2017][eacl2017] and another [paper at the V&L workshop 2017][vl2017]!
 
+[amc]: https://www.amc.nl/web/home.htm
 [uva]: http://www.uva.nl/en
 [illc]: https://www.illc.uva.nl/
 [fnwi]: http://www.uva.nl/en/faculty/faculty-of-science/faculty-of-science.html
