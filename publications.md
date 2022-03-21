@@ -3,13 +3,24 @@ layout: page
 title:  Selected Publications
 ---
 
-{% assign hashes = site.data.publications %}
+{% assign hashesUnsorted = site.data.publications %}
+{% assign hashesSortedByYear = hashesUnsorted | sort: "year" | reverse %}
+{% assign hashesGroupedByYear = hashesSortedByYear | group_by: "year" %}
+{% for item in hashesGroupedByYear %}
+  {% assign sorted = item['items'] | sort: "priority" %}
+  {% if forloop.first %}
+    {% assign array = sorted %}
+  {% else %}
+    {% assign array = array | concat: sorted %}
+  {% endif %}
+{% endfor %}
+
 {% capture posts %}
-  {% for hash in hashes %}
+  {% for hash in array %}
     |{{ hash.year }}###{{ hash.paper-type }}###{{ hash.doc-url }}###{{ hash.journal-url }}###{{ hash.title }}###{{ hash.booktitle }}###{{ hash.journal }}###{{ hash.authors }}###{{ hash.code }}###{{ hash.bibtex }}###{{ hash.venues }}###{{ hash.bibtex_file }}###{{ hash.selected }}###{{ hash.publisher }}###
   {% endfor %}
 {% endcapture %}
-{% assign sortedhashes = posts | split: '|' | sort | reverse %}
+{% assign sortedhashes = posts | split: '|' %}
 {% for hash in sortedhashes %}
   {% assign hashitems = hash | split: '###' %}
   {% assign venues = hashitems[10] | split: ',' %}

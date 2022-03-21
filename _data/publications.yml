@@ -1,15 +1,15 @@
 -
   priority: 100
-  layout: article
-  paper-type: article
+  layout: paper
+  paper-type: inproceedings
   selected: y
-  year: "2021"
+  year: 2022
   img: valse2021
   title: "VALSE: A Task-Independent Benchmark for Vision and Language Models Centered on Linguistic Phenomena"
   authors: "Letitia Parcalabescu, Michele Cafagna, Lilitta Muradjan, Anette Frank, <strong>Iacer Calixto</strong>, Albert Gatt"
-  venues: long,preprint
-  journal: arXiv.org
-  journal-url: https://arxiv.org/abs/2112.07566
+  venues: long,conference
+  doc-url: https://arxiv.org/abs/2112.07566
+  booktitle: ACL
   bibtex: >
     @article{parcalabescu2021valse,
       title={VALSE: A Task-Independent Benchmark for Vision and Language Models Centered on Linguistic Phenomena},
@@ -23,7 +23,7 @@
   layout: article
   paper-type: article
   selected: y
-  year: "2021"
+  year: 2021
   img: hashtagseg2021
   title: "Zero-shot hashtag segmentation for multilingual sentiment analysis"
   authors: "Ruan Chaves Rodrigues, Marcelo Akira Inuzuka, Juliana Resplande Sant'Anna Gomes, Acquila Santos Rocha, <strong>Iacer Calixto</strong>, Hugo Alexandre Dantas do Nascimento"
@@ -43,7 +43,7 @@
   layout: article
   paper-type: article
   selected: y
-  year: "2021 (Article Accepted)"
+  year: 2022
   img: jair2021
   title: "Neural Natural Language Generation: A Survey on Multilinguality, Multimodality, Controllability and Learning"
   authors: "Erkut Erdem, Menekse Kuyu, Semih Yagcioglu, Anette Frank, Letiția Pârcălăbescu, Barbara Plank, Andrii Babii, Oleksii Turuta, Aykut Erdem, <strong>Iacer Calixto</strong>, Elena Lloret, Elena-Simona Apostol, Ciprian-Octavian Truică, Branislava Šandrih, Albert Gatt, Sanda Martinčić-Ipšic, Gábor Berend, Gražina Korvel"
@@ -105,6 +105,7 @@
     }
       
 -
+  priority: 10000
   layout: paper
   paper-type: inproceedings
   selected: y
@@ -128,6 +129,7 @@
     }
 
 -
+  priority: 10000
   layout: article
   paper-type: article
   selected: n
@@ -157,6 +159,7 @@
     keywords = "Traffic, O–D matrix estimation, Successive linear approximation, Linear programming, Fuzzy sets"
     }
 -
+  priority: 10000
   layout: paper
   paper-type: inproceedings
   selected: y
@@ -184,6 +187,7 @@
       url       = {http://www.aclweb.org/anthology/W14-3341}
     }
 -
+  priority: 10000
   layout: paper
   paper-type: inproceedings
   selected: y
@@ -211,6 +215,7 @@
       url       = {http://www.aclweb.org/anthology/W14-3332}
     }
 -
+  priority: 10000
   layout: paper
   paper-type: inproceedings
   selected: y
@@ -238,6 +243,7 @@
       url       = {http://www.aclweb.org/anthology/R15-1080}
     }
 -
+  priority: 10000
   layout: paper
   paper-type: inproceedings
   selected: y
@@ -265,6 +271,7 @@
       url       = {http://www.aclweb.org/anthology/W16-2359}
     }
 -
+  priority: 10000
   layout: paper
   paper-type: inproceedings
   selected: y
@@ -278,6 +285,7 @@
   code: https://github.com/chrishokamp/multimodal_nmt
   bibtex_file: #
 -
+  priority: 10000
   layout: paper
   paper-type: inproceedings
   selected: y
@@ -308,6 +316,7 @@
       language = {english}
      }
 -
+  priority: 100
   layout: paper
   paper-type: inproceedings
   selected: y
@@ -335,6 +344,7 @@
       url = 	    "http://www.aclweb.org/anthology/P17-1175"
     }
 -
+  priority: 200
   layout: paper
   paper-type: inproceedings
   selected: y
@@ -377,6 +387,7 @@
       url       = {https://www.aclweb.org/anthology/D17-1105}
     }
 -
+  priority: 400
   layout: paper
   paper-type: inproceedings
   selected: y
@@ -404,6 +415,7 @@
       url       = {http://www.aclweb.org/anthology/E17-2101}
     }
 -
+  priority: 500
   layout: paper
   paper-type: inproceedings
   selected: y
@@ -430,6 +442,7 @@
       url       = {https://doi.org/10.26615/978-954-452-049-6_020}
     }
 -
+  priority: 300
   layout: paper
   paper-type: inproceedings
   selected: y
@@ -456,6 +469,7 @@
       url       = {http://www.aclweb.org/anthology/W17-2004}
     }
 -
+  priority: 150
   layout: paper
   paper-type: inproceedings
   selected: y
@@ -482,6 +496,7 @@
       url = 	"http://aclweb.org/anthology/W17-3501"
     }
 -
+  priority: 1000
   layout: article
   paper-type: article
   selected: y
@@ -510,10 +525,11 @@
      url = {https://ufal.mff.cuni.cz/pbml/108/art-castilho-moorkens-gaspari-tinsley-calixto-way.pdf}
     }
 -
+  priority: 100
   layout: article
   paper-type: article
   selected: y
-  year: "2019"
+  year: 2019
   img: mtjournal-2019
   title: "An Error Analysis for Image-Based Multi-Modal Neural Machine Translation"
   authors: "<strong>Iacer Calixto</strong>, Qun Liu"
@@ -544,10 +560,11 @@
       bibsource = {dblp computer science bibliography, https://dblp.org}
     }
 -
+  priority: 100
   layout: paper
   paper-type: inproceedings
   selected: y
-  year: "2019"
+  year: 2019
   img: latent-variable-model-for-multimodal-machine-translation-2019
   title: "Latent Variable Model for Multi-modal Translation"
   authors: "<strong>Iacer Calixto</strong>, Miguel Rios, Wilker Aziz"
@@ -582,7 +599,7 @@
   layout: paper
   paper-type: inproceedings
   selected: y
-  year: "2021"
+  year: 2021
   img: seeing-past-words-2021
   title: "Seeing past words: Testing the cross-modal capabilities of pretrained V&L models on counting tasks"
   authors: "Letitia Parcalabescu, Albert Gatt, Anette Frank, <strong>Iacer Calixto</strong>"
@@ -593,10 +610,11 @@
     e investigate the reasoning ability of pretrained vision and language (V&L) models in two tasks that require multimodal integration: (1) discriminating a correct image-sentence pair from an incorrect one, and (2) counting entities in an image. We evaluate three pretrained V&L models on these tasks: ViLBERT, ViLBERT 12-in-1 and LXMERT, in zero-shot and finetuned settings. Our results show that models solve task (1) very well, as expected, since all models are pretrained on task (1). However, none of the pretrained V&L models is able to adequately solve task (2), our counting probe, and they cannot generalise to out-of-distribution quantities. We propose a number of explanations for these findings: LXMERT (and to some extent ViLBERT 12-in-1) show some evidence of catastrophic forgetting on task (1). Concerning our results on the counting probe, we find evidence that all models are impacted by dataset bias, and also fail to individuate entities in the visual input. While a selling point of pretrained V&L models is their ability to solve complex tasks, our findings suggest that understanding their reasoning and grounding capabilities requires more targeted investigations on specific phenomena.
   bibtex_file: /assets/bib/mmsr2021seeing.bib
 -
+  priority: 100
   layout: paper
   paper-type: inproceedings
   selected: y
-  year: "2020"
+  year: 2020
   img: aacl2020
   title: "English Intermediate-Task Training Improves Zero-Shot Cross-Lingual Transfer Too"
   authors: Jason Phang \*, <strong>Iacer Calixto</strong> \*, Phu Mon Htut, Yada Pruksachatkun, Haokun Liu, Clara Vania, Katharina Kann, Samuel R. Bowman. (\* Equal Contribution)
@@ -626,10 +644,11 @@
     abstract = "Intermediate-task training---fine-tuning a pretrained model on an intermediate task before fine-tuning again on the target task---often improves model performance substantially on language understanding tasks in monolingual English settings. We investigate whether English intermediate-task training is still helpful on non-English target tasks. Using nine intermediate language-understanding tasks, we evaluate intermediate-task transfer in a zero-shot cross-lingual setting on the XTREME benchmark. We see large improvements from intermediate training on the BUCC and Tatoeba sentence retrieval tasks and moderate improvements on question-answering target tasks. MNLI, SQuAD and HellaSwag achieve the best overall results as intermediate tasks, while multi-task intermediate offers small additional improvements. Using our best intermediate-task models for each target task, we obtain a 5.4 point improvement over XLM-R Large on the XTREME benchmark, setting the state of the art as of June 2020. We also investigate continuing multilingual MLM during intermediate-task training and using machine-translated intermediate-task data, but neither consistently outperforms simply performing English intermediate-task training.",
     }
 -
+  priority: 100
   layout: paper
   paper-type: inproceedings
   selected: y
-  year: "2020"
+  year: 2020
   img: aacl2020a
   title: "Are scene graphs good enough to improve Image Captioning?"
   authors: "Victor Milewski, Marie-Francine Moens, <strong>Iacer Calixto</strong>"
@@ -640,10 +659,11 @@
     Many top-performing image captioning models rely solely on object features computed with an object detection model to generate image descriptions. However, recent studies propose to directly use scene graphs to introduce information about object relations into captioning, hoping to better describe interactions between objects. In this work, we thoroughly investigate the use of scene graphs in image captioning. We empirically study whether using additional scene graph encoders can lead to better image descriptions and propose a conditional graph attention network (C-GAT), where the image captioning decoder state is used to condition the graph updates. Finally, we determine to what extent noise in the predicted scene graphs influence caption quality. Overall, we find no significant difference between models that use scene graph features and models that only use object detection features across different captioning metrics, which suggests that existing scene graph generation models are still too noisy to be useful in image captioning. Moreover, although the quality of predicted scene graphs is very low in general, when using high quality scene graphs we obtain gains of up to 3.3 CIDEr compared to a strong Bottom-Up Top-Down baseline.
   bibtex_file: /assets/bib/aacl2020a.bib
 -
+  priority: 1000
   layout: paper
   paper-type: inproceedings
   selected: y
-  year: "2020"
+  year: 2020
   img: winlp-2020
   title: "Can Wikipedia Categories Improve Masked Language Model Pretraining?"
   venues: workshop,short
@@ -656,7 +676,7 @@
   layout: paper
   paper-type: inproceedings
   selected: y
-  year: "2021"
+  year: 2021
   img: visualsem-2021
   title: "VisualSem: a high-quality knowledge graph for vision and language"
   authors: "Houda Alberts, Teresa Huang, Yash Deshpande, Yibo Liu, Kyunghyun Cho, Clara Vania, <strong>Iacer Calixto</strong>"
@@ -671,7 +691,7 @@
   layout: paper
   paper-type: article
   selected: n
-  year: "2021"
+  year: 2021
   img: visualsem-representation-learning-2021
   title: "Learning Robust Multimodal Knowledge Graph Representations"
   authors: "Ningyuan (Teresa) Huang, Yash Deshpande, Yibo Liu, Houda Alberts, Kyunghyun Cho, Clara Vania, <strong>Iacer Calixto</strong>"
@@ -686,7 +706,7 @@
   layout: incollection
   paper-type: incollection
   selected: y
-  year: "2021"
+  year: 2021
   img: nlp4health-2021
   title: "Natural language processing for mental disorders: an overview"
   authors: "<strong>Iacer Calixto</strong>, Victoria Yaneva, Raphael Moura Cardoso"

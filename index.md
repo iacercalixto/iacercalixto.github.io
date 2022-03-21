@@ -16,6 +16,8 @@ cover: false
 
 * **Mar/2022** I am hiring a PhD student for the project [Responsible Natural Language Processing and Data Management for Mental Health](https://vacatures.uva.nl/UvA/job/PhD-Position-in-Responsible-Natural-Language-Processing-and-Data-Management-for-Mental-Health/742588302/). We accept applications until April 15, 2022!
 
+* **Mar/2022** Our paper [*VALSE: A Task-Independent Benchmark for Vision and Language Models Centered on Linguistic Phenomena*](https://arxiv.org/abs/2112.07566) was accepted for publication at **ACL 2022**. We investigate to what extent existing pretrained vision-and-language models ground text on vision and vice-versa using a counterfactual approach and focusing on fine-grained linguistic phenomena! ([code and data](https://github.com/Heidelberg-NLP/VALSE))
+
 * **Feb/2022** I am tenure-track Assistant Professor of AI in Medicine in the Department of Medical Informatics, [Amsterdam UMC, University of Amsterdam][amc]!
 
 * **Nov/2021** Our paper [*VisualSem: A High-quality Knowledge Graph for Vision & Language*](https://aclanthology.org/2021.mrl-1.13.pdf) was accepted for publication at the 'Multilingual Representation Learning' (**MRL 2021**) Workshop. We created a dataset to support research in multilingual models for vision and language! ([data](https://github.com/iacercalixto/visualsem))
