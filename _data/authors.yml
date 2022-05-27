@@ -3,14 +3,14 @@
 # Change `author1` to your shortname.
 iacer:
   name:              Iacer Calixto
-  email:             iacer.calixto@nyu.edu
+  email:             i.coimbra@amsterdamumc.nl
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
     I am a tenure-track Assistant Professor of AI in Medicine in the Department of Medical Informatics in the [Amsterdam UMC, University of Amsterdam][amc],
     where I work on machine learning (ML) and natural language processing (NLP) methodology for problems in medicine and psychology.
-    **I am currently hiring 1 PhD student (see below) and will be hiring 2 other PhD students soon, stay tuned for news!**
+    **I am currently hiring 2 PhD students (see below) and will be hiring 1 other PhD student soon, stay tuned for news!**
 
     In addition to applications in medicine and psychology, my research focuses on machine learning for (human) languages in general, the complex interaction between language and vision, knowledge graphs, and commonsense knowledge.
 
