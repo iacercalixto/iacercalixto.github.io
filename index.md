@@ -13,8 +13,9 @@ cover: false
 * 2019-2023 [Multi3Generation][multi3generation]: Multi-task, Multilingual, Multimodal Language Generation. **EU COST Action**
 
 # News
+* **Mai/2022** I am hiring a PhD student for the project [Natural Language Processing and Machine Learning for Healthcare](https://werkenbij.amsterdamumc.org/en/vacatures/research/phd-natural-language-processing-and-machine-learning-for-healthcare). We accept applications until June 12, 2022!
 
-* **Mar/2022** I am hiring a PhD student for the project [Responsible Natural Language Processing and Data Management for Mental Health](https://vacatures.uva.nl/UvA/job/PhD-Position-in-Responsible-Natural-Language-Processing-and-Data-Management-for-Mental-Health/742588302/). We accept applications until April 15, 2022!
+* **Mar/2022** I am hiring a PhD student for the project [Responsible Natural Language Processing and Data Management for Mental Health](https://vacatures.uva.nl/UvA/job/PhD-Position-in-Responsible-Natural-Language-Processing-and-Data-Management-for-Mental-Health/742588302/). Applications closed! 
 
 * **Mar/2022** Our paper [*VALSE: A Task-Independent Benchmark for Vision and Language Models Centered on Linguistic Phenomena*](https://arxiv.org/abs/2112.07566) was accepted for publication at **ACL 2022**. We investigate to what extent existing pretrained vision-and-language models ground text on vision and vice-versa using a counterfactual approach and focusing on fine-grained linguistic phenomena! ([code and data](https://github.com/Heidelberg-NLP/VALSE))
 
