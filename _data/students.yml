@@ -1,12 +1,107 @@
 -
   layout: person
-  relation: MSc candidate
-  date: 2020
+  relation: PhD candidate
+  year: 2022
+  month: Sep
+  rel: phdthesis
+  selected: y
+  institution: UvA
+  name: Zeyu Zhang
+  img: avatar
+  link: https://www.linkedin.com/in/zeyu-zhang-8b2416204/
+  github:
+  cosupervised: True
+  cosupervisor: Sebastian Schelter
+  alumnus: False
+  about: >
+      Natural language processing and data management for data-driven mental health research.
+-
+  layout: person
+  relation: PhD candidate
+  year: 2021
+  month: Sep
+  rel: phdthesis
+  selected: y
+  institution: Amsterdam UMC
+  name: Rachel Murphy
+  img: avatar
+  link: https://researchinformation.amsterdamumc.org/en/persons/r-m-murphy
+  github:
+  cosupervised: True
+  cosupervisor: Joanna Klopotowska
+  alumnus: False
+  about: >
+      Natural language processing to detect adverse drug events.
+-
+  layout: person
+  relation: MSc in Artificial Intelligence
+  year: 2022
+  month: Jan
+  rel: mscthesis
+  selected: y
+  institution: UvA
+  name: Auke Elfrink
+  img: avatar
+  url: 
+  github:
+  cosupervised: True
+  cosupervisor: Ameen Abu-Hanna and Iacopo Vagliano
+  about: >
+      Predicting the risk of cancer from patients' electronic health records.
+-
+  layout: person
+  relation: MSc in Data Science
+  year: 2022
+  month: Jan
+  rel: mscthesis
+  selected: y
+  institution: UvA
+  name: Youssef El Ghouch
+  img: avatar
+  url: 
+  github:
+  cosupervised: True
+  cosupervisor: Ameen Abu-Hanna and Iacopo Vagliano
+  about: >
+      Interpretability of mortality prediction in the intensive care using natural language processing on free-text medical notes: a code-base for post-hoc attribution methods.
+-
+  layout: person
+  relation: Individual Project
+  year: 2020
+  month: Jan
   rel: projai
   selected: y
-  institution: NYU
+  institution: Center for Data Science, NYU
   img: avatar
-  name: Teresa Huang, Yash Deshpande, Yibo Liu
+  name: Teresa Huang
+  url: 
+  github:
+  about: >
+      Learning multimodal knowledge graph representations to improve natural language understanding and generation.
+-
+  layout: person
+  relation: Individual Project
+  year: 2020
+  month: Jan
+  rel: projai
+  selected: y
+  institution: Center for Data Science, NYU
+  img: avatar
+  name: Yash Deshpande
+  url: 
+  github:
+  about: >
+      Learning multimodal knowledge graph representations to improve natural language understanding and generation.
+-
+  layout: person
+  relation: Individual Project
+  year: 2020
+  month: Jan
+  rel: projai
+  selected: y
+  institution: Center for Data Science, NYU
+  img: avatar
+  name: Yibo Liu
   url: 
   github:
   about: >
@@ -14,8 +109,9 @@
 -
   layout: person
   rel: mscthesis
-  relation: MSc candidate
-  date: 2019-
+  relation: MSc in Artificial Intelligence
+  month: Sep
+  year: 2019
   selected: y
   institution: UvA
   name: Jana Leible
@@ -26,21 +122,8 @@
       Improving multi-modal machine translation by learning to tag images.
 -
   layout: person
-  relation: MSc candidate
-  date: 2022-
-  rel: mscthesis
-  selected: y
-  institution: UvA
-  name: Auke Elfrink
-  img: avatar
-  url: 
-  github:
-  about: >
-      Predicting the risk of cancer from patients' electronic health records.
--
-  layout: person
-  relation: MSc candidate
-  date: 2019-
+  relation: MSc in Artificial Intelligence
+  year: 2019
   rel: mscthesis
   selected: y
   institution: UvA
@@ -52,8 +135,9 @@
       Incorporating object relational information into image description generation.
 -
   layout: person
-  relation: MSc candidate
-  date: 2019-
+  relation: MSc in Artificial Intelligence
+  year: 2019
+  month: Sep
   rel: mscthesis
   selected: y
   institution: UvA
@@ -65,8 +149,23 @@
       Exploiting multi-modal knowledge bases for image description generation.
 -
   layout: person
-  relation: MSc candidate
-  date: 2018-19
+  rel: mscthesis
+  relation: MSc in Artificial Intelligence
+  year: 2019
+  month: Sep
+  selected: y
+  institution: UvA
+  name: Vikrant Yadav
+  img: avatar
+  url: 
+  github:
+  about: >
+      Hybrid context-based embeddings generated from taxonomical paths.
+-
+  layout: person
+  relation: MSc in Artificial Intelligence
+  year: 2018
+  month: Sep
   rel: mscthesis
   selected: y
   institution: UvA
@@ -78,8 +177,9 @@
       Using typological linguistic features to improve low-resource machine translation.
 -
   layout: person
-  relation: MSc candidate
-  date: 2018
+  relation: Individual Project in AI
+  year: 2018
+  month: Sep
   rel: projai
   selected: y
   institution: UvA
@@ -91,8 +191,9 @@
       Image description generation with separate description and language models.
 -
   layout: person
-  relation: MSc candidate
-  date: 2018
+  relation: Individual Project in AI
+  year: 2018
+  month: Sep
   rel: projai
   selected: y
   institution: UvA
@@ -102,16 +203,3 @@
   github:
   about: >
       Topic mixture models for image description generation.
--
-  layout: person
-  rel: mscthesis
-  relation: MSc candidate
-  date: 2019-
-  selected: y
-  institution: UvA
-  name: Vikrant Yadav
-  img: avatar
-  url: 
-  github:
-  about: >
-      Hybrid context-based embeddings generated from taxonomical paths (now in Elsevier).
