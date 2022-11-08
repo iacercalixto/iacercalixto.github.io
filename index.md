@@ -13,6 +13,9 @@ cover: false
 * 2019--2022 [IMAGINE][imagine]: Integrating multimodal, world and commonsense knowledge into language generation. **EU H2020 MSCA** [finished]
 
 # News
+
+* **Nov/2022** I have been offered a tenured position at the Amsterdam UMC!
+
 * **Sep/2022** [Zeyu Zhang](https://www.linkedin.com/in/zeyu-zhang-8b2416204/) officially starts working on the project 'NLP and data management for mental health research', co-supervised with [Sebastian Schelter](https://ssc.io).
 
 * **May/2022** I am hiring a PhD student for the project [Natural Language Processing and Machine Learning for Healthcare](https://werkenbij.amsterdamumc.org/en/vacatures/research/phd-natural-language-processing-and-machine-learning-for-healthcare). Applications closed!

@@ -8,7 +8,7 @@ iacer:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    I am a tenure-track assistant professor of artificial intelligence (AI) in the Department of Medical Informatics in the [Amsterdam UMC, University of Amsterdam][amc],
+    I am an assistant professor of artificial intelligence (AI) in the Department of Medical Informatics in the [Amsterdam UMC, University of Amsterdam][amc],
     where I investigate methods based on machine learning (ML) and natural language processing (NLP) for problems in medicine and psychology.
 
     More broadly, my research focuses on machine learning for natural languages in general, and in the complex interaction between language and vision, knowledge graphs, and commonsense knowledge.
