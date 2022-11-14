@@ -19,6 +19,26 @@
     }
   bibtex_file: /assets/bib/huang2022endowing.bib
 -
+  priority: 99
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2022
+  img: euphemism2022
+  title: "Detecting Euphemisms with Literal Descriptions and Visual Imagery"
+  authors: "Ílker Kesen, Aykut Erdem, Erkut Erdem, <strong>Iacer Calixto</strong>"
+  venues: short,workshop
+  doc-url: https://arxiv.org/abs/2211.04576
+  booktitle: 3rd Workshop on Figurative Language Processing at EMNLP
+  bibtex: >
+    @article{kesen2022detecting,
+      title={Detecting Euphemisms with Literal Descriptions and Visual Imagery},
+      author={Kesen, {\.I}lker and Erdem, Aykut and Erdem, Erkut and Calixto, Iacer},
+      journal={arXiv preprint arXiv:2211.04576},
+      year={2022}
+    }
+  bibtex_file: /assets/bib/euphemism2022.bib
+-
   priority: 100
   layout: paper
   paper-type: inproceedings
