@@ -14,6 +14,8 @@ cover: false
 
 # News
 
+* **Dec/2022** [Nishant Mishra](https://mnishant2.github.io/) officially starts working on the project 'Responsible ML and NLP for healthcare', co-supervised with [Ameen Abu-Hanna](https://kik.amc.nl/home/aabuhanna/).
+
 * **Nov/2022** I have been offered a tenured position at the Amsterdam UMC!
 
 * **Sep/2022** [Zeyu Zhang](https://www.linkedin.com/in/zeyu-zhang-8b2416204/) officially starts working on the project 'NLP and data management for mental health research', co-supervised with [Sebastian Schelter](https://ssc.io).
