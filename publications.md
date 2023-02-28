@@ -17,7 +17,7 @@ title:  Selected Publications
 
 {% capture posts %}
   {% for hash in array %}
-    |{{ hash.year }}###{{ hash.paper-type }}###{{ hash.doc-url }}###{{ hash.journal-url }}###{{ hash.title }}###{{ hash.booktitle }}###{{ hash.journal }}###{{ hash.authors }}###{{ hash.code }}###{{ hash.bibtex }}###{{ hash.venues }}###{{ hash.bibtex_file }}###{{ hash.selected }}###{{ hash.publisher }}###
+    |{{ hash.year }}###{{ hash.paper-type }}###{{ hash.doc-url }}###{{ hash.journal-url }}###{{ hash.title }}###{{ hash.booktitle }}###{{ hash.journal }}###{{ hash.authors }}###{{ hash.code }}###{{ hash.bibtex }}###{{ hash.venues }}###{{ hash.bibtex_file }}###{{ hash.selected }}###{{ hash.publisher }}###{{ hash.talk-url }}###
   {% endfor %}
 {% endcapture %}
 {% assign sortedhashes = posts | split: '|' %}
@@ -31,6 +31,9 @@ title:  Selected Publications
   {% if hashitems[4] == "" or hashitems[4] == nil %}
     {% break %}
   {% endif %}
+  {% if hashitems[14] == "" or hashitems[14] == nil %}
+    {% assign hashitems[14] = "" %}
+  {% endif %}
 
 
   {% if hashitems[1] == "inproceedings" and hashitems[2] != "" -%}
@@ -41,7 +44,7 @@ title:  Selected Publications
   * <a href="{{ hashitems[2] }}">{{ hashitems[4] }}</a>
   {% else -%}
   * <a href="{{ hashitems[8] }}">{{ hashitems[4] }}</a>
-  {% endif %}<br/>
+  {% endif %}<br/> 
   {{ hashitems[7] }}.
   {% if hashitems[1] == "inproceedings" %}*In: {{ hashitems[5] }}*, {{ hashitems[0]}}.
   {% elsif hashitems[1] == "incollection" %}*In: {{ hashitems[5] }} ({{ hashitems[13] }})*, {{ hashitems[0]}}.
@@ -69,5 +72,15 @@ title:  Selected Publications
   ![nopublic](/assets/img/publication_icons/button_bestpaper.png){:height="25px"}&nbsp;
     {%- endif %}
   {%- endfor -%}
+  {% if hashitems[14] != "" %}
+  <a href="{{ hashitems[14] }}" >![presentation](/assets/img/publication_icons/button_presentation.png){:height="25px"}</a>&nbsp;
+  {% endif %}
 {% endfor %}
 
+{% comment %}
+
+    Buttons generated using: https://www.clickminded.com/button-generator/
+    Size 26, bold, Open sans, horizontal/vertical padding 10 (all default).
+    Choose the colour you want and generate.
+
+{% endcomment %}

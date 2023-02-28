@@ -58,7 +58,8 @@
   img: wikibert-2021
   title: "Wikipedia Entities as *Rendezvous* across Languages: Grounding Multilingual Language Models by Predicting Wikipedia Hyperlinks"
   authors: "<strong>Iacer Calixto</strong>, Alessandro Raganato, Tommaso Pasini"
-  doc-url: /pdfs/Calixto-Raganato-Pasini_NAACL2021.pdf
+  doc-url: https://aclanthology.org/2021.naacl-main.286.pdf
+  talk-url: https://aclanthology.org/2021.naacl-main.286.mp4
   booktitle: "NAACL"
   venues: conference,short
   abstract: >
