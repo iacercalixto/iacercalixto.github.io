@@ -8,13 +8,21 @@ cover: false
 
 # Projects
 
-* 2019-2022 [IMAGINE][imagine]: Integrating multimodal, world and commonsense knowledge into language generation. **EU H2020 MSCA**
+* 2019--2023 [Multi3Generation][multi3generation]: Multi-task, Multilingual, Multimodal Language Generation. **EU COST Action**
 
-* 2019-2023 [Multi3Generation][multi3generation]: Multi-task, Multilingual, Multimodal Language Generation. **EU COST Action**
+* 2019--2022 [IMAGINE][imagine]: Integrating multimodal, world and commonsense knowledge into language generation. **EU H2020 MSCA** [finished]
 
 # News
 
-* **Mar/2022** I am hiring a PhD student for the project [Responsible Natural Language Processing and Data Management for Mental Health](https://vacatures.uva.nl/UvA/job/PhD-Position-in-Responsible-Natural-Language-Processing-and-Data-Management-for-Mental-Health/742588302/). We accept applications until April 15, 2022!
+* **Dec/2022** [Nishant Mishra](https://mnishant2.github.io/) officially starts working on the project 'Responsible ML and NLP for healthcare', co-supervised with [Ameen Abu-Hanna](https://kik.amc.nl/home/aabuhanna/).
+
+* **Nov/2022** I have been offered a tenured position at the Amsterdam UMC!
+
+* **Sep/2022** [Zeyu Zhang](https://www.linkedin.com/in/zeyu-zhang-8b2416204/) officially starts working on the project 'NLP and data management for mental health research', co-supervised with [Sebastian Schelter](https://ssc.io).
+
+* **May/2022** I am hiring a PhD student for the project [Natural Language Processing and Machine Learning for Healthcare](https://werkenbij.amsterdamumc.org/en/vacatures/research/phd-natural-language-processing-and-machine-learning-for-healthcare). Applications closed!
+
+* **Mar/2022** I am hiring a PhD student for the project [Responsible Natural Language Processing and Data Management for Mental Health](https://vacatures.uva.nl/UvA/job/PhD-Position-in-Responsible-Natural-Language-Processing-and-Data-Management-for-Mental-Health/742588302/). Applications closed! 
 
 * **Mar/2022** Our paper [*VALSE: A Task-Independent Benchmark for Vision and Language Models Centered on Linguistic Phenomena*](https://arxiv.org/abs/2112.07566) was accepted for publication at **ACL 2022**. We investigate to what extent existing pretrained vision-and-language models ground text on vision and vice-versa using a counterfactual approach and focusing on fine-grained linguistic phenomena! ([code and data](https://github.com/Heidelberg-NLP/VALSE))
 
@@ -22,13 +30,13 @@ cover: false
 
 * **Nov/2021** Our paper [*VisualSem: A High-quality Knowledge Graph for Vision & Language*](https://aclanthology.org/2021.mrl-1.13.pdf) was accepted for publication at the 'Multilingual Representation Learning' (**MRL 2021**) Workshop. We created a dataset to support research in multilingual models for vision and language! ([data](https://github.com/iacercalixto/visualsem))
 
-* **Sep/2021** Collaborative article **Neural Natural Language Generation: A Survey on Multilinguality, Multimodality, Controllability and Learning** accepted for publication in the *Journal of Artificial Intelligence Research* (JAIR) where we discuss the recent trends in neural approaches to natural language generation. More news soon!
+* **Sep/2021** Collaborative article [*Neural Natural Language Generation: A Survey on Multilinguality, Multimodality, Controllability and Learning*](https://dl.acm.org/doi/10.1613/jair.1.12918) accepted for publication in the *Journal of Artificial Intelligence Research* (JAIR) where we discuss the recent trends in neural approaches to natural language generation.
 
-* **May/2021** Book chapter **Natural language processing for mental disorders: an overview** accepted for publication in: *Natural Language Processing in Healthcare: A Special Focus on Low Resource Languages* (CRC Press). More news soon!
+* **May/2021** Book chapter [*Natural language processing for mental disorders: an overview*](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003138013-3/natural-language-processing-mental-disorders-overview-iacer-calixto-victoria-yaneva-raphael-moura-cardoso) accepted for publication in: *Natural Language Processing in Healthcare: A Special Focus on Low Resource Languages* (CRC Press).
 
 * **May/2021** Our paper [*Seeing past words: Testing the cross-modal capabilities of pretrained V&L models on counting tasks*](https://iwcs2021.github.io/proceedings/mmsr/pdf/2021.mmsr-1.4.pdf) was accepted for publication at the 'Beyond Language: Multimodal Semantic Representations' (**MMSR 2021**) Workshop. We release a counting probe dataset to be used in evaluating pretrained V&L models ([data](https://github.com/Heidelberg-NLP/counting-probe)).
 
-* **Mar/2021** Paper accepted at **NAACL 2021**: [Wikipedia Entities as *Rendezvous* across Languages: Grounding Multilingual Language Models by Predicting Wikipedia Hyperlinks](https://aclanthology.org/2021.naacl-main.286/) (code and data coming soon).
+* **Mar/2021** Paper accepted at **NAACL 2021**: [Wikipedia Entities as *Rendezvous* across Languages: Grounding Multilingual Language Models by Predicting Wikipedia Hyperlinks](https://aclanthology.org/2021.naacl-main.286/). ([code and data](https://github.com/iacercalixto/wiki_crosslingual/))
 
 * **Feb/2021** I am guest lecturer in the [Erasmus Mundus European Masters on Technology for Translation and Interpreting](https://em-tti.eu/). I give lectures on Machine Translation and Machine Learning in the University of Wolverhampton.
 

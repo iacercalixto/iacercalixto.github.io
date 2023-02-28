@@ -3,23 +3,14 @@ layout: page
 title: IMAGINE
 ---
 
-**[IMAGINE][imagine]**: *Improving Multi-modal lAnguage Generation wIth world kNowledgE* is
-a research project which main goal is to investigate how to incorporate **world knowledge** into
+Between 2019 and 2022 I was a [Marie Skwodówska-Curie Global Fellow][msca_gf]
+working on the **[IMAGINE][imagine]**: *Improving Multi-modal lAnguage Generation wIth world kNowledgE* project,
+which was a research project to investigate how to incorporate **world knowledge** into
 **vision &amp; language** tasks within **natural language generation**.
-I am a [Marie Skwodówska-Curie Global Fellow][msca_gf].
 
 I spent ~2 years in New York University's [Courant Institute for Mathematical Sciences][nyu_cims]
-where I worked with [Kyunghyun Cho][cho].
-I am physically in Amsterdam, and the project is implemented at the [Institute for Logic, Language and Computation (ILLC)][illc] in the University of Amsterdam,
-where I work with [Raquel Fernández][raquel].
-
-Concretely, I investigate how to:
-* Gather world-knowledge (semi-)automatically from publicly available multi-modal knowledge bases.
-* Learn representations for a knowledge base that encompasses both text and images.
-* Integrate this knowledge into multi-modal language generation tasks, such as
-multi-modal machine translation, visual question answering and image description generation.
-
-Please [get in touch](mailto:iacer.calixto@nyu.edu) with you would like to collaborate on any of these research topics!
+where I worked with [Kyunghyun Cho][cho], and 1 year at the [Institute for Logic, Language and Computation (ILLC)][illc] in the University of Amsterdam,
+where I worked with [Raquel Fernández][raquel].
 
 [msca_gf]: https://ec.europa.eu/research/mariecurieactions/actions/individual-fellowships_en
 [cho]: http://www.kyunghyuncho.me/
